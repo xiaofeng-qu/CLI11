@@ -9,5 +9,5 @@ var searchData=
   ['config_5fto_5fstr',['config_to_str',['../class_c_l_i_1_1_app.html#a0ae617260d1ffbd5d588bc6603dcfba4',1,'CLI::App']]],
   ['constructionerror',['ConstructionError',['../struct_c_l_i_1_1_construction_error.html',1,'CLI']]],
   ['conversionerror',['ConversionError',['../struct_c_l_i_1_1_conversion_error.html',1,'CLI']]],
-  ['count',['count',['../class_c_l_i_1_1_app.html#aeba4b7ab5774f6208ede2e1d56df9b43',1,'CLI::App::count()'],['../class_c_l_i_1_1_option.html#ac1f93311a6577359953e54a2e575ae71',1,'CLI::Option::count()']]]
+  ['count',['count',['../class_c_l_i_1_1_app.html#a31d77c56e328e7a746c3d70d90075508',1,'CLI::App::count()'],['../class_c_l_i_1_1_option.html#ac1f93311a6577359953e54a2e575ae71',1,'CLI::Option::count()']]]
 ];
