@@ -65,6 +65,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_c_l_i_1_1_option-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -74,9 +75,6 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2ea1f937d3537b3f06f6fe723ab271c4"><td class="memItemLeft" align="right" valign="top"><a id="a2ea1f937d3537b3f06f6fe723ab271c4"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Option</b> (std::string name, std::string description=&quot;&quot;, std::function&lt; bool(results_t)&gt; callback=[](results_t){return true;}, bool _default=true)</td></tr>
-<tr class="separator:a2ea1f937d3537b3f06f6fe723ab271c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab73e846fb3a78ac7eff8b6cd6afb24a1"><td class="memItemLeft" align="right" valign="top"><a id="ab73e846fb3a78ac7eff8b6cd6afb24a1"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>operator bool</b> () const</td></tr>
 <tr class="separator:ab73e846fb3a78ac7eff8b6cd6afb24a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,10 +175,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a21524238e17fd0367f4a3528665e7816">get_name</a> (bool opt_only=false) const</td></tr>
 <tr class="memdesc:a21524238e17fd0367f4a3528665e7816"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a , sep list of names. Does not include the positional name if opt_only=true. <br /></td></tr>
 <tr class="separator:a21524238e17fd0367f4a3528665e7816"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d512cab896248b6de1f680da683a929"><td class="memItemLeft" align="right" valign="top"><a id="a2d512cab896248b6de1f680da683a929"></a>
-<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a2d512cab896248b6de1f680da683a929">ignore_case</a> (bool value=true)</td></tr>
-<tr class="memdesc:a2d512cab896248b6de1f680da683a929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ignore case. <br /></td></tr>
-<tr class="separator:a2d512cab896248b6de1f680da683a929"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8a01bd3a71479b7b57fec05e60cb3dd"><td class="memTemplParams" colspan="2">template&lt;typename T  = App&gt; </td></tr>
+<tr class="memitem:aa8a01bd3a71479b7b57fec05e60cb3dd"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#aa8a01bd3a71479b7b57fec05e60cb3dd">ignore_case</a> (bool value=true)</td></tr>
+<tr class="separator:aa8a01bd3a71479b7b57fec05e60cb3dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af457a9a493f06f212cad9f854b281200"><td class="memItemLeft" align="right" valign="top"><a id="af457a9a493f06f212cad9f854b281200"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#af457a9a493f06f212cad9f854b281200">check_name</a> (std::string name) const</td></tr>
 <tr class="memdesc:af457a9a493f06f212cad9f854b281200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check a name. Requires "-" or "--" for short / long, supports positional name. <br /></td></tr>
@@ -221,6 +218,13 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#abf59d86491287a29f76aead3818a2770">flatten_results</a> () const</td></tr>
 <tr class="memdesc:abf59d86491287a29f76aead3818a2770"><td class="mdescLeft">&#160;</td><td class="mdescRight">Produce a flattened vector of results, vs. a vector of vectors. <br /></td></tr>
 <tr class="separator:abf59d86491287a29f76aead3818a2770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a9322f56b9b5444d3dfd514e737010acd"><td class="memItemLeft" align="right" valign="top"><a id="a9322f56b9b5444d3dfd514e737010acd"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a9322f56b9b5444d3dfd514e737010acd">Option</a> (std::string name, std::string description=&quot;&quot;, std::function&lt; bool(results_t)&gt; callback=[](results_t){return true;}, bool _default=true, <a class="el" href="class_c_l_i_1_1_app.html">App</a> *<a class="el" href="class_c_l_i_1_1_option.html#ae1e05f2545670c63a0254e62d7b1548c">parent</a>=nullptr)</td></tr>
+<tr class="memdesc:a9322f56b9b5444d3dfd514e737010acd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Making an option by hand is not defined, it must be made by the <a class="el" href="class_c_l_i_1_1_app.html" title="Creates a command line program, with very few defaults. ">App</a> class. <br /></td></tr>
+<tr class="separator:a9322f56b9b5444d3dfd514e737010acd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -275,10 +279,45 @@ std::set&lt; <a class="el" href="class_c_l_i_1_1_option.html">Option</a> * &gt;&
 <tr class="memitem:ab303dc34e9f1c37812614f3bd194f296"><td class="memItemLeft" align="right" valign="top"><a id="ab303dc34e9f1c37812614f3bd194f296"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>_envname</b></td></tr>
 <tr class="separator:ab303dc34e9f1c37812614f3bd194f296"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1e05f2545670c63a0254e62d7b1548c"><td class="memItemLeft" align="right" valign="top"><a id="ae1e05f2545670c63a0254e62d7b1548c"></a>
+<a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#ae1e05f2545670c63a0254e62d7b1548c">parent</a></td></tr>
+<tr class="memdesc:ae1e05f2545670c63a0254e62d7b1548c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remember the parent app. <br /></td></tr>
+<tr class="separator:ae1e05f2545670c63a0254e62d7b1548c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7614083a8a3348b0c63a2ce00160816"><td class="memItemLeft" align="right" valign="top"><a id="ac7614083a8a3348b0c63a2ce00160816"></a>
-results_t&#160;</td><td class="memItemRight" valign="bottom"><b>results</b></td></tr>
+results_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#ac7614083a8a3348b0c63a2ce00160816">results</a></td></tr>
+<tr class="memdesc:ac7614083a8a3348b0c63a2ce00160816"><td class="mdescLeft">&#160;</td><td class="mdescRight">Results of parsing. <br /></td></tr>
 <tr class="separator:ac7614083a8a3348b0c63a2ce00160816"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa8a01bd3a71479b7b57fec05e60cb3dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8a01bd3a71479b7b57fec05e60cb3dd">&#9670;&nbsp;</a></span>ignore_case()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T  = App&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_c_l_i_1_1_option.html">Option</a>* CLI::Option::ignore_case </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>value</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Ignore case The template hides the fact that we don't have the definition of <a class="el" href="class_c_l_i_1_1_app.html" title="Creates a command line program, with very few defaults. ">App</a> yet You are never expected to add an argument to the template here </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/travis/build/henryiii/CLI11/include/CLI/<a class="el" href="_option_8hpp_source.html">Option.hpp</a></li>
 </ul>

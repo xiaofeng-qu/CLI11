@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['ignore_5fcase',['ignore_case',['../class_c_l_i_1_1_app.html#abc06fa2dcf43b1eb2da3fc013c5336f4',1,'CLI::App::ignore_case()'],['../class_c_l_i_1_1_option.html#a2d512cab896248b6de1f680da683a929',1,'CLI::Option::ignore_case()']]],
+  ['ignore_5fcase',['ignore_case',['../class_c_l_i_1_1_app.html#abc06fa2dcf43b1eb2da3fc013c5336f4',1,'CLI::App::ignore_case()'],['../class_c_l_i_1_1_option.html#aa8a01bd3a71479b7b57fec05e60cb3dd',1,'CLI::Option::ignore_case()']]],
   ['incorrectconstruction',['IncorrectConstruction',['../struct_c_l_i_1_1_incorrect_construction.html',1,'CLI']]],
   ['introduction',['Introduction',['../index.html',1,'']]],
   ['is_5fbool',['is_bool',['../struct_c_l_i_1_1is__bool.html',1,'CLI']]],

@@ -8,5 +8,6 @@ var searchData=
   ['requires',['requires',['../class_c_l_i_1_1_option.html#abee0e47f0df529a1d0b2cc9ed2ca33d9',1,'CLI::Option::requires(Option *opt)'],['../class_c_l_i_1_1_option.html#a6edf22002aebe6e0ac69c61283be4ec5',1,'CLI::Option::requires(Option *opt, Option *opt1, ARG... args)']]],
   ['requireserror',['RequiresError',['../struct_c_l_i_1_1_requires_error.html',1,'CLI']]],
   ['reset',['reset',['../class_c_l_i_1_1_app.html#a3015463e1169614efbedc884606cad67',1,'CLI::App']]],
+  ['results',['results',['../class_c_l_i_1_1_option.html#ac7614083a8a3348b0c63a2ce00160816',1,'CLI::Option']]],
   ['run_5fcallback',['run_callback',['../class_c_l_i_1_1_app.html#a7669340db7d8cbb2eed9ceeb884dd61a',1,'CLI::App::run_callback()'],['../class_c_l_i_1_1_option.html#adb852929843300c4b48de5556ceea1b1',1,'CLI::Option::run_callback()']]]
 ];
