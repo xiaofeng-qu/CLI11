@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CLI11: CLI::PositionalError Struct Reference</title>
+<title>CLI11: CLI::ExtrasError Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -59,38 +59,38 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><b>CLI</b></li><li class="navelem"><a class="el" href="struct_c_l_i_1_1_positional_error.html">PositionalError</a></li>  </ul>
+<li class="navelem"><b>CLI</b></li><li class="navelem"><a class="el" href="struct_c_l_i_1_1_extras_error.html">ExtrasError</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="struct_c_l_i_1_1_positional_error-members.html">List of all members</a>  </div>
+<a href="struct_c_l_i_1_1_extras_error-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">CLI::PositionalError Struct Reference<div class="ingroups"><a class="el" href="group__error__group.html">Errors</a></div></div>  </div>
+<div class="title">CLI::ExtrasError Struct Reference<div class="ingroups"><a class="el" href="group__error__group.html">Errors</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Thrown when too many positionals are found.  
- <a href="struct_c_l_i_1_1_positional_error.html#details">More...</a></p>
+<p>Thrown when too many positionals or options are found.  
+ <a href="struct_c_l_i_1_1_extras_error.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_error_8hpp_source.html">Error.hpp</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for CLI::PositionalError:</div>
+Inheritance diagram for CLI::ExtrasError:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="struct_c_l_i_1_1_positional_error.png" usemap="#CLI::PositionalError_map" alt=""/>
-  <map id="CLI::PositionalError_map" name="CLI::PositionalError_map">
-<area href="struct_c_l_i_1_1_parse_error.html" title="Anything that can error in Parse. " alt="CLI::ParseError" shape="rect" coords="0,112,121,136"/>
-<area href="struct_c_l_i_1_1_error.html" title="All errors derive from this one. " alt="CLI::Error" shape="rect" coords="0,56,121,80"/>
+  <img src="struct_c_l_i_1_1_extras_error.png" usemap="#CLI::ExtrasError_map" alt=""/>
+  <map id="CLI::ExtrasError_map" name="CLI::ExtrasError_map">
+<area href="struct_c_l_i_1_1_parse_error.html" title="Anything that can error in Parse. " alt="CLI::ParseError" shape="rect" coords="0,112,102,136"/>
+<area href="struct_c_l_i_1_1_error.html" title="All errors derive from this one. " alt="CLI::Error" shape="rect" coords="0,56,102,80"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acc0293ac28470702df76736c4beee449"><td class="memItemLeft" align="right" valign="top"><a id="acc0293ac28470702df76736c4beee449"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>PositionalError</b> (std::string name)</td></tr>
-<tr class="separator:acc0293ac28470702df76736c4beee449"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2144fc68bb1b9d34a6e6a39f7aad361e"><td class="memItemLeft" align="right" valign="top"><a id="a2144fc68bb1b9d34a6e6a39f7aad361e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ExtrasError</b> (std::string name)</td></tr>
+<tr class="separator:a2144fc68bb1b9d34a6e6a39f7aad361e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_struct_c_l_i_1_1_parse_error"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_struct_c_l_i_1_1_parse_error')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="struct_c_l_i_1_1_parse_error.html">CLI::ParseError</a></td></tr>
 <tr class="memitem:ad7af7bf698b0fea17454b8cc27df19ab inherit pub_methods_struct_c_l_i_1_1_parse_error"><td class="memItemLeft" align="right" valign="top"><a id="ad7af7bf698b0fea17454b8cc27df19ab"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ParseError</b> (std::string parent, std::string name, int exit_code=255, bool print_help=true)</td></tr>
@@ -111,7 +111,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>print_help</b></td></
 <tr class="separator:a6300b3fff4116be33fe52730b575ec34 inherit pub_attribs_struct_c_l_i_1_1_error"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Thrown when too many positionals are found. </p>
+<div class="textblock"><p>Thrown when too many positionals or options are found. </p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li>/home/travis/build/henryiii/CLI11/include/CLI/<a class="el" href="_error_8hpp_source.html">Error.hpp</a></li>
 </ul>

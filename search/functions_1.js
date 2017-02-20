@@ -6,5 +6,7 @@ var searchData=
   ['add_5fresult',['add_result',['../class_c_l_i_1_1_option.html#a8f6617a899c47c04eb63521116668c9b',1,'CLI::Option']]],
   ['add_5fset',['add_set',['../class_c_l_i_1_1_app.html#a4ef654467619924f4218ad6fd73e7999',1,'CLI::App']]],
   ['add_5fsubcommand',['add_subcommand',['../class_c_l_i_1_1_app.html#af812b23ab7316af6bb98519f53c4c11e',1,'CLI::App']]],
+  ['allow_5fextras',['allow_extras',['../class_c_l_i_1_1_app.html#a187d46e7ee8d4d6c5f62c7bd7733f542',1,'CLI::App']]],
+  ['anycase',['anycase',['../class_c_l_i_1_1_app.html#a9e6bc4355a365f6680bfaf9a6e982001',1,'CLI::App']]],
   ['app',['App',['../class_c_l_i_1_1_app.html#ae5482944437e3fb6fe8af3e55b02caa9',1,'CLI::App']]]
 ];
