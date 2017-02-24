@@ -7,7 +7,7 @@ var searchData=
   ['required',['required',['../class_c_l_i_1_1_option.html#a950395187e95aec210928b36e90621bb',1,'CLI::Option']]],
   ['required_5f',['required_',['../class_c_l_i_1_1_option.html#a7c51a2af96014407c96d7ae85edbaae7',1,'CLI::Option']]],
   ['requirederror',['RequiredError',['../struct_c_l_i_1_1_required_error.html',1,'CLI']]],
-  ['requires',['requires',['../class_c_l_i_1_1_option.html#abee0e47f0df529a1d0b2cc9ed2ca33d9',1,'CLI::Option::requires(Option *opt)'],['../class_c_l_i_1_1_option.html#a6edf22002aebe6e0ac69c61283be4ec5',1,'CLI::Option::requires(Option *opt, Option *opt1, ARG... args)']]],
+  ['requires',['requires',['../class_c_l_i_1_1_option.html#abee0e47f0df529a1d0b2cc9ed2ca33d9',1,'CLI::Option::requires(Option *opt)'],['../class_c_l_i_1_1_option.html#a4d14bfa2b4758d99cccc8e43aab8374b',1,'CLI::Option::requires(std::string opt_name)'],['../class_c_l_i_1_1_option.html#a363ea0b51cb0dda1798f0b9dcee97cea',1,'CLI::Option::requires(A opt, B opt1, ARG... args)']]],
   ['requires_5f',['requires_',['../class_c_l_i_1_1_option.html#a82cc60b08c42f4cbbc82ff2766ec1762',1,'CLI::Option']]],
   ['requireserror',['RequiresError',['../struct_c_l_i_1_1_requires_error.html',1,'CLI']]],
   ['reset',['reset',['../class_c_l_i_1_1_app.html#a3015463e1169614efbedc884606cad67',1,'CLI::App']]],

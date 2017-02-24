@@ -4,7 +4,7 @@ var searchData=
   ['envname_5f',['envname_',['../class_c_l_i_1_1_option.html#acac4bf11cbd933967ced9175946ffbe6',1,'CLI::Option']]],
   ['error',['Error',['../struct_c_l_i_1_1_error.html',1,'CLI']]],
   ['errors',['Errors',['../group__error__group.html',1,'']]],
-  ['excludes',['excludes',['../class_c_l_i_1_1_option.html#a9597b8271ebc4ad41c2e86f31834a1a3',1,'CLI::Option::excludes(Option *opt)'],['../class_c_l_i_1_1_option.html#a1af39fb37a32be1b95f9fe582744d471',1,'CLI::Option::excludes(Option *opt, Option *opt1, ARG... args)']]],
+  ['excludes',['excludes',['../class_c_l_i_1_1_option.html#a9597b8271ebc4ad41c2e86f31834a1a3',1,'CLI::Option::excludes(Option *opt)'],['../class_c_l_i_1_1_option.html#ae18a3913306b0f468c9e13e6046b6ffc',1,'CLI::Option::excludes(std::string opt_name)'],['../class_c_l_i_1_1_option.html#a758ca7c5f8bf8a9fc2ccd4c347f871fb',1,'CLI::Option::excludes(A opt, B opt1, ARG... args)']]],
   ['excludes_5f',['excludes_',['../class_c_l_i_1_1_option.html#a8b14858f57178796ef9f99b6eedf58a0',1,'CLI::Option']]],
   ['excludeserror',['ExcludesError',['../struct_c_l_i_1_1_excludes_error.html',1,'CLI']]],
   ['existingdirectory',['ExistingDirectory',['../group__validator__group.html#gaf988c38e9f27c2577877b61e4fab7dae',1,'CLI']]],
