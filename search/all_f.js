@@ -2,7 +2,7 @@ var searchData=
 [
   ['range',['Range',['../group__validator__group.html#gae30c14787933ba22e7f4b36d0eeac172',1,'CLI::Range(T min, T max)'],['../group__validator__group.html#ga3c9d28f65c8120540e1865cf78d65ece',1,'CLI::Range(T max)']]],
   ['remove_5foption',['remove_option',['../class_c_l_i_1_1_app.html#a3058b128735eec0813589b56c5453115',1,'CLI::App']]],
-  ['require_5fsubcommand',['require_subcommand',['../class_c_l_i_1_1_app.html#acdb3e002977fc5edbb5042c7aad7dd3d',1,'CLI::App']]],
+  ['require_5fsubcommand',['require_subcommand',['../class_c_l_i_1_1_app.html#a25a064cfdbb2bab4957045d05b8c8c5a',1,'CLI::App']]],
   ['require_5fsubcommand_5f',['require_subcommand_',['../class_c_l_i_1_1_app.html#ae8404f099b84cfc587927e5cf2b01f3f',1,'CLI::App']]],
   ['required',['required',['../class_c_l_i_1_1_option.html#a950395187e95aec210928b36e90621bb',1,'CLI::Option']]],
   ['required_5f',['required_',['../class_c_l_i_1_1_option.html#a7c51a2af96014407c96d7ae85edbaae7',1,'CLI::Option']]],

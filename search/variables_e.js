@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['typeval_5f',['typeval_',['../class_c_l_i_1_1_option.html#a29f8dc4f186d107c7a0ca535fd421fbb',1,'CLI::Option']]]
+  ['selected_5fsubcommands_5f',['selected_subcommands_',['../class_c_l_i_1_1_app.html#a29d86f4af846600d6ffe88aab70941f4',1,'CLI::App']]],
+  ['snames_5f',['snames_',['../class_c_l_i_1_1_option.html#a7d8ef1d4012fde878668c943d9b197bc',1,'CLI::Option']]],
+  ['subcommands_5f',['subcommands_',['../class_c_l_i_1_1_app.html#a2c912598c2a49e41536ca88f2786195b',1,'CLI::App']]]
 ];

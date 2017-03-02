@@ -7,8 +7,8 @@ var searchData=
   ['add_5fset',['add_set',['../class_c_l_i_1_1_app.html#aad69fd4587045339bd0449a13cd1f55c',1,'CLI::App']]],
   ['add_5fset_5fignore_5fcase',['add_set_ignore_case',['../class_c_l_i_1_1_app.html#a2475df413b8fa69008ac2078deab3c4f',1,'CLI::App']]],
   ['add_5fsubcommand',['add_subcommand',['../class_c_l_i_1_1_app.html#a4c329987155640f837e655b886d3ce80',1,'CLI::App']]],
-  ['allow_5fextras',['allow_extras',['../class_c_l_i_1_1_app.html#a187d46e7ee8d4d6c5f62c7bd7733f542',1,'CLI::App']]],
+  ['allow_5fextras',['allow_extras',['../class_c_l_i_1_1_app.html#a4a9c762c56b6ff0f5b3505bcb75d0bbe',1,'CLI::App']]],
   ['allow_5fextras_5f',['allow_extras_',['../class_c_l_i_1_1_app.html#ae994679fee098b93cbc654a99b8019ee',1,'CLI::App']]],
   ['allow_5fvector_5f',['allow_vector_',['../class_c_l_i_1_1_option.html#ac334237362b2960ad3421fc09c27e85f',1,'CLI::Option']]],
-  ['app',['App',['../class_c_l_i_1_1_app.html',1,'CLI::App'],['../class_c_l_i_1_1_app.html#a3bdc2d44538c2b019205ed71ae33519d',1,'CLI::App::App()']]]
+  ['app',['App',['../class_c_l_i_1_1_app.html',1,'CLI::App'],['../class_c_l_i_1_1_app.html#a55ce035acbdf843855e7649294d61c0c',1,'CLI::App::App(std::string description_, bool help, detail::enabler dummy_param)'],['../class_c_l_i_1_1_app.html#a3bdc2d44538c2b019205ed71ae33519d',1,'CLI::App::App(std::string description_=&quot;&quot;, bool help=true)']]]
 ];
