@@ -7,7 +7,6 @@ var searchData=
   ['get_5fgroup',['get_group',['../class_c_l_i_1_1_option.html#a5f6adbac10f12a3865e94d6ad59f2a83',1,'CLI::Option']]],
   ['get_5fhelp_5fptr',['get_help_ptr',['../class_c_l_i_1_1_app.html#ae3ed738a07047fd1d76c228d41804a76',1,'CLI::App']]],
   ['get_5fname',['get_name',['../class_c_l_i_1_1_app.html#a4b40e301840ec5d6f99129e6d0a0b2e9',1,'CLI::App::get_name()'],['../class_c_l_i_1_1_option.html#a21524238e17fd0367f4a3528665e7816',1,'CLI::Option::get_name()']]],
-  ['get_5fnew',['get_new',['../class_c_l_i_1_1_option.html#a72c906e471759afcbcf52e04288e44ab',1,'CLI::Option']]],
   ['get_5fpositional',['get_positional',['../class_c_l_i_1_1_option.html#acab7033604b49e314d290b01adea690d',1,'CLI::Option']]],
   ['get_5frequired',['get_required',['../class_c_l_i_1_1_option.html#a1b1aaa271902bca28a2c526d015a93c1',1,'CLI::Option']]],
   ['get_5fsubcommands',['get_subcommands',['../class_c_l_i_1_1_app.html#a7f12c8015f7d06b53954a8bf6ca79d9e',1,'CLI::App']]],

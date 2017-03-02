@@ -6,5 +6,6 @@ var searchData=
   ['required',['required',['../class_c_l_i_1_1_option.html#a950395187e95aec210928b36e90621bb',1,'CLI::Option']]],
   ['requires',['requires',['../class_c_l_i_1_1_option.html#abee0e47f0df529a1d0b2cc9ed2ca33d9',1,'CLI::Option::requires(Option *opt)'],['../class_c_l_i_1_1_option.html#a4d14bfa2b4758d99cccc8e43aab8374b',1,'CLI::Option::requires(std::string opt_name)'],['../class_c_l_i_1_1_option.html#a363ea0b51cb0dda1798f0b9dcee97cea',1,'CLI::Option::requires(A opt, B opt1, ARG... args)']]],
   ['reset',['reset',['../class_c_l_i_1_1_app.html#a3015463e1169614efbedc884606cad67',1,'CLI::App']]],
+  ['results',['results',['../class_c_l_i_1_1_option.html#a2cfcf3a7cb89d595518a2af020ac9107',1,'CLI::Option']]],
   ['run_5fcallback',['run_callback',['../class_c_l_i_1_1_app.html#a7669340db7d8cbb2eed9ceeb884dd61a',1,'CLI::App::run_callback()'],['../class_c_l_i_1_1_option.html#adb852929843300c4b48de5556ceea1b1',1,'CLI::Option::run_callback()']]]
 ];
