@@ -212,6 +212,8 @@ detail::Classifer&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a241ba75a6c98b36349ae2f71a9137291">_parse</a> (std::vector&lt; std::string &gt; &amp;args)</td></tr>
 <tr class="memdesc:a241ba75a6c98b36349ae2f71a9137291"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal parse function. <br /></td></tr>
 <tr class="separator:a241ba75a6c98b36349ae2f71a9137291"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29633d598a57722e9c963cc9caa253c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a29633d598a57722e9c963cc9caa253c4">_parse_env</a> (std::vector&lt; <a class="el" href="struct_c_l_i_1_1detail_1_1ini__ret__t.html">detail::ini_ret_t</a> &gt; &amp;args)</td></tr>
+<tr class="separator:a29633d598a57722e9c963cc9caa253c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c18493ffbb1ada02822ca19b6d5e624"><td class="memItemLeft" align="right" valign="top"><a id="a9c18493ffbb1ada02822ca19b6d5e624"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a9c18493ffbb1ada02822ca19b6d5e624">_parse_single</a> (std::vector&lt; std::string &gt; &amp;args, bool &amp;positional_only)</td></tr>
 <tr class="memdesc:a9c18493ffbb1ada02822ca19b6d5e624"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse "one" argument (some may eat more than one), delegate to parent if fails, add to missing if missing from master. <br /></td></tr>
@@ -226,10 +228,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ad20d7e3b5292f92e41262e2bd2ff440d">_parse_short</a> (std::vector&lt; std::string &gt; &amp;args)</td></tr>
 <tr class="memdesc:ad20d7e3b5292f92e41262e2bd2ff440d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a short argument, must be at the top of the list. <br /></td></tr>
 <tr class="separator:ad20d7e3b5292f92e41262e2bd2ff440d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa301544c8196914c21020a4bd2eef6e6"><td class="memItemLeft" align="right" valign="top"><a id="aa301544c8196914c21020a4bd2eef6e6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#aa301544c8196914c21020a4bd2eef6e6">_parse_long</a> (std::vector&lt; std::string &gt; &amp;args, bool overwrite=true)</td></tr>
-<tr class="memdesc:aa301544c8196914c21020a4bd2eef6e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a long argument, must be at the top of the list. <br /></td></tr>
-<tr class="separator:aa301544c8196914c21020a4bd2eef6e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad59bd843c6ae11e57a38aa3eaa3a1385"><td class="memItemLeft" align="right" valign="top"><a id="ad59bd843c6ae11e57a38aa3eaa3a1385"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ad59bd843c6ae11e57a38aa3eaa3a1385">_parse_long</a> (std::vector&lt; std::string &gt; &amp;args)</td></tr>
+<tr class="memdesc:ad59bd843c6ae11e57a38aa3eaa3a1385"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a long argument, must be at the top of the list. <br /></td></tr>
+<tr class="separator:ad59bd843c6ae11e57a38aa3eaa3a1385"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -322,6 +324,34 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <div class="textblock"><p>Creates a command line program, with very few defaults. </p>
 <p>To use, create a new <code>Program()</code> instance with <code>argc</code>, <code>argv</code>, and a help description. The templated add_option methods make it easy to prepare options. Remember to call <code>.start</code> before starting your program, so that the options can be evaluated and the help option doesn't accidentally run your program. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a29633d598a57722e9c963cc9caa253c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29633d598a57722e9c963cc9caa253c4">&#9670;&nbsp;</a></span>_parse_env()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CLI::App::_parse_env </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="struct_c_l_i_1_1detail_1_1ini__ret__t.html">detail::ini_ret_t</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Parse one env param, ignore if not applicable, remove if it is</p>
+<p>If this has more than one dot.separated.name, go into the subcommand matching it Returns true if it managed to find the option, if false you'll need to remove the arg manully. </p>
+
+</div>
+</div>
 <a id="a426161917aba1daec0fdc5f3b6950e02"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a426161917aba1daec0fdc5f3b6950e02">&#9670;&nbsp;</a></span>_parse_subcommand()</h2>
 
