@@ -10,5 +10,5 @@ var searchData=
   ['allow_5fextras',['allow_extras',['../class_c_l_i_1_1_app.html#a4a9c762c56b6ff0f5b3505bcb75d0bbe',1,'CLI::App']]],
   ['allow_5fextras_5f',['allow_extras_',['../class_c_l_i_1_1_app.html#ae994679fee098b93cbc654a99b8019ee',1,'CLI::App']]],
   ['allow_5fvector_5f',['allow_vector_',['../class_c_l_i_1_1_option.html#ac334237362b2960ad3421fc09c27e85f',1,'CLI::Option']]],
-  ['app',['App',['../class_c_l_i_1_1_app.html',1,'CLI::App'],['../class_c_l_i_1_1_app.html#a55ce035acbdf843855e7649294d61c0c',1,'CLI::App::App(std::string description_, bool help, detail::enabler dummy_param)'],['../class_c_l_i_1_1_app.html#a3bdc2d44538c2b019205ed71ae33519d',1,'CLI::App::App(std::string description_=&quot;&quot;, bool help=true)']]]
+  ['app',['App',['../class_c_l_i_1_1_app.html',1,'CLI::App'],['../class_c_l_i_1_1_app.html#abc5ae1005010f08b10a14a742eefdf42',1,'CLI::App::App(std::string description_, bool help, detail::enabler)'],['../class_c_l_i_1_1_app.html#a3bdc2d44538c2b019205ed71ae33519d',1,'CLI::App::App(std::string description_=&quot;&quot;, bool help=true)']]]
 ];

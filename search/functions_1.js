@@ -8,5 +8,5 @@ var searchData=
   ['add_5fset_5fignore_5fcase',['add_set_ignore_case',['../class_c_l_i_1_1_app.html#a2475df413b8fa69008ac2078deab3c4f',1,'CLI::App']]],
   ['add_5fsubcommand',['add_subcommand',['../class_c_l_i_1_1_app.html#a4c329987155640f837e655b886d3ce80',1,'CLI::App']]],
   ['allow_5fextras',['allow_extras',['../class_c_l_i_1_1_app.html#a4a9c762c56b6ff0f5b3505bcb75d0bbe',1,'CLI::App']]],
-  ['app',['App',['../class_c_l_i_1_1_app.html#a55ce035acbdf843855e7649294d61c0c',1,'CLI::App::App(std::string description_, bool help, detail::enabler dummy_param)'],['../class_c_l_i_1_1_app.html#a3bdc2d44538c2b019205ed71ae33519d',1,'CLI::App::App(std::string description_=&quot;&quot;, bool help=true)']]]
+  ['app',['App',['../class_c_l_i_1_1_app.html#abc5ae1005010f08b10a14a742eefdf42',1,'CLI::App::App(std::string description_, bool help, detail::enabler)'],['../class_c_l_i_1_1_app.html#a3bdc2d44538c2b019205ed71ae33519d',1,'CLI::App::App(std::string description_=&quot;&quot;, bool help=true)']]]
 ];
