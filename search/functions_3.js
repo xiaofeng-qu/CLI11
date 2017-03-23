@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['envname',['envname',['../class_c_l_i_1_1_option.html#aa1969c5f5a525910d761756a6d8e63a8',1,'CLI::Option']]],
-  ['excludes',['excludes',['../class_c_l_i_1_1_option.html#a9597b8271ebc4ad41c2e86f31834a1a3',1,'CLI::Option::excludes(Option *opt)'],['../class_c_l_i_1_1_option.html#ae18a3913306b0f468c9e13e6046b6ffc',1,'CLI::Option::excludes(std::string opt_name)'],['../class_c_l_i_1_1_option.html#a758ca7c5f8bf8a9fc2ccd4c347f871fb',1,'CLI::Option::excludes(A opt, B opt1, ARG... args)']]],
-  ['existingdirectory',['ExistingDirectory',['../group__validator__group.html#gaf988c38e9f27c2577877b61e4fab7dae',1,'CLI']]],
-  ['existingfile',['ExistingFile',['../group__validator__group.html#ga3686c9f734556a7708e9450c936c20b2',1,'CLI']]],
-  ['exit',['exit',['../class_c_l_i_1_1_app.html#a34e711976aeaf056dc8cde1f9099f109',1,'CLI::App']]],
-  ['expected',['expected',['../class_c_l_i_1_1_option.html#af75c26433baa09c7c762bfb9eb466215',1,'CLI::Option']]]
+  ['check',['check',['../class_c_l_i_1_1_option.html#a4dbdf09db906dda9417c80ee1676e0af',1,'CLI::Option']]],
+  ['check_5flname',['check_lname',['../class_c_l_i_1_1_option.html#a481001137137be0d6a4e5998866d604a',1,'CLI::Option']]],
+  ['check_5fname',['check_name',['../class_c_l_i_1_1_app.html#a3ba6eb33f3ee9cd1a126385fa44f2c16',1,'CLI::App::check_name()'],['../class_c_l_i_1_1_option.html#af457a9a493f06f212cad9f854b281200',1,'CLI::Option::check_name()']]],
+  ['check_5fsname',['check_sname',['../class_c_l_i_1_1_option.html#acfa639ba77f034615c7e66028da1fc3b',1,'CLI::Option']]],
+  ['clear',['clear',['../class_c_l_i_1_1_option.html#abbd36aaff5cdca8b10346bafed51da39',1,'CLI::Option']]],
+  ['config_5fto_5fstr',['config_to_str',['../class_c_l_i_1_1_app.html#a282b98fb4878410e502e6169392ace11',1,'CLI::App']]],
+  ['count',['count',['../class_c_l_i_1_1_app.html#aeba4b7ab5774f6208ede2e1d56df9b43',1,'CLI::App::count()'],['../class_c_l_i_1_1_option.html#ac1f93311a6577359953e54a2e575ae71',1,'CLI::Option::count()']]]
 ];

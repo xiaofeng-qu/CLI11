@@ -228,6 +228,19 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a2cfcf3a7cb89d595518a2af020ac9107">results</a> () const</td></tr>
 <tr class="memdesc:a2cfcf3a7cb89d595518a2af020ac9107"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a copy of the results. <br /></td></tr>
 <tr class="separator:a2cfcf3a7cb89d595518a2af020ac9107"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae19e4231b0c1ef14cf2f3c7189e453c"><td class="memItemLeft" align="right" valign="top"><a id="aae19e4231b0c1ef14cf2f3c7189e453c"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#aae19e4231b0c1ef14cf2f3c7189e453c">get_callback_run</a> () const</td></tr>
+<tr class="memdesc:aae19e4231b0c1ef14cf2f3c7189e453c"><td class="mdescLeft">&#160;</td><td class="mdescRight">See if the callback has been run already. <br /></td></tr>
+<tr class="separator:aae19e4231b0c1ef14cf2f3c7189e453c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Custom options</div></td></tr>
+<tr class="memitem:ad29762caff890ffb1eb8ed8d4775ef9c"><td class="memItemLeft" align="right" valign="top"><a id="ad29762caff890ffb1eb8ed8d4775ef9c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#ad29762caff890ffb1eb8ed8d4775ef9c">set_custom_option</a> (std::string typeval, int <a class="el" href="class_c_l_i_1_1_option.html#af75c26433baa09c7c762bfb9eb466215">expected</a>=1, bool changeable=false)</td></tr>
+<tr class="memdesc:ad29762caff890ffb1eb8ed8d4775ef9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a custom option, typestring, expected, and changeable. <br /></td></tr>
+<tr class="separator:ad29762caff890ffb1eb8ed8d4775ef9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f112360356209e5228e35bc52f1012f"><td class="memItemLeft" align="right" valign="top"><a id="a0f112360356209e5228e35bc52f1012f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a0f112360356209e5228e35bc52f1012f">set_default_val</a> (std::string val)</td></tr>
+<tr class="memdesc:a0f112360356209e5228e35bc52f1012f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the default value string representation. <br /></td></tr>
+<tr class="separator:a0f112360356209e5228e35bc52f1012f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -235,6 +248,12 @@ Protected Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a36510c5f3be7235f8359c6f4e339ac3c">Option</a> (std::string name, std::string description=&quot;&quot;, std::function&lt; bool(results_t)&gt; callback=[](results_t){return true;}, bool <a class="el" href="class_c_l_i_1_1_option.html#a19eea42937479f91fceae827c8e28adf">default_</a>=true, <a class="el" href="class_c_l_i_1_1_app.html">App</a> *parent=nullptr)</td></tr>
 <tr class="memdesc:a36510c5f3be7235f8359c6f4e339ac3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Making an option by hand is not defined, it must be made by the <a class="el" href="class_c_l_i_1_1_app.html" title="Creates a command line program, with very few defaults. ">App</a> class. <br /></td></tr>
 <tr class="separator:a36510c5f3be7235f8359c6f4e339ac3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">App Helpers</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p>Can print positional name detailed option if true </p>
+</div></td></tr>
+<tr class="memitem:afa1805fe998e74f188388706e7403af4"><td class="memItemLeft" align="right" valign="top"><a id="afa1805fe998e74f188388706e7403af4"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_has_help_positional</b> () const</td></tr>
+<tr class="separator:afa1805fe998e74f188388706e7403af4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -285,10 +304,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a1422a9d1fa172577230954077ae4a3f0">expected_</a> {1}</td></tr>
 <tr class="memdesc:a1422a9d1fa172577230954077ae4a3f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of expected values, 0 for flag, -1 for unlimited vector. <br /></td></tr>
 <tr class="separator:a1422a9d1fa172577230954077ae4a3f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac334237362b2960ad3421fc09c27e85f"><td class="memItemLeft" align="right" valign="top"><a id="ac334237362b2960ad3421fc09c27e85f"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#ac334237362b2960ad3421fc09c27e85f">allow_vector_</a> {false}</td></tr>
-<tr class="memdesc:ac334237362b2960ad3421fc09c27e85f"><td class="mdescLeft">&#160;</td><td class="mdescRight">A private setting to allow non-vector args to not be able to accept incorrect expected values. <br /></td></tr>
-<tr class="separator:ac334237362b2960ad3421fc09c27e85f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fa8824b3b915a1c397a597f3769b82e"><td class="memItemLeft" align="right" valign="top"><a id="a9fa8824b3b915a1c397a597f3769b82e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a9fa8824b3b915a1c397a597f3769b82e">changeable_</a> {false}</td></tr>
+<tr class="memdesc:a9fa8824b3b915a1c397a597f3769b82e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A private setting to allow args to not be able to accept incorrect expected values. <br /></td></tr>
+<tr class="separator:a9fa8824b3b915a1c397a597f3769b82e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9bb8576df62a711a9f8ae6f69e24a9e"><td class="memItemLeft" align="right" valign="top"><a id="ac9bb8576df62a711a9f8ae6f69e24a9e"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#ac9bb8576df62a711a9f8ae6f69e24a9e">ignore_case_</a> {false}</td></tr>
 <tr class="memdesc:ac9bb8576df62a711a9f8ae6f69e24a9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ignore the case when matching (option, not value) <br /></td></tr>
@@ -319,6 +338,10 @@ callback_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
 results_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#af45b214347a715edf92b1e3de5c4b938">results_</a></td></tr>
 <tr class="memdesc:af45b214347a715edf92b1e3de5c4b938"><td class="mdescLeft">&#160;</td><td class="mdescRight">Results of parsing. <br /></td></tr>
 <tr class="separator:af45b214347a715edf92b1e3de5c4b938"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adecdfddc42028a410b8ea468e5d442bf"><td class="memItemLeft" align="right" valign="top"><a id="adecdfddc42028a410b8ea468e5d442bf"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#adecdfddc42028a410b8ea468e5d442bf">callback_run_</a> {false}</td></tr>
+<tr class="memdesc:adecdfddc42028a410b8ea468e5d442bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the callback has run (needed for INI parsing) <br /></td></tr>
+<tr class="separator:adecdfddc42028a410b8ea468e5d442bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa8a01bd3a71479b7b57fec05e60cb3dd"></a>
@@ -352,7 +375,7 @@ template&lt;typename T  = App&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/travis/build/henryiii/CLI11/include/CLI/<a class="el" href="_option_8hpp_source.html">Option.hpp</a></li>
+<li>/home/travis/build/CLITools/CLI11/include/CLI/<a class="el" href="_option_8hpp_source.html">Option.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

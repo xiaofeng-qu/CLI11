@@ -92,26 +92,31 @@ Inheritance diagram for CLI::Error:</div>
 <area href="struct_c_l_i_1_1_conversion_error.html" title="Thrown when conversion call back fails, such as when an int fails to coerse to a string. " alt="CLI::ConversionError" shape="rect" coords="507,224,666,248"/>
 <area href="struct_c_l_i_1_1_excludes_error.html" title="Thrown when a exludes option is present. " alt="CLI::ExcludesError" shape="rect" coords="507,280,666,304"/>
 <area href="struct_c_l_i_1_1_extras_error.html" title="Thrown when too many positionals or options are found. " alt="CLI::ExtrasError" shape="rect" coords="507,336,666,360"/>
-<area href="struct_c_l_i_1_1_file_error.html" title="Thrown when parsing an INI file and it is missing. " alt="CLI::FileError" shape="rect" coords="507,392,666,416"/>
-<area href="struct_c_l_i_1_1_horrible_error.html" title="This is just a safety check to verify selection and parsing match. " alt="CLI::HorribleError" shape="rect" coords="507,448,666,472"/>
-<area href="struct_c_l_i_1_1_required_error.html" title="Thrown when a required option is missing. " alt="CLI::RequiredError" shape="rect" coords="507,504,666,528"/>
-<area href="struct_c_l_i_1_1_requires_error.html" title="Thrown when a requires option is missing. " alt="CLI::RequiresError" shape="rect" coords="507,560,666,584"/>
-<area href="struct_c_l_i_1_1_success.html" title="This is a successful completion on parsing, supposed to exit. " alt="CLI::Success" shape="rect" coords="507,616,666,640"/>
-<area href="struct_c_l_i_1_1_validation_error.html" title="Thrown when validation of results fails. " alt="CLI::ValidationError" shape="rect" coords="507,672,666,696"/>
+<area href="struct_c_l_i_1_1_extras_i_n_i_error.html" title="Thrown when extra values are found in an INI file. " alt="CLI::ExtrasINIError" shape="rect" coords="507,392,666,416"/>
+<area href="struct_c_l_i_1_1_file_error.html" title="Thrown when parsing an INI file and it is missing. " alt="CLI::FileError" shape="rect" coords="507,448,666,472"/>
+<area href="struct_c_l_i_1_1_horrible_error.html" title="This is just a safety check to verify selection and parsing match. " alt="CLI::HorribleError" shape="rect" coords="507,504,666,528"/>
+<area href="struct_c_l_i_1_1_invalid_error.html" title="Thrown when validation fails before parsing. " alt="CLI::InvalidError" shape="rect" coords="507,560,666,584"/>
+<area href="struct_c_l_i_1_1_required_error.html" title="Thrown when a required option is missing. " alt="CLI::RequiredError" shape="rect" coords="507,616,666,640"/>
+<area href="struct_c_l_i_1_1_requires_error.html" title="Thrown when a requires option is missing. " alt="CLI::RequiresError" shape="rect" coords="507,672,666,696"/>
+<area href="struct_c_l_i_1_1_success.html" title="This is a successful completion on parsing, supposed to exit. " alt="CLI::Success" shape="rect" coords="507,728,666,752"/>
+<area href="struct_c_l_i_1_1_validation_error.html" title="Thrown when validation of results fails. " alt="CLI::ValidationError" shape="rect" coords="507,784,666,808"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4a7d1df599d7b771bd46eb6f72221cc1"><td class="memItemLeft" align="right" valign="top"><a id="a4a7d1df599d7b771bd46eb6f72221cc1"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Error</b> (std::string parent, std::string name, int exit_code=255, bool print_help=true)</td></tr>
-<tr class="separator:a4a7d1df599d7b771bd46eb6f72221cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24faca884e953e6366bdb8d84d631588"><td class="memItemLeft" align="right" valign="top"><a id="a24faca884e953e6366bdb8d84d631588"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>get_exit_code</b> () const</td></tr>
+<tr class="separator:a24faca884e953e6366bdb8d84d631588"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37ba5fcde7c1aa746803532ff549ff11"><td class="memItemLeft" align="right" valign="top"><a id="a37ba5fcde7c1aa746803532ff549ff11"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Error</b> (std::string parent, std::string name, ExitCodes exit_code=ExitCodes::BaseClass, bool print_help=true)</td></tr>
+<tr class="separator:a37ba5fcde7c1aa746803532ff549ff11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ade74be0294e8a34fd8184b6c370b4b5e"><td class="memItemLeft" align="right" valign="top"><a id="ade74be0294e8a34fd8184b6c370b4b5e"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>exit_code</b></td></tr>
-<tr class="separator:ade74be0294e8a34fd8184b6c370b4b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9156b4f9ad0270deac8a2ae487e9740"><td class="memItemLeft" align="right" valign="top"><a id="ae9156b4f9ad0270deac8a2ae487e9740"></a>
+ExitCodes&#160;</td><td class="memItemRight" valign="bottom"><b>exit_code</b></td></tr>
+<tr class="separator:ae9156b4f9ad0270deac8a2ae487e9740"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6300b3fff4116be33fe52730b575ec34"><td class="memItemLeft" align="right" valign="top"><a id="a6300b3fff4116be33fe52730b575ec34"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>print_help</b></td></tr>
 <tr class="separator:a6300b3fff4116be33fe52730b575ec34"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,7 +124,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>print_help</b></td></
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>All errors derive from this one. </p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>/home/travis/build/henryiii/CLI11/include/CLI/<a class="el" href="_error_8hpp_source.html">Error.hpp</a></li>
+<li>/home/travis/build/CLITools/CLI11/include/CLI/<a class="el" href="_error_8hpp_source.html">Error.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

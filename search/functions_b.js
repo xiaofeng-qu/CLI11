@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['parent',['parent',['../struct_c_l_i_1_1detail_1_1ini__ret__t.html#a3eea594b003a4262919317cefa9c636c',1,'CLI::detail::ini_ret_t']]],
-  ['parse',['parse',['../class_c_l_i_1_1_app.html#ad4c51103392faf91cc34fc642a90a17c',1,'CLI::App::parse(int argc, char **argv)'],['../class_c_l_i_1_1_app.html#a3d142053cce723e210a07edcc3de5332',1,'CLI::App::parse(std::vector&lt; std::string &gt; &amp;args)']]],
-  ['pre_5fcallback',['pre_callback',['../class_c_l_i_1_1_app.html#a5d74be8e210e779874584a3336aaf506',1,'CLI::App']]]
+  ['operator_20bool',['operator bool',['../class_c_l_i_1_1_option.html#ab73e846fb3a78ac7eff8b6cd6afb24a1',1,'CLI::Option']]],
+  ['operator_3d_3d',['operator==',['../class_c_l_i_1_1_option.html#ae72ff0b89bebb2987d548c186c577e50',1,'CLI::Option']]],
+  ['option',['Option',['../class_c_l_i_1_1_option.html#a36510c5f3be7235f8359c6f4e339ac3c',1,'CLI::Option']]]
 ];

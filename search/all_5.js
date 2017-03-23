@@ -12,5 +12,6 @@ var searchData=
   ['exit',['exit',['../class_c_l_i_1_1_app.html#a34e711976aeaf056dc8cde1f9099f109',1,'CLI::App']]],
   ['expected',['expected',['../class_c_l_i_1_1_option.html#af75c26433baa09c7c762bfb9eb466215',1,'CLI::Option']]],
   ['expected_5f',['expected_',['../class_c_l_i_1_1_option.html#a1422a9d1fa172577230954077ae4a3f0',1,'CLI::Option']]],
-  ['extraserror',['ExtrasError',['../struct_c_l_i_1_1_extras_error.html',1,'CLI']]]
+  ['extraserror',['ExtrasError',['../struct_c_l_i_1_1_extras_error.html',1,'CLI']]],
+  ['extrasinierror',['ExtrasINIError',['../struct_c_l_i_1_1_extras_i_n_i_error.html',1,'CLI']]]
 ];
