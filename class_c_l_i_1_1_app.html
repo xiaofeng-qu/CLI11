@@ -127,6 +127,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2475df413b8fa69008ac2078deab3c4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a2475df413b8fa69008ac2078deab3c4f">add_set_ignore_case</a> (std::string name, std::string &amp;member, std::set&lt; std::string &gt; options, std::string description=&quot;&quot;, bool defaulted=false)</td></tr>
 <tr class="memdesc:a2475df413b8fa69008ac2078deab3c4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add set of options, string only, ignore case.  <a href="#a2475df413b8fa69008ac2078deab3c4f">More...</a><br /></td></tr>
 <tr class="separator:a2475df413b8fa69008ac2078deab3c4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ac22d0401df5f801c1c77af1e5f6ef1"><td class="memTemplParams" colspan="2"><a id="a8ac22d0401df5f801c1c77af1e5f6ef1"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a8ac22d0401df5f801c1c77af1e5f6ef1"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a8ac22d0401df5f801c1c77af1e5f6ef1">add_complex</a> (std::string name, T &amp;variable, std::string description=&quot;&quot;, bool defaulted=false, std::string label=&quot;COMPLEX&quot;)</td></tr>
+<tr class="memdesc:a8ac22d0401df5f801c1c77af1e5f6ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a complex number. <br /></td></tr>
+<tr class="separator:a8ac22d0401df5f801c1c77af1e5f6ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ca58da6a7d884e09cd964d5544eabd1"><td class="memItemLeft" align="right" valign="top"><a id="a7ca58da6a7d884e09cd964d5544eabd1"></a>
 <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a7ca58da6a7d884e09cd964d5544eabd1">add_config</a> (std::string name=&quot;--config&quot;, std::string default_filename=&quot;&quot;, std::string <a class="el" href="class_c_l_i_1_1_app.html#ab85cc077e2dfee3bd94eed8c61e1e2ea">help</a>=&quot;Read an ini file&quot;, bool required=false)</td></tr>
 <tr class="memdesc:a7ca58da6a7d884e09cd964d5544eabd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a configuration ini file option. <br /></td></tr>
@@ -174,10 +179,18 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ae3ed738a07047fd1d76c228d41804a76">get_help_ptr</a> ()</td></tr>
 <tr class="memdesc:ae3ed738a07047fd1d76c228d41804a76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a pointer to the help flag. <br /></td></tr>
 <tr class="separator:ae3ed738a07047fd1d76c228d41804a76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3b89865119fcdaf213880e25f7cff87"><td class="memItemLeft" align="right" valign="top"><a id="ad3b89865119fcdaf213880e25f7cff87"></a>
+const <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ad3b89865119fcdaf213880e25f7cff87">get_help_ptr</a> () const</td></tr>
+<tr class="memdesc:ad3b89865119fcdaf213880e25f7cff87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a pointer to the help flag. (const) <br /></td></tr>
+<tr class="separator:ad3b89865119fcdaf213880e25f7cff87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa516fbfd33a220af66deccd8e6a465a0"><td class="memItemLeft" align="right" valign="top"><a id="aa516fbfd33a220af66deccd8e6a465a0"></a>
 <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#aa516fbfd33a220af66deccd8e6a465a0">get_config_ptr</a> ()</td></tr>
 <tr class="memdesc:aa516fbfd33a220af66deccd8e6a465a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a pointer to the config option. <br /></td></tr>
 <tr class="separator:aa516fbfd33a220af66deccd8e6a465a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3108b9777788e910610454f06ecfaf6"><td class="memItemLeft" align="right" valign="top"><a id="aa3108b9777788e910610454f06ecfaf6"></a>
+const <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#aa3108b9777788e910610454f06ecfaf6">get_config_ptr</a> () const</td></tr>
+<tr class="memdesc:aa3108b9777788e910610454f06ecfaf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a pointer to the config option. (const) <br /></td></tr>
+<tr class="separator:aa3108b9777788e910610454f06ecfaf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b40e301840ec5d6f99129e6d0a0b2e9"><td class="memItemLeft" align="right" valign="top"><a id="a4b40e301840ec5d6f99129e6d0a0b2e9"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a4b40e301840ec5d6f99129e6d0a0b2e9">get_name</a> () const</td></tr>
 <tr class="memdesc:a4b40e301840ec5d6f99129e6d0a0b2e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of the current app. <br /></td></tr>
