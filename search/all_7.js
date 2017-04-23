@@ -10,7 +10,7 @@ var searchData=
   ['get_5fname',['get_name',['../class_c_l_i_1_1_app.html#a4b40e301840ec5d6f99129e6d0a0b2e9',1,'CLI::App::get_name()'],['../class_c_l_i_1_1_option.html#a21524238e17fd0367f4a3528665e7816',1,'CLI::Option::get_name()']]],
   ['get_5fpositional',['get_positional',['../class_c_l_i_1_1_option.html#acab7033604b49e314d290b01adea690d',1,'CLI::Option']]],
   ['get_5frequired',['get_required',['../class_c_l_i_1_1_option.html#a1b1aaa271902bca28a2c526d015a93c1',1,'CLI::Option']]],
-  ['get_5fsubcommand',['get_subcommand',['../class_c_l_i_1_1_app.html#a8ff9e3f4db10c8958c083167c6007f6e',1,'CLI::App::get_subcommand(App *subcom) const'],['../class_c_l_i_1_1_app.html#a1eef15eea8101a22e6012bb1c45dc708',1,'CLI::App::get_subcommand(std::string subcom)'],['../class_c_l_i_1_1_app.html#a396b7972923f837f8fe2fd1257799078',1,'CLI::App::get_subcommand(std::string subcom) const']]],
+  ['get_5fsubcommand',['get_subcommand',['../class_c_l_i_1_1_app.html#a8ff9e3f4db10c8958c083167c6007f6e',1,'CLI::App::get_subcommand(App *subcom) const'],['../class_c_l_i_1_1_app.html#a396b7972923f837f8fe2fd1257799078',1,'CLI::App::get_subcommand(std::string subcom) const']]],
   ['get_5fsubcommands',['get_subcommands',['../class_c_l_i_1_1_app.html#a9371a0fd74e03df61dd751e28a3dfc35',1,'CLI::App']]],
   ['got_5fsubcommand',['got_subcommand',['../class_c_l_i_1_1_app.html#aa9c0f770ed4268730e2404b9bb348b4f',1,'CLI::App::got_subcommand(App *subcom) const'],['../class_c_l_i_1_1_app.html#a00217b703c43b02e8233a9b2e54765d5',1,'CLI::App::got_subcommand(std::string name) const']]],
   ['group',['group',['../class_c_l_i_1_1_option.html#aab4b629426409424e9d852170ee18796',1,'CLI::Option']]],

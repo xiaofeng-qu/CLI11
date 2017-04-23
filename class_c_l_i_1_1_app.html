@@ -117,11 +117,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a58e4d1ac98afdb75a0a689adcb6b173f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add option for flag. <br /></td></tr>
 <tr class="separator:a58e4d1ac98afdb75a0a689adcb6b173f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3608e288902be51227ce8549bac6743"><td class="memTemplParams" colspan="2">template&lt;typename T , enable_if_t&lt; std::is_integral&lt; T &gt;::value &amp;&amp;!is_bool&lt; T &gt;::value, detail::enabler &gt;  = detail::dummy&gt; </td></tr>
-<tr class="memitem:ad3608e288902be51227ce8549bac6743"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ad3608e288902be51227ce8549bac6743">add_flag</a> (std::string name, T &amp;<a class="el" href="class_c_l_i_1_1_app.html#aeba4b7ab5774f6208ede2e1d56df9b43">count</a>, std::string description=&quot;&quot;)</td></tr>
+<tr class="memitem:ad3608e288902be51227ce8549bac6743"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ad3608e288902be51227ce8549bac6743">add_flag</a> (std::string name, T &amp;<a class="el" href="class_c_l_i_1_1_app.html#a960a6b1b69c482539db189f1070dd074">count</a>, std::string description=&quot;&quot;)</td></tr>
 <tr class="memdesc:ad3608e288902be51227ce8549bac6743"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add option for flag integer.  <a href="#ad3608e288902be51227ce8549bac6743">More...</a><br /></td></tr>
 <tr class="separator:ad3608e288902be51227ce8549bac6743"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3608e288902be51227ce8549bac6743"><td class="memTemplParams" colspan="2">template&lt;typename T , enable_if_t&lt; is_bool&lt; T &gt;::value, detail::enabler &gt;  = detail::dummy&gt; </td></tr>
-<tr class="memitem:ad3608e288902be51227ce8549bac6743"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ad3608e288902be51227ce8549bac6743">add_flag</a> (std::string name, T &amp;<a class="el" href="class_c_l_i_1_1_app.html#aeba4b7ab5774f6208ede2e1d56df9b43">count</a>, std::string description=&quot;&quot;)</td></tr>
+<tr class="memitem:ad3608e288902be51227ce8549bac6743"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ad3608e288902be51227ce8549bac6743">add_flag</a> (std::string name, T &amp;<a class="el" href="class_c_l_i_1_1_app.html#a960a6b1b69c482539db189f1070dd074">count</a>, std::string description=&quot;&quot;)</td></tr>
 <tr class="memdesc:ad3608e288902be51227ce8549bac6743"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bool version only allows the flag once.  <a href="#ad3608e288902be51227ce8549bac6743">More...</a><br /></td></tr>
 <tr class="separator:ad3608e288902be51227ce8549bac6743"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad69fd4587045339bd0449a13cd1f55c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
@@ -153,22 +153,18 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a8ff9e3f4db10c8958c083167c6007f6e">get_subcommand</a> (<a class="el" href="class_c_l_i_1_1_app.html">App</a> *subcom) const</td></tr>
 <tr class="memdesc:a8ff9e3f4db10c8958c083167c6007f6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check to see if a subcommand is part of this command (doesn't have to be in command line) <br /></td></tr>
 <tr class="separator:a8ff9e3f4db10c8958c083167c6007f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1eef15eea8101a22e6012bb1c45dc708"><td class="memItemLeft" align="right" valign="top"><a id="a1eef15eea8101a22e6012bb1c45dc708"></a>
-<a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a1eef15eea8101a22e6012bb1c45dc708">get_subcommand</a> (std::string subcom)</td></tr>
-<tr class="memdesc:a1eef15eea8101a22e6012bb1c45dc708"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check to see if a subcommand is part of this command (text version) <br /></td></tr>
-<tr class="separator:a1eef15eea8101a22e6012bb1c45dc708"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a396b7972923f837f8fe2fd1257799078"><td class="memItemLeft" align="right" valign="top"><a id="a396b7972923f837f8fe2fd1257799078"></a>
 <a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a396b7972923f837f8fe2fd1257799078">get_subcommand</a> (std::string subcom) const</td></tr>
-<tr class="memdesc:a396b7972923f837f8fe2fd1257799078"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check to see if a subcommand is part of this command (text version, const) <br /></td></tr>
+<tr class="memdesc:a396b7972923f837f8fe2fd1257799078"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check to see if a subcommand is part of this command (text version) <br /></td></tr>
 <tr class="separator:a396b7972923f837f8fe2fd1257799078"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Extras for subclassing</div></td></tr>
 <tr class="memitem:a5d74be8e210e779874584a3336aaf506"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a5d74be8e210e779874584a3336aaf506">pre_callback</a> ()</td></tr>
 <tr class="separator:a5d74be8e210e779874584a3336aaf506"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Post parsing</div></td></tr>
-<tr class="memitem:aeba4b7ab5774f6208ede2e1d56df9b43"><td class="memItemLeft" align="right" valign="top"><a id="aeba4b7ab5774f6208ede2e1d56df9b43"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#aeba4b7ab5774f6208ede2e1d56df9b43">count</a> (std::string name) const</td></tr>
-<tr class="memdesc:aeba4b7ab5774f6208ede2e1d56df9b43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counts the number of times the given option was passed. <br /></td></tr>
-<tr class="separator:aeba4b7ab5774f6208ede2e1d56df9b43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a960a6b1b69c482539db189f1070dd074"><td class="memItemLeft" align="right" valign="top"><a id="a960a6b1b69c482539db189f1070dd074"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a960a6b1b69c482539db189f1070dd074">count</a> (std::string name) const</td></tr>
+<tr class="memdesc:a960a6b1b69c482539db189f1070dd074"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counts the number of times the given option was passed. <br /></td></tr>
+<tr class="separator:a960a6b1b69c482539db189f1070dd074"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9371a0fd74e03df61dd751e28a3dfc35"><td class="memItemLeft" align="right" valign="top"><a id="a9371a0fd74e03df61dd751e28a3dfc35"></a>
 std::vector&lt; <a class="el" href="class_c_l_i_1_1_app.html">App</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a9371a0fd74e03df61dd751e28a3dfc35">get_subcommands</a> () const</td></tr>
 <tr class="memdesc:a9371a0fd74e03df61dd751e28a3dfc35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a subcommand pointer list to the currently selected subcommands (after parsing) <br /></td></tr>
