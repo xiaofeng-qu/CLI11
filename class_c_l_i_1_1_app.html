@@ -93,9 +93,11 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#abc06fa2dcf43b1eb2da3fc013c5336f4">ignore_case</a> (bool value=true)</td></tr>
 <tr class="memdesc:abc06fa2dcf43b1eb2da3fc013c5336f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ignore case. Subcommand inherit value. <br /></td></tr>
 <tr class="separator:abc06fa2dcf43b1eb2da3fc013c5336f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91720aaf4c92c867dc042c723503b74e"><td class="memItemLeft" align="right" valign="top"><a id="a91720aaf4c92c867dc042c723503b74e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a91720aaf4c92c867dc042c723503b74e">operator bool</a> () const</td></tr>
-<tr class="memdesc:a91720aaf4c92c867dc042c723503b74e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check to see if this subcommand was parsed, true only if received on command line. <br /></td></tr>
+<tr class="memitem:a31f30e3313c5d0d2646556b0e232bbbc"><td class="memItemLeft" align="right" valign="top"><a id="a31f30e3313c5d0d2646556b0e232bbbc"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a31f30e3313c5d0d2646556b0e232bbbc">parsed</a> () const</td></tr>
+<tr class="memdesc:a31f30e3313c5d0d2646556b0e232bbbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check to see if this subcommand was parsed, true only if received on command line. <br /></td></tr>
+<tr class="separator:a31f30e3313c5d0d2646556b0e232bbbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91720aaf4c92c867dc042c723503b74e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a91720aaf4c92c867dc042c723503b74e">operator bool</a> () const</td></tr>
 <tr class="separator:a91720aaf4c92c867dc042c723503b74e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25a064cfdbb2bab4957045d05b8c8c5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a25a064cfdbb2bab4957045d05b8c8c5a">require_subcommand</a> (int value=-1)</td></tr>
 <tr class="separator:a25a064cfdbb2bab4957045d05b8c8c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -858,6 +860,32 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 <p>Stop subcommand fallthrough, so that parent commands cannot collect commands after subcommand. Default from parent, usually set on parent. </p>
+
+</div>
+</div>
+<a id="a91720aaf4c92c867dc042c723503b74e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91720aaf4c92c867dc042c723503b74e">&#9670;&nbsp;</a></span>operator bool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CLI::App::operator bool </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Check to see if this subcommand was parsed, true only if received on command line. This allows the subcommand to be directly checked. </p>
 
 </div>
 </div>
