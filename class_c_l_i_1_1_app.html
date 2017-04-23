@@ -93,6 +93,10 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#abc06fa2dcf43b1eb2da3fc013c5336f4">ignore_case</a> (bool value=true)</td></tr>
 <tr class="memdesc:abc06fa2dcf43b1eb2da3fc013c5336f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ignore case. Subcommand inherit value. <br /></td></tr>
 <tr class="separator:abc06fa2dcf43b1eb2da3fc013c5336f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91720aaf4c92c867dc042c723503b74e"><td class="memItemLeft" align="right" valign="top"><a id="a91720aaf4c92c867dc042c723503b74e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a91720aaf4c92c867dc042c723503b74e">operator bool</a> () const</td></tr>
+<tr class="memdesc:a91720aaf4c92c867dc042c723503b74e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check to see if this subcommand was parsed, true only if received on command line. <br /></td></tr>
+<tr class="separator:a91720aaf4c92c867dc042c723503b74e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25a064cfdbb2bab4957045d05b8c8c5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a25a064cfdbb2bab4957045d05b8c8c5a">require_subcommand</a> (int value=-1)</td></tr>
 <tr class="separator:a25a064cfdbb2bab4957045d05b8c8c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e32bb0c9270c996488cc8dfa28ec8b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a2e32bb0c9270c996488cc8dfa28ec8b1">fallthrough</a> (bool value=true)</td></tr>
@@ -145,6 +149,18 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a4c329987155640f837e655b886d3ce80">add_subcommand</a> (std::string name, std::string description=&quot;&quot;, bool <a class="el" href="class_c_l_i_1_1_app.html#ab85cc077e2dfee3bd94eed8c61e1e2ea">help</a>=true)</td></tr>
 <tr class="memdesc:a4c329987155640f837e655b886d3ce80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a subcommand. Like the constructor, you can override the help message addition by setting help=false. <br /></td></tr>
 <tr class="separator:a4c329987155640f837e655b886d3ce80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ff9e3f4db10c8958c083167c6007f6e"><td class="memItemLeft" align="right" valign="top"><a id="a8ff9e3f4db10c8958c083167c6007f6e"></a>
+<a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a8ff9e3f4db10c8958c083167c6007f6e">get_subcommand</a> (<a class="el" href="class_c_l_i_1_1_app.html">App</a> *subcom) const</td></tr>
+<tr class="memdesc:a8ff9e3f4db10c8958c083167c6007f6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check to see if a subcommand is part of this command (doesn't have to be in command line) <br /></td></tr>
+<tr class="separator:a8ff9e3f4db10c8958c083167c6007f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eef15eea8101a22e6012bb1c45dc708"><td class="memItemLeft" align="right" valign="top"><a id="a1eef15eea8101a22e6012bb1c45dc708"></a>
+<a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a1eef15eea8101a22e6012bb1c45dc708">get_subcommand</a> (std::string subcom)</td></tr>
+<tr class="memdesc:a1eef15eea8101a22e6012bb1c45dc708"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check to see if a subcommand is part of this command (text version) <br /></td></tr>
+<tr class="separator:a1eef15eea8101a22e6012bb1c45dc708"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a396b7972923f837f8fe2fd1257799078"><td class="memItemLeft" align="right" valign="top"><a id="a396b7972923f837f8fe2fd1257799078"></a>
+<a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a396b7972923f837f8fe2fd1257799078">get_subcommand</a> (std::string subcom) const</td></tr>
+<tr class="memdesc:a396b7972923f837f8fe2fd1257799078"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check to see if a subcommand is part of this command (text version, const) <br /></td></tr>
+<tr class="separator:a396b7972923f837f8fe2fd1257799078"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Extras for subclassing</div></td></tr>
 <tr class="memitem:a5d74be8e210e779874584a3336aaf506"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a5d74be8e210e779874584a3336aaf506">pre_callback</a> ()</td></tr>
 <tr class="separator:a5d74be8e210e779874584a3336aaf506"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,17 +169,17 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#aeba4b7ab5774f6208ede2e1d56df9b43">count</a> (std::string name) const</td></tr>
 <tr class="memdesc:aeba4b7ab5774f6208ede2e1d56df9b43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counts the number of times the given option was passed. <br /></td></tr>
 <tr class="separator:aeba4b7ab5774f6208ede2e1d56df9b43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f12c8015f7d06b53954a8bf6ca79d9e"><td class="memItemLeft" align="right" valign="top"><a id="a7f12c8015f7d06b53954a8bf6ca79d9e"></a>
-std::vector&lt; <a class="el" href="class_c_l_i_1_1_app.html">App</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a7f12c8015f7d06b53954a8bf6ca79d9e">get_subcommands</a> ()</td></tr>
-<tr class="memdesc:a7f12c8015f7d06b53954a8bf6ca79d9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a subcommand pointer list to the currently selected subcommands (after parsing) <br /></td></tr>
-<tr class="separator:a7f12c8015f7d06b53954a8bf6ca79d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9371a0fd74e03df61dd751e28a3dfc35"><td class="memItemLeft" align="right" valign="top"><a id="a9371a0fd74e03df61dd751e28a3dfc35"></a>
+std::vector&lt; <a class="el" href="class_c_l_i_1_1_app.html">App</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a9371a0fd74e03df61dd751e28a3dfc35">get_subcommands</a> () const</td></tr>
+<tr class="memdesc:a9371a0fd74e03df61dd751e28a3dfc35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a subcommand pointer list to the currently selected subcommands (after parsing) <br /></td></tr>
+<tr class="separator:a9371a0fd74e03df61dd751e28a3dfc35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9c0f770ed4268730e2404b9bb348b4f"><td class="memItemLeft" align="right" valign="top"><a id="aa9c0f770ed4268730e2404b9bb348b4f"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#aa9c0f770ed4268730e2404b9bb348b4f">got_subcommand</a> (<a class="el" href="class_c_l_i_1_1_app.html">App</a> *subcom) const</td></tr>
-<tr class="memdesc:aa9c0f770ed4268730e2404b9bb348b4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check to see if selected subcommand in list. <br /></td></tr>
+<tr class="memdesc:aa9c0f770ed4268730e2404b9bb348b4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check to see if given subcommand was selected. <br /></td></tr>
 <tr class="separator:aa9c0f770ed4268730e2404b9bb348b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00217b703c43b02e8233a9b2e54765d5"><td class="memItemLeft" align="right" valign="top"><a id="a00217b703c43b02e8233a9b2e54765d5"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a00217b703c43b02e8233a9b2e54765d5">got_subcommand</a> (std::string name) const</td></tr>
-<tr class="memdesc:a00217b703c43b02e8233a9b2e54765d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check with name instead of pointer. <br /></td></tr>
+<tr class="memdesc:a00217b703c43b02e8233a9b2e54765d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check with name instead of pointer to see if subcommand was selected. <br /></td></tr>
 <tr class="separator:a00217b703c43b02e8233a9b2e54765d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Help</div></td></tr>
 <tr class="memitem:a282b98fb4878410e502e6169392ace11"><td class="memItemLeft" align="right" valign="top"><a id="a282b98fb4878410e502e6169392ace11"></a>
@@ -293,10 +309,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a557239f7b3a655d0e0d6be8820f3e043">parent_</a> {nullptr}</td></tr>
 <tr class="memdesc:a557239f7b3a655d0e0d6be8820f3e043"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pointer to the parent if this is a subcommand. <br /></td></tr>
 <tr class="separator:a557239f7b3a655d0e0d6be8820f3e043"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29d86f4af846600d6ffe88aab70941f4"><td class="memItemLeft" align="right" valign="top"><a id="a29d86f4af846600d6ffe88aab70941f4"></a>
-std::vector&lt; <a class="el" href="class_c_l_i_1_1_app.html">App</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a29d86f4af846600d6ffe88aab70941f4">selected_subcommands_</a></td></tr>
-<tr class="memdesc:a29d86f4af846600d6ffe88aab70941f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of all the subcommand pointers that have been collected on the command line. <br /></td></tr>
-<tr class="separator:a29d86f4af846600d6ffe88aab70941f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b467e1c0948add0e658d1df6a58d258"><td class="memItemLeft" align="right" valign="top"><a id="a8b467e1c0948add0e658d1df6a58d258"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a8b467e1c0948add0e658d1df6a58d258">parsed_</a> {false}</td></tr>
+<tr class="memdesc:a8b467e1c0948add0e658d1df6a58d258"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if this command/subcommand was parsed. <br /></td></tr>
+<tr class="separator:a8b467e1c0948add0e658d1df6a58d258"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8404f099b84cfc587927e5cf2b01f3f"><td class="memItemLeft" align="right" valign="top"><a id="ae8404f099b84cfc587927e5cf2b01f3f"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ae8404f099b84cfc587927e5cf2b01f3f">require_subcommand_</a> = 0</td></tr>
 <tr class="memdesc:ae8404f099b84cfc587927e5cf2b01f3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">-1 for 1 or more, 0 for not required, # for exact number required <br /></td></tr>
