@@ -16,5 +16,6 @@ var searchData=
   ['config_5fto_5fstr',['config_to_str',['../class_c_l_i_1_1_app.html#a282b98fb4878410e502e6169392ace11',1,'CLI::App']]],
   ['constructionerror',['ConstructionError',['../struct_c_l_i_1_1_construction_error.html',1,'CLI']]],
   ['conversionerror',['ConversionError',['../struct_c_l_i_1_1_conversion_error.html',1,'CLI']]],
-  ['count',['count',['../class_c_l_i_1_1_app.html#a960a6b1b69c482539db189f1070dd074',1,'CLI::App::count()'],['../class_c_l_i_1_1_option.html#a993aed7587141cfb742ec5fafd2855fc',1,'CLI::Option::count()']]]
+  ['count',['count',['../class_c_l_i_1_1_app.html#a960a6b1b69c482539db189f1070dd074',1,'CLI::App::count()'],['../class_c_l_i_1_1_option.html#a993aed7587141cfb742ec5fafd2855fc',1,'CLI::Option::count()']]],
+  ['cycles',['cycles',['../class_c_l_i_1_1_timer.html#ac638b2bebe4ea9f2f1d7e1a8e9d6a78c',1,'CLI::Timer']]]
 ];
