@@ -9,7 +9,7 @@ var searchData=
   ['check_5fname',['check_name',['../class_c_l_i_1_1_app.html#a3ba6eb33f3ee9cd1a126385fa44f2c16',1,'CLI::App::check_name()'],['../class_c_l_i_1_1_option.html#af457a9a493f06f212cad9f854b281200',1,'CLI::Option::check_name()']]],
   ['check_5fsname',['check_sname',['../class_c_l_i_1_1_option.html#acfa639ba77f034615c7e66028da1fc3b',1,'CLI::Option']]],
   ['clear',['clear',['../class_c_l_i_1_1_option.html#abbd36aaff5cdca8b10346bafed51da39',1,'CLI::Option']]],
-  ['clock',['clock',['../class_c_l_i_1_1_timer.html#afc098f63a625a2dfa0c6e2bb27654110',1,'CLI::Timer']]],
+  ['clock',['clock',['../class_c_l_i_1_1_timer.html#a91c79ff7328413b4965e3737cc63e73f',1,'CLI::Timer']]],
   ['config_5fname_5f',['config_name_',['../class_c_l_i_1_1_app.html#a9c16b3d62d8edd95e9c3ddff13440a75',1,'CLI::App']]],
   ['config_5fptr_5f',['config_ptr_',['../class_c_l_i_1_1_app.html#a16180e7605e07c7a3f8e6b458569bc02',1,'CLI::App']]],
   ['config_5frequired_5f',['config_required_',['../class_c_l_i_1_1_app.html#ab2e110467dee85eb2b66d0b14923b67e',1,'CLI::App']]],
