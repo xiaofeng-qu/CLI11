@@ -11,5 +11,7 @@ var searchData=
   ['parsed_5f',['parsed_',['../class_c_l_i_1_1_app.html#a8b467e1c0948add0e658d1df6a58d258',1,'CLI::App']]],
   ['parseerror',['ParseError',['../struct_c_l_i_1_1_parse_error.html',1,'CLI']]],
   ['pname_5f',['pname_',['../class_c_l_i_1_1_option.html#a3599a92dde17b22551dcdfcb9798f0f3',1,'CLI::Option']]],
-  ['pre_5fcallback',['pre_callback',['../class_c_l_i_1_1_app.html#a5d74be8e210e779874584a3336aaf506',1,'CLI::App']]]
+  ['pre_5fcallback',['pre_callback',['../class_c_l_i_1_1_app.html#a5d74be8e210e779874584a3336aaf506',1,'CLI::App']]],
+  ['prefix_5fcommand',['prefix_command',['../class_c_l_i_1_1_app.html#ab8c668b5d28db6faed5716ab8feeb6ad',1,'CLI::App']]],
+  ['prefix_5fcommand_5f',['prefix_command_',['../class_c_l_i_1_1_app.html#ad9ad6cc617a88525ee966a7d49c6331e',1,'CLI::App']]]
 ];

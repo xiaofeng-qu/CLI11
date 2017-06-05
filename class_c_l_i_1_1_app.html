@@ -89,6 +89,10 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a4a9c762c56b6ff0f5b3505bcb75d0bbe">allow_extras</a> (bool allow=true)</td></tr>
 <tr class="memdesc:a4a9c762c56b6ff0f5b3505bcb75d0bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the error when extras are left over on the command line. <br /></td></tr>
 <tr class="separator:a4a9c762c56b6ff0f5b3505bcb75d0bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8c668b5d28db6faed5716ab8feeb6ad"><td class="memItemLeft" align="right" valign="top"><a id="ab8c668b5d28db6faed5716ab8feeb6ad"></a>
+<a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ab8c668b5d28db6faed5716ab8feeb6ad">prefix_command</a> (bool allow=true)</td></tr>
+<tr class="memdesc:ab8c668b5d28db6faed5716ab8feeb6ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do not parse anything after the first unrecongnised option and return. <br /></td></tr>
+<tr class="separator:ab8c668b5d28db6faed5716ab8feeb6ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc06fa2dcf43b1eb2da3fc013c5336f4"><td class="memItemLeft" align="right" valign="top"><a id="abc06fa2dcf43b1eb2da3fc013c5336f4"></a>
 <a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#abc06fa2dcf43b1eb2da3fc013c5336f4">ignore_case</a> (bool value=true)</td></tr>
 <tr class="memdesc:abc06fa2dcf43b1eb2da3fc013c5336f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ignore case. Subcommand inherit value. <br /></td></tr>
@@ -277,6 +281,10 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ae994679fee098b93cbc654a99b8019ee">allow_extras_</a> {false}</td></tr>
 <tr class="memdesc:ae994679fee098b93cbc654a99b8019ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, allow extra arguments (ie, don't throw an error). <br /></td></tr>
 <tr class="separator:ae994679fee098b93cbc654a99b8019ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9ad6cc617a88525ee966a7d49c6331e"><td class="memItemLeft" align="right" valign="top"><a id="ad9ad6cc617a88525ee966a7d49c6331e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ad9ad6cc617a88525ee966a7d49c6331e">prefix_command_</a> {false}</td></tr>
+<tr class="memdesc:ad9ad6cc617a88525ee966a7d49c6331e"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, return immediatly on an unrecognised option (implies allow_extras) <br /></td></tr>
+<tr class="separator:ad9ad6cc617a88525ee966a7d49c6331e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6eee1d50b3b940e01398e6d542ed8a8e"><td class="memItemLeft" align="right" valign="top"><a id="a6eee1d50b3b940e01398e6d542ed8a8e"></a>
 std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a6eee1d50b3b940e01398e6d542ed8a8e">callback_</a></td></tr>
 <tr class="memdesc:a6eee1d50b3b940e01398e6d542ed8a8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a function that runs when complete. Great for subcommands. Can throw. <br /></td></tr>
