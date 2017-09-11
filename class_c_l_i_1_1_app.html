@@ -138,6 +138,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:ad3608e288902be51227ce8549bac6743"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ad3608e288902be51227ce8549bac6743">add_flag</a> (std::string name, T &amp;<a class="el" href="class_c_l_i_1_1_app.html#a960a6b1b69c482539db189f1070dd074">count</a>, std::string description=&quot;&quot;)</td></tr>
 <tr class="memdesc:ad3608e288902be51227ce8549bac6743"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bool version only allows the flag once.  <a href="#ad3608e288902be51227ce8549bac6743">More...</a><br /></td></tr>
 <tr class="separator:ad3608e288902be51227ce8549bac6743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afefcdc7d77d1db227fda549e531631f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#afefcdc7d77d1db227fda549e531631f2">add_flag_function</a> (std::string name, std::function&lt; void(size_t)&gt; function, std::string description=&quot;&quot;)</td></tr>
+<tr class="memdesc:afefcdc7d77d1db227fda549e531631f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add option for callback.  <a href="#afefcdc7d77d1db227fda549e531631f2">More...</a><br /></td></tr>
+<tr class="separator:afefcdc7d77d1db227fda549e531631f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ad27760e8e6c69e1c41d6cacbee3225"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a2ad27760e8e6c69e1c41d6cacbee3225"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a2ad27760e8e6c69e1c41d6cacbee3225">add_set</a> (std::string name, T &amp;member, std::set&lt; T &gt; options, std::string description=&quot;&quot;)</td></tr>
 <tr class="memdesc:a2ad27760e8e6c69e1c41d6cacbee3225"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add set of options (No default)  <a href="#a2ad27760e8e6c69e1c41d6cacbee3225">More...</a><br /></td></tr>
@@ -602,6 +605,56 @@ template&lt;typename T , enable_if_t&lt; is_bool&lt; T &gt;::value, detail::enab
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">count</td><td>A varaible holding true if passed </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afefcdc7d77d1db227fda549e531631f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afefcdc7d77d1db227fda549e531631f2">&#9670;&nbsp;</a></span>add_flag_function()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_c_l_i_1_1_option.html">Option</a>* CLI::App::add_flag_function </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(size_t)&gt;&#160;</td>
+          <td class="paramname"><em>function</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>description</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add option for callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">function</td><td>A function to call, void(size_t) </td></tr>
   </table>
   </dd>
 </dl>
