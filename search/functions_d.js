@@ -1,6 +1,8 @@
 var searchData=
 [
   ['range',['Range',['../group__validator__group.html#gae30c14787933ba22e7f4b36d0eeac172',1,'CLI::Range(T min, T max)'],['../group__validator__group.html#ga3c9d28f65c8120540e1865cf78d65ece',1,'CLI::Range(T max)']]],
+  ['remaining',['remaining',['../class_c_l_i_1_1_app.html#a0474d71afa5672f645d2b645723c9818',1,'CLI::App']]],
+  ['remaining_5fsize',['remaining_size',['../class_c_l_i_1_1_app.html#a32adb7bd2643ff7e293802210516ca95',1,'CLI::App']]],
   ['remove_5foption',['remove_option',['../class_c_l_i_1_1_app.html#a3058b128735eec0813589b56c5453115',1,'CLI::App']]],
   ['require_5fsubcommand',['require_subcommand',['../class_c_l_i_1_1_app.html#a25a064cfdbb2bab4957045d05b8c8c5a',1,'CLI::App']]],
   ['required',['required',['../class_c_l_i_1_1_option.html#a950395187e95aec210928b36e90621bb',1,'CLI::Option']]],
