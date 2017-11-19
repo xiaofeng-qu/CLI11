@@ -99,6 +99,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#af75c26433baa09c7c762bfb9eb466215">expected</a> (int value)</td></tr>
 <tr class="memdesc:af75c26433baa09c7c762bfb9eb466215"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the number of expected arguments (Flags bypass this) <br /></td></tr>
 <tr class="separator:af75c26433baa09c7c762bfb9eb466215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d1d1cafde8c275b579ec982275a1487"><td class="memItemLeft" align="right" valign="top"><a id="a0d1d1cafde8c275b579ec982275a1487"></a>
+<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a0d1d1cafde8c275b579ec982275a1487">take_last</a> (bool value=true)</td></tr>
+<tr class="memdesc:a0d1d1cafde8c275b579ec982275a1487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Take the last argument if given multiple times. <br /></td></tr>
+<tr class="separator:a0d1d1cafde8c275b579ec982275a1487"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dbdf09db906dda9417c80ee1676e0af"><td class="memItemLeft" align="right" valign="top"><a id="a4dbdf09db906dda9417c80ee1676e0af"></a>
 <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a4dbdf09db906dda9417c80ee1676e0af">check</a> (std::function&lt; bool(std::string)&gt; validator)</td></tr>
 <tr class="memdesc:a4dbdf09db906dda9417c80ee1676e0af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a validator. <br /></td></tr>
@@ -151,6 +155,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a307543e6e4ddeb6e4ea00438b5b10be3">get_expected</a> () const</td></tr>
 <tr class="memdesc:a307543e6e4ddeb6e4ea00438b5b10be3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of arguments the option expects. <br /></td></tr>
 <tr class="separator:a307543e6e4ddeb6e4ea00438b5b10be3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cd03c9c660921b1b5b19b29592fb30f"><td class="memItemLeft" align="right" valign="top"><a id="a9cd03c9c660921b1b5b19b29592fb30f"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a9cd03c9c660921b1b5b19b29592fb30f">get_take_last</a> () const</td></tr>
+<tr class="memdesc:a9cd03c9c660921b1b5b19b29592fb30f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The status of the take last flag. <br /></td></tr>
+<tr class="separator:a9cd03c9c660921b1b5b19b29592fb30f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26527442a386c8ccc369069c00062398"><td class="memItemLeft" align="right" valign="top"><a id="a26527442a386c8ccc369069c00062398"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a26527442a386c8ccc369069c00062398">get_default</a> () const</td></tr>
 <tr class="memdesc:a26527442a386c8ccc369069c00062398"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if this has a default value. <br /></td></tr>
@@ -222,7 +230,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:a481001137137be0d6a4e5998866d604a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e4e8bad70647ee94e2a902ebb50c4ad"><td class="memItemLeft" align="right" valign="top"><a id="a3e4e8bad70647ee94e2a902ebb50c4ad"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a3e4e8bad70647ee94e2a902ebb50c4ad">add_result</a> (std::string s)</td></tr>
-<tr class="memdesc:a3e4e8bad70647ee94e2a902ebb50c4ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts a result at position r. <br /></td></tr>
+<tr class="memdesc:a3e4e8bad70647ee94e2a902ebb50c4ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts a result at the end, unless last_ is set, in which case it just keeps the last one. <br /></td></tr>
 <tr class="separator:a3e4e8bad70647ee94e2a902ebb50c4ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cfcf3a7cb89d595518a2af020ac9107"><td class="memItemLeft" align="right" valign="top"><a id="a2cfcf3a7cb89d595518a2af020ac9107"></a>
 std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a2cfcf3a7cb89d595518a2af020ac9107">results</a> () const</td></tr>
@@ -312,6 +320,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a1422a9d1fa172577230954077ae4a3f0">expected_</a> {1}</td></tr>
 <tr class="memdesc:a1422a9d1fa172577230954077ae4a3f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of expected values, 0 for flag, -1 for unlimited vector. <br /></td></tr>
 <tr class="separator:a1422a9d1fa172577230954077ae4a3f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d8f8b5e9ac1ed148e93d5eeeca9155b"><td class="memItemLeft" align="right" valign="top"><a id="a4d8f8b5e9ac1ed148e93d5eeeca9155b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a4d8f8b5e9ac1ed148e93d5eeeca9155b">last_</a> {false}</td></tr>
+<tr class="memdesc:a4d8f8b5e9ac1ed148e93d5eeeca9155b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only take the last argument (requires <code>expected_ == 1</code>) <br /></td></tr>
+<tr class="separator:a4d8f8b5e9ac1ed148e93d5eeeca9155b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fa8824b3b915a1c397a597f3769b82e"><td class="memItemLeft" align="right" valign="top"><a id="a9fa8824b3b915a1c397a597f3769b82e"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a9fa8824b3b915a1c397a597f3769b82e">changeable_</a> {false}</td></tr>
 <tr class="memdesc:a9fa8824b3b915a1c397a597f3769b82e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A private setting to allow args to not be able to accept incorrect expected values. <br /></td></tr>
