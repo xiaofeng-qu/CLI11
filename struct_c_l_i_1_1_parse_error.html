@@ -92,8 +92,9 @@ Inheritance diagram for CLI::ParseError:</div>
 <area href="struct_c_l_i_1_1_invalid_error.html" title="Thrown when validation fails before parsing. " alt="CLI::InvalidError" shape="rect" coords="142,560,274,584"/>
 <area href="struct_c_l_i_1_1_required_error.html" title="Thrown when a required option is missing. " alt="CLI::RequiredError" shape="rect" coords="142,616,274,640"/>
 <area href="struct_c_l_i_1_1_requires_error.html" title="Thrown when a requires option is missing. " alt="CLI::RequiresError" shape="rect" coords="142,672,274,696"/>
-<area href="struct_c_l_i_1_1_success.html" title="This is a successful completion on parsing, supposed to exit. " alt="CLI::Success" shape="rect" coords="142,728,274,752"/>
-<area href="struct_c_l_i_1_1_validation_error.html" title="Thrown when validation of results fails. " alt="CLI::ValidationError" shape="rect" coords="142,784,274,808"/>
+<area href="struct_c_l_i_1_1_runtime_error.html" title="Does not output a diagnostic in CLI11_PARSE, but allows to return from main() with a specific error c..." alt="CLI::RuntimeError" shape="rect" coords="142,728,274,752"/>
+<area href="struct_c_l_i_1_1_success.html" title="This is a successful completion on parsing, supposed to exit. " alt="CLI::Success" shape="rect" coords="142,784,274,808"/>
+<area href="struct_c_l_i_1_1_validation_error.html" title="Thrown when validation of results fails. " alt="CLI::ValidationError" shape="rect" coords="142,840,274,864"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -102,6 +103,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae379a574967c6e9734f859b327c4507e"><td class="memItemLeft" align="right" valign="top"><a id="ae379a574967c6e9734f859b327c4507e"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ParseError</b> (std::string parent, std::string name, ExitCodes exit_code=ExitCodes::BaseClass, bool print_help=true)</td></tr>
 <tr class="separator:ae379a574967c6e9734f859b327c4507e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4db8d2184deb7a96b79e1c83522ad55"><td class="memItemLeft" align="right" valign="top"><a id="aa4db8d2184deb7a96b79e1c83522ad55"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ParseError</b> (std::string parent, std::string name, int exit_code=static_cast&lt; int &gt;(ExitCodes::BaseClass), bool print_help=true)</td></tr>
+<tr class="separator:aa4db8d2184deb7a96b79e1c83522ad55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_struct_c_l_i_1_1_error"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_struct_c_l_i_1_1_error')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="struct_c_l_i_1_1_error.html">CLI::Error</a></td></tr>
 <tr class="memitem:a24faca884e953e6366bdb8d84d631588 inherit pub_methods_struct_c_l_i_1_1_error"><td class="memItemLeft" align="right" valign="top"><a id="a24faca884e953e6366bdb8d84d631588"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>get_exit_code</b> () const</td></tr>
