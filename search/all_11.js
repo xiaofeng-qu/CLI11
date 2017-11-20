@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['take_5flast',['take_last',['../class_c_l_i_1_1_option.html#a0d1d1cafde8c275b579ec982275a1487',1,'CLI::Option']]],
+  ['take_5flast',['take_last',['../class_c_l_i_1_1_option_defaults.html#acd5930b3f1b1d2aca65cd2208c14e253',1,'CLI::OptionDefaults::take_last()'],['../class_c_l_i_1_1_option.html#a0d1d1cafde8c275b579ec982275a1487',1,'CLI::Option::take_last()']]],
   ['time_5fit',['time_it',['../class_c_l_i_1_1_timer.html#a7e078926ba12b6529177be001357f2e7',1,'CLI::Timer']]],
   ['time_5fpoint',['time_point',['../class_c_l_i_1_1_timer.html#ad268a8972eed09cfeb9d1a3489c57c0d',1,'CLI::Timer']]],
   ['time_5fprint_5f',['time_print_',['../class_c_l_i_1_1_timer.html#a098d182ddc9880d20f993a6a990847c2',1,'CLI::Timer']]],

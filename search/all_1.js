@@ -8,10 +8,10 @@ var searchData=
   ['add_5fresult',['add_result',['../class_c_l_i_1_1_option.html#a3e4e8bad70647ee94e2a902ebb50c4ad',1,'CLI::Option']]],
   ['add_5fset',['add_set',['../class_c_l_i_1_1_app.html#a2ad27760e8e6c69e1c41d6cacbee3225',1,'CLI::App::add_set(std::string name, T &amp;member, std::set&lt; T &gt; options, std::string description=&quot;&quot;)'],['../class_c_l_i_1_1_app.html#af290df88739f2497b81f0fb37c9848fc',1,'CLI::App::add_set(std::string name, T &amp;member, std::set&lt; T &gt; options, std::string description, bool defaulted)']]],
   ['add_5fset_5fignore_5fcase',['add_set_ignore_case',['../class_c_l_i_1_1_app.html#abb801d938271db58c1ef4ccacd07bf42',1,'CLI::App::add_set_ignore_case(std::string name, std::string &amp;member, std::set&lt; std::string &gt; options, std::string description=&quot;&quot;)'],['../class_c_l_i_1_1_app.html#af72eebccf115ba591c2c37882b2a7d1e',1,'CLI::App::add_set_ignore_case(std::string name, std::string &amp;member, std::set&lt; std::string &gt; options, std::string description, bool defaulted)']]],
-  ['add_5fsubcommand',['add_subcommand',['../class_c_l_i_1_1_app.html#a4c329987155640f837e655b886d3ce80',1,'CLI::App']]],
+  ['add_5fsubcommand',['add_subcommand',['../class_c_l_i_1_1_app.html#a57637ff18e847a9e5eaff23e6253506a',1,'CLI::App']]],
   ['allow_5fextras',['allow_extras',['../class_c_l_i_1_1_app.html#a4a9c762c56b6ff0f5b3505bcb75d0bbe',1,'CLI::App']]],
   ['allow_5fextras_5f',['allow_extras_',['../class_c_l_i_1_1_app.html#ae994679fee098b93cbc654a99b8019ee',1,'CLI::App']]],
-  ['app',['App',['../class_c_l_i_1_1_app.html',1,'CLI::App'],['../class_c_l_i_1_1_app.html#abc5ae1005010f08b10a14a742eefdf42',1,'CLI::App::App(std::string description_, bool help, detail::enabler)'],['../class_c_l_i_1_1_app.html#a3bdc2d44538c2b019205ed71ae33519d',1,'CLI::App::App(std::string description_=&quot;&quot;, bool help=true)']]],
+  ['app',['App',['../class_c_l_i_1_1_app.html',1,'CLI::App'],['../class_c_l_i_1_1_app.html#a38af79b4eff95fcd99b3b915459b5e31',1,'CLI::App::App(std::string description_, App *parent)'],['../class_c_l_i_1_1_app.html#a49ac0df03abe9a395b80cf4b11d58737',1,'CLI::App::App(std::string description_=&quot;&quot;)']]],
   ['appfriend',['AppFriend',['../struct_c_l_i_1_1detail_1_1_app_friend.html',1,'CLI::detail']]],
   ['autotimer',['AutoTimer',['../class_c_l_i_1_1_auto_timer.html',1,'CLI::AutoTimer'],['../class_c_l_i_1_1_auto_timer.html#a0ebfc16241474929ea99e201df9855f7',1,'CLI::AutoTimer::AutoTimer()']]]
 ];

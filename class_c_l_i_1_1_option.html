@@ -70,6 +70,15 @@ $(function() {
 <div class="title">CLI::Option Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Inheritance diagram for CLI::Option:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_c_l_i_1_1_option.png" usemap="#CLI::Option_map" alt=""/>
+  <map id="CLI::Option_map" name="CLI::Option_map">
+<area href="class_c_l_i_1_1_option_base.html" alt="CLI::OptionBase&lt; Option &gt;" shape="rect" coords="0,0,163,24"/>
+</map>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -87,30 +96,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memdesc:abbd36aaff5cdca8b10346bafed51da39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the parsed results (mostly for testing) <br /></td></tr>
 <tr class="separator:abbd36aaff5cdca8b10346bafed51da39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Setting options</div></td></tr>
-<tr class="memitem:a950395187e95aec210928b36e90621bb"><td class="memItemLeft" align="right" valign="top"><a id="a950395187e95aec210928b36e90621bb"></a>
-<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a950395187e95aec210928b36e90621bb">required</a> (bool value=true)</td></tr>
-<tr class="memdesc:a950395187e95aec210928b36e90621bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the option as required. <br /></td></tr>
-<tr class="separator:a950395187e95aec210928b36e90621bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04d6a400482ecaa08cc5b3a93f0ca93c"><td class="memItemLeft" align="right" valign="top"><a id="a04d6a400482ecaa08cc5b3a93f0ca93c"></a>
-<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a04d6a400482ecaa08cc5b3a93f0ca93c">mandatory</a> (bool value=true)</td></tr>
-<tr class="memdesc:a04d6a400482ecaa08cc5b3a93f0ca93c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Support Plumbum term. <br /></td></tr>
-<tr class="separator:a04d6a400482ecaa08cc5b3a93f0ca93c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af75c26433baa09c7c762bfb9eb466215"><td class="memItemLeft" align="right" valign="top"><a id="af75c26433baa09c7c762bfb9eb466215"></a>
 <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#af75c26433baa09c7c762bfb9eb466215">expected</a> (int value)</td></tr>
 <tr class="memdesc:af75c26433baa09c7c762bfb9eb466215"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the number of expected arguments (Flags bypass this) <br /></td></tr>
 <tr class="separator:af75c26433baa09c7c762bfb9eb466215"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d1d1cafde8c275b579ec982275a1487"><td class="memItemLeft" align="right" valign="top"><a id="a0d1d1cafde8c275b579ec982275a1487"></a>
-<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a0d1d1cafde8c275b579ec982275a1487">take_last</a> (bool value=true)</td></tr>
-<tr class="memdesc:a0d1d1cafde8c275b579ec982275a1487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Take the last argument if given multiple times. <br /></td></tr>
-<tr class="separator:a0d1d1cafde8c275b579ec982275a1487"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dbdf09db906dda9417c80ee1676e0af"><td class="memItemLeft" align="right" valign="top"><a id="a4dbdf09db906dda9417c80ee1676e0af"></a>
 <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a4dbdf09db906dda9417c80ee1676e0af">check</a> (std::function&lt; bool(std::string)&gt; validator)</td></tr>
 <tr class="memdesc:a4dbdf09db906dda9417c80ee1676e0af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a validator. <br /></td></tr>
 <tr class="separator:a4dbdf09db906dda9417c80ee1676e0af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab4b629426409424e9d852170ee18796"><td class="memItemLeft" align="right" valign="top"><a id="aab4b629426409424e9d852170ee18796"></a>
-<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#aab4b629426409424e9d852170ee18796">group</a> (std::string name)</td></tr>
-<tr class="memdesc:aab4b629426409424e9d852170ee18796"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the group membership. <br /></td></tr>
-<tr class="separator:aab4b629426409424e9d852170ee18796"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abee0e47f0df529a1d0b2cc9ed2ca33d9"><td class="memItemLeft" align="right" valign="top"><a id="abee0e47f0df529a1d0b2cc9ed2ca33d9"></a>
 <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#abee0e47f0df529a1d0b2cc9ed2ca33d9">requires</a> (<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *opt)</td></tr>
 <tr class="memdesc:abee0e47f0df529a1d0b2cc9ed2ca33d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets required options. <br /></td></tr>
@@ -146,6 +139,10 @@ template&lt;typename A , typename B , typename... ARG&gt; </td></tr>
 <tr class="memitem:aa8a01bd3a71479b7b57fec05e60cb3dd"><td class="memTemplParams" colspan="2">template&lt;typename T  = App&gt; </td></tr>
 <tr class="memitem:aa8a01bd3a71479b7b57fec05e60cb3dd"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#aa8a01bd3a71479b7b57fec05e60cb3dd">ignore_case</a> (bool value=true)</td></tr>
 <tr class="separator:aa8a01bd3a71479b7b57fec05e60cb3dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d1d1cafde8c275b579ec982275a1487"><td class="memItemLeft" align="right" valign="top"><a id="a0d1d1cafde8c275b579ec982275a1487"></a>
+<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a0d1d1cafde8c275b579ec982275a1487">take_last</a> (bool value=true)</td></tr>
+<tr class="memdesc:a0d1d1cafde8c275b579ec982275a1487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Take the last argument if given multiple times. <br /></td></tr>
+<tr class="separator:a0d1d1cafde8c275b579ec982275a1487"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
 <tr class="memitem:a1b1aaa271902bca28a2c526d015a93c1"><td class="memItemLeft" align="right" valign="top"><a id="a1b1aaa271902bca28a2c526d015a93c1"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a1b1aaa271902bca28a2c526d015a93c1">get_required</a> () const</td></tr>
@@ -257,6 +254,35 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#af844e09c72687df7c4796321925a2aef">set_type_name</a> (std::string val)</td></tr>
 <tr class="memdesc:af844e09c72687df7c4796321925a2aef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the type name displayed on this option. <br /></td></tr>
 <tr class="separator:af844e09c72687df7c4796321925a2aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_c_l_i_1_1_option_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_c_l_i_1_1_option_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_c_l_i_1_1_option_base.html">CLI::OptionBase&lt; Option &gt;</a></td></tr>
+<tr class="memitem:a02b335b9ae22c4253b9850da04f02054 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="a02b335b9ae22c4253b9850da04f02054"></a>
+<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#a02b335b9ae22c4253b9850da04f02054">group</a> (std::string name)</td></tr>
+<tr class="memdesc:a02b335b9ae22c4253b9850da04f02054 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the group membership. <br /></td></tr>
+<tr class="separator:a02b335b9ae22c4253b9850da04f02054 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38c0ea47532de712dd8d9803633383b2 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="a38c0ea47532de712dd8d9803633383b2"></a>
+<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#a38c0ea47532de712dd8d9803633383b2">required</a> (bool value=true)</td></tr>
+<tr class="memdesc:a38c0ea47532de712dd8d9803633383b2 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the option as required. <br /></td></tr>
+<tr class="separator:a38c0ea47532de712dd8d9803633383b2 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81e5fe4b564f2e576ee9e4966194a682 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="a81e5fe4b564f2e576ee9e4966194a682"></a>
+<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#a81e5fe4b564f2e576ee9e4966194a682">mandatory</a> (bool value=true)</td></tr>
+<tr class="memdesc:a81e5fe4b564f2e576ee9e4966194a682 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Support Plumbum term. <br /></td></tr>
+<tr class="separator:a81e5fe4b564f2e576ee9e4966194a682 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a341e7df4c2693312609186f036dd923c inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="a341e7df4c2693312609186f036dd923c"></a>
+const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#a341e7df4c2693312609186f036dd923c">get_group</a> () const</td></tr>
+<tr class="memdesc:a341e7df4c2693312609186f036dd923c inherit pub_methods_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the group of this option. <br /></td></tr>
+<tr class="separator:a341e7df4c2693312609186f036dd923c inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa902dee6da6d7f5b083b1c7d5f9c1308 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="aa902dee6da6d7f5b083b1c7d5f9c1308"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#aa902dee6da6d7f5b083b1c7d5f9c1308">get_required</a> () const</td></tr>
+<tr class="memdesc:aa902dee6da6d7f5b083b1c7d5f9c1308 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if this is a required option. <br /></td></tr>
+<tr class="separator:aa902dee6da6d7f5b083b1c7d5f9c1308 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12d180bda82c466cfbcd5fbeac27e956 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="a12d180bda82c466cfbcd5fbeac27e956"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#a12d180bda82c466cfbcd5fbeac27e956">get_ignore_case</a> () const</td></tr>
+<tr class="memdesc:a12d180bda82c466cfbcd5fbeac27e956 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">The status of ignore case. <br /></td></tr>
+<tr class="separator:a12d180bda82c466cfbcd5fbeac27e956 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf73a00906cd8fa13ae25ba5389a84cd inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="acf73a00906cd8fa13ae25ba5389a84cd"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#acf73a00906cd8fa13ae25ba5389a84cd">get_take_last</a> () const</td></tr>
+<tr class="memdesc:acf73a00906cd8fa13ae25ba5389a84cd inherit pub_methods_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">The status of the take last flag. <br /></td></tr>
+<tr class="separator:acf73a00906cd8fa13ae25ba5389a84cd inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -270,6 +296,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:afa1805fe998e74f188388706e7403af4"><td class="memItemLeft" align="right" valign="top"><a id="afa1805fe998e74f188388706e7403af4"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>_has_help_positional</b> () const</td></tr>
 <tr class="separator:afa1805fe998e74f188388706e7403af4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_c_l_i_1_1_option_base"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_c_l_i_1_1_option_base')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_c_l_i_1_1_option_base.html">CLI::OptionBase&lt; Option &gt;</a></td></tr>
+<tr class="memitem:aeccfd835475420d963f2fff446c32003 inherit pro_methods_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="aeccfd835475420d963f2fff446c32003"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>copy_to</b> (T *other) const</td></tr>
+<tr class="separator:aeccfd835475420d963f2fff446c32003 inherit pro_methods_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -303,35 +333,19 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a29f8dc4f186d107c7a0ca535fd421fbb">typeval_</a></td></tr>
 <tr class="memdesc:a29f8dc4f186d107c7a0ca535fd421fbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">A human readable type value, set when <a class="el" href="class_c_l_i_1_1_app.html" title="Creates a command line program, with very few defaults. ">App</a> creates this. <br /></td></tr>
 <tr class="separator:a29f8dc4f186d107c7a0ca535fd421fbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a337c9587a6865b42223608a82257a723"><td class="memItemLeft" align="right" valign="top"><a id="a337c9587a6865b42223608a82257a723"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a337c9587a6865b42223608a82257a723">group_</a> {&quot;Options&quot;}</td></tr>
-<tr class="memdesc:a337c9587a6865b42223608a82257a723"><td class="mdescLeft">&#160;</td><td class="mdescRight">The group membership. <br /></td></tr>
-<tr class="separator:a337c9587a6865b42223608a82257a723"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19eea42937479f91fceae827c8e28adf"><td class="memItemLeft" align="right" valign="top"><a id="a19eea42937479f91fceae827c8e28adf"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a19eea42937479f91fceae827c8e28adf">default_</a> {false}</td></tr>
 <tr class="memdesc:a19eea42937479f91fceae827c8e28adf"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if this option has a default. <br /></td></tr>
 <tr class="separator:a19eea42937479f91fceae827c8e28adf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Configuration</div></td></tr>
-<tr class="memitem:a7c51a2af96014407c96d7ae85edbaae7"><td class="memItemLeft" align="right" valign="top"><a id="a7c51a2af96014407c96d7ae85edbaae7"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a7c51a2af96014407c96d7ae85edbaae7">required_</a> {false}</td></tr>
-<tr class="memdesc:a7c51a2af96014407c96d7ae85edbaae7"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if this is a required option. <br /></td></tr>
-<tr class="separator:a7c51a2af96014407c96d7ae85edbaae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1422a9d1fa172577230954077ae4a3f0"><td class="memItemLeft" align="right" valign="top"><a id="a1422a9d1fa172577230954077ae4a3f0"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a1422a9d1fa172577230954077ae4a3f0">expected_</a> {1}</td></tr>
 <tr class="memdesc:a1422a9d1fa172577230954077ae4a3f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of expected values, 0 for flag, -1 for unlimited vector. <br /></td></tr>
 <tr class="separator:a1422a9d1fa172577230954077ae4a3f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d8f8b5e9ac1ed148e93d5eeeca9155b"><td class="memItemLeft" align="right" valign="top"><a id="a4d8f8b5e9ac1ed148e93d5eeeca9155b"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a4d8f8b5e9ac1ed148e93d5eeeca9155b">last_</a> {false}</td></tr>
-<tr class="memdesc:a4d8f8b5e9ac1ed148e93d5eeeca9155b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only take the last argument (requires <code>expected_ == 1</code>) <br /></td></tr>
-<tr class="separator:a4d8f8b5e9ac1ed148e93d5eeeca9155b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fa8824b3b915a1c397a597f3769b82e"><td class="memItemLeft" align="right" valign="top"><a id="a9fa8824b3b915a1c397a597f3769b82e"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a9fa8824b3b915a1c397a597f3769b82e">changeable_</a> {false}</td></tr>
 <tr class="memdesc:a9fa8824b3b915a1c397a597f3769b82e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A private setting to allow args to not be able to accept incorrect expected values. <br /></td></tr>
 <tr class="separator:a9fa8824b3b915a1c397a597f3769b82e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9bb8576df62a711a9f8ae6f69e24a9e"><td class="memItemLeft" align="right" valign="top"><a id="ac9bb8576df62a711a9f8ae6f69e24a9e"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#ac9bb8576df62a711a9f8ae6f69e24a9e">ignore_case_</a> {false}</td></tr>
-<tr class="memdesc:ac9bb8576df62a711a9f8ae6f69e24a9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ignore the case when matching (option, not value) <br /></td></tr>
-<tr class="separator:ac9bb8576df62a711a9f8ae6f69e24a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa009885c776e38edc8e65381f92fd711"><td class="memItemLeft" align="right" valign="top"><a id="aa009885c776e38edc8e65381f92fd711"></a>
 std::vector&lt; std::function&lt; bool(std::string)&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#aa009885c776e38edc8e65381f92fd711">validators_</a></td></tr>
 <tr class="memdesc:aa009885c776e38edc8e65381f92fd711"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of validators to run on each value parsed. <br /></td></tr>
@@ -362,6 +376,23 @@ results_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href=
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#adecdfddc42028a410b8ea468e5d442bf">callback_run_</a> {false}</td></tr>
 <tr class="memdesc:adecdfddc42028a410b8ea468e5d442bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the callback has run (needed for INI parsing) <br /></td></tr>
 <tr class="separator:adecdfddc42028a410b8ea468e5d442bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_c_l_i_1_1_option_base"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_c_l_i_1_1_option_base')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_c_l_i_1_1_option_base.html">CLI::OptionBase&lt; Option &gt;</a></td></tr>
+<tr class="memitem:ad0d8bd0637023f7d87a8e95315e8fb21 inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="ad0d8bd0637023f7d87a8e95315e8fb21"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#ad0d8bd0637023f7d87a8e95315e8fb21">group_</a></td></tr>
+<tr class="memdesc:ad0d8bd0637023f7d87a8e95315e8fb21 inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">The group membership. <br /></td></tr>
+<tr class="separator:ad0d8bd0637023f7d87a8e95315e8fb21 inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abad838fd3da11f840a40536a279912ac inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="abad838fd3da11f840a40536a279912ac"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#abad838fd3da11f840a40536a279912ac">required_</a></td></tr>
+<tr class="memdesc:abad838fd3da11f840a40536a279912ac inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if this is a required option. <br /></td></tr>
+<tr class="separator:abad838fd3da11f840a40536a279912ac inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a616d0aa1bd4e540733e24f88bc17cd3a inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="a616d0aa1bd4e540733e24f88bc17cd3a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#a616d0aa1bd4e540733e24f88bc17cd3a">ignore_case_</a></td></tr>
+<tr class="memdesc:a616d0aa1bd4e540733e24f88bc17cd3a inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ignore the case when matching (option, not value) <br /></td></tr>
+<tr class="separator:a616d0aa1bd4e540733e24f88bc17cd3a inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d28ae50d8743e5e70eee8628db96a88 inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="a0d28ae50d8743e5e70eee8628db96a88"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#a0d28ae50d8743e5e70eee8628db96a88">last_</a></td></tr>
+<tr class="memdesc:a0d28ae50d8743e5e70eee8628db96a88 inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only take the last argument (requires <code>expected_ == 1</code>) <br /></td></tr>
+<tr class="separator:a0d28ae50d8743e5e70eee8628db96a88 inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa8a01bd3a71479b7b57fec05e60cb3dd"></a>
