@@ -5,6 +5,7 @@ var searchData=
   ['set_5fdefault_5fstr',['set_default_str',['../class_c_l_i_1_1_option.html#ae8f22e01572bae319194a4d3ddfbbacd',1,'CLI::Option']]],
   ['set_5fdefault_5fval',['set_default_val',['../class_c_l_i_1_1_option.html#a0f112360356209e5228e35bc52f1012f',1,'CLI::Option']]],
   ['set_5ffooter',['set_footer',['../class_c_l_i_1_1_app.html#a4a88611568c2fee5d983d2608e7547a9',1,'CLI::App']]],
+  ['set_5fhelp_5fflag',['set_help_flag',['../class_c_l_i_1_1_app.html#a7f32db73d430b9930d61cc88c5a54615',1,'CLI::App']]],
   ['set_5ftype_5fname',['set_type_name',['../class_c_l_i_1_1_option.html#af844e09c72687df7c4796321925a2aef',1,'CLI::Option']]],
   ['simple',['Simple',['../class_c_l_i_1_1_timer.html#ada74be7f819d3eaa65e3e829a582be32',1,'CLI::Timer']]]
 ];
