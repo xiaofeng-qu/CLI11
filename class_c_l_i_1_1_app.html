@@ -227,10 +227,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a960a6b1b69c482539db189f1070dd074">count</a> (std::string name) const</td></tr>
 <tr class="memdesc:a960a6b1b69c482539db189f1070dd074"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counts the number of times the given option was passed. <br /></td></tr>
 <tr class="separator:a960a6b1b69c482539db189f1070dd074"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf5b6792ad7849c6966825320fc9b85d"><td class="memItemLeft" align="right" valign="top"><a id="adf5b6792ad7849c6966825320fc9b85d"></a>
-std::vector&lt; <a class="el" href="class_c_l_i_1_1_app.html">App</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#adf5b6792ad7849c6966825320fc9b85d">get_subcommands</a> () const</td></tr>
-<tr class="memdesc:adf5b6792ad7849c6966825320fc9b85d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a subcommand pointer list to the currently selected subcommands (after parsing) <br /></td></tr>
-<tr class="separator:adf5b6792ad7849c6966825320fc9b85d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6c2bcab021ad8d5f8f2a5509d37d827"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_c_l_i_1_1_app.html">App</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#af6c2bcab021ad8d5f8f2a5509d37d827">get_subcommands</a> (bool <a class="el" href="class_c_l_i_1_1_app.html#a31f30e3313c5d0d2646556b0e232bbbc">parsed</a>=true) const</td></tr>
+<tr class="separator:af6c2bcab021ad8d5f8f2a5509d37d827"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9c0f770ed4268730e2404b9bb348b4f"><td class="memItemLeft" align="right" valign="top"><a id="aa9c0f770ed4268730e2404b9bb348b4f"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#aa9c0f770ed4268730e2404b9bb348b4f">got_subcommand</a> (<a class="el" href="class_c_l_i_1_1_app.html">App</a> *subcom) const</td></tr>
 <tr class="memdesc:aa9c0f770ed4268730e2404b9bb348b4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check to see if given subcommand was selected. <br /></td></tr>
@@ -423,6 +421,10 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>missing_t</b> = std:
 std::vector&lt; <a class="el" href="class_c_l_i_1_1_option.html">Option</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#add8dcf3a51639b56a50bf9e1ab983606">parse_order_</a></td></tr>
 <tr class="memdesc:add8dcf3a51639b56a50bf9e1ab983606"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a list of pointers to options with the original parse order. <br /></td></tr>
 <tr class="separator:add8dcf3a51639b56a50bf9e1ab983606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61eae39a2e5238322d21f6ff31aa6f4b"><td class="memItemLeft" align="right" valign="top"><a id="a61eae39a2e5238322d21f6ff31aa6f4b"></a>
+std::vector&lt; <a class="el" href="class_c_l_i_1_1_app.html">App</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a61eae39a2e5238322d21f6ff31aa6f4b">parsed_subcommands_</a></td></tr>
+<tr class="memdesc:a61eae39a2e5238322d21f6ff31aa6f4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a list of the subcommands collected, in order. <br /></td></tr>
+<tr class="separator:a61eae39a2e5238322d21f6ff31aa6f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1b5f580b80240cd54f00386be4fa08f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ab1b5f580b80240cd54f00386be4fa08f">parse</a> (int argc, char **argv)</td></tr>
 <tr class="separator:ab1b5f580b80240cd54f00386be4fa08f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a878c1067ade7145aa11478d64f5173ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a878c1067ade7145aa11478d64f5173ed">parse</a> (std::vector&lt; std::string &gt; &amp;args)</td></tr>
@@ -1359,6 +1361,33 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 <p>Stop subcommand fallthrough, so that parent commands cannot collect commands after subcommand. Default from parent, usually set on parent. </p>
+
+</div>
+</div>
+<a id="af6c2bcab021ad8d5f8f2a5509d37d827"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6c2bcab021ad8d5f8f2a5509d37d827">&#9670;&nbsp;</a></span>get_subcommands()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="class_c_l_i_1_1_app.html">App</a> *&gt; CLI::App::get_subcommands </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>parsed</em> = <code>true</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Get a subcommand pointer list to the currently selected subcommands (after parsing by default, in command line order) </p>
 
 </div>
 </div>
