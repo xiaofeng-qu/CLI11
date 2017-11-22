@@ -367,6 +367,10 @@ std::vector&lt; Option_p &gt;&#160;</td><td class="memItemRight" valign="bottom"
 <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ac7ee114dd086a41f0f144416bcdba097">help_ptr_</a> {nullptr}</td></tr>
 <tr class="memdesc:ac7ee114dd086a41f0f144416bcdba097"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pointer to the help flag if there is one INHERITABLE. <br /></td></tr>
 <tr class="separator:ac7ee114dd086a41f0f144416bcdba097"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a716e2e750769c9e39c96921caddb1689"><td class="memItemLeft" align="right" valign="top"><a id="a716e2e750769c9e39c96921caddb1689"></a>
+std::function&lt; std::string(const <a class="el" href="class_c_l_i_1_1_app.html">App</a> *, const <a class="el" href="struct_c_l_i_1_1_error.html">Error</a> &amp;e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a716e2e750769c9e39c96921caddb1689">failure_message_</a> = FailureMessage::simple</td></tr>
+<tr class="memdesc:a716e2e750769c9e39c96921caddb1689"><td class="mdescLeft">&#160;</td><td class="mdescRight">The error message printing function INHERITABLE. <br /></td></tr>
+<tr class="separator:a716e2e750769c9e39c96921caddb1689"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Subcommands</div></td></tr>
 <tr class="memitem:a2c912598c2a49e41536ca88f2786195b"><td class="memItemLeft" align="right" valign="top"><a id="a2c912598c2a49e41536ca88f2786195b"></a>
 std::vector&lt; App_p &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a2c912598c2a49e41536ca88f2786195b">subcommands_</a></td></tr>
@@ -429,9 +433,13 @@ std::vector&lt; <a class="el" href="class_c_l_i_1_1_app.html">App</a> * &gt;&#16
 <tr class="separator:ab1b5f580b80240cd54f00386be4fa08f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a878c1067ade7145aa11478d64f5173ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a878c1067ade7145aa11478d64f5173ed">parse</a> (std::vector&lt; std::string &gt; &amp;args)</td></tr>
 <tr class="separator:a878c1067ade7145aa11478d64f5173ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34e711976aeaf056dc8cde1f9099f109"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a34e711976aeaf056dc8cde1f9099f109">exit</a> (const <a class="el" href="struct_c_l_i_1_1_error.html">Error</a> &amp;e) const</td></tr>
-<tr class="memdesc:a34e711976aeaf056dc8cde1f9099f109"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print a nice error message and return the exit code.  <a href="#a34e711976aeaf056dc8cde1f9099f109">More...</a><br /></td></tr>
-<tr class="separator:a34e711976aeaf056dc8cde1f9099f109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1096cf2d8ba400a716488792e6163398"><td class="memItemLeft" align="right" valign="top"><a id="a1096cf2d8ba400a716488792e6163398"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a1096cf2d8ba400a716488792e6163398">set_failure_message</a> (std::function&lt; std::string(const <a class="el" href="class_c_l_i_1_1_app.html">App</a> *, const <a class="el" href="struct_c_l_i_1_1_error.html">Error</a> &amp;e)&gt; function)</td></tr>
+<tr class="memdesc:a1096cf2d8ba400a716488792e6163398"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provide a function to print a help message. The function gets access to the <a class="el" href="class_c_l_i_1_1_app.html" title="Creates a command line program, with very few defaults. ">App</a> pointer and error. <br /></td></tr>
+<tr class="separator:a1096cf2d8ba400a716488792e6163398"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac000657ef11647125ba91af38fd7d9c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#aac000657ef11647125ba91af38fd7d9c">exit</a> (const <a class="el" href="struct_c_l_i_1_1_error.html">Error</a> &amp;e, std::ostream &amp;out=std::cout, std::ostream &amp;err=std::cerr) const</td></tr>
+<tr class="memdesc:aac000657ef11647125ba91af38fd7d9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print a nice error message and return the exit code.  <a href="#aac000657ef11647125ba91af38fd7d9c">More...</a><br /></td></tr>
+<tr class="separator:aac000657ef11647125ba91af38fd7d9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3015463e1169614efbedc884606cad67"><td class="memItemLeft" align="right" valign="top"><a id="a3015463e1169614efbedc884606cad67"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a3015463e1169614efbedc884606cad67">reset</a> ()</td></tr>
 <tr class="memdesc:a3015463e1169614efbedc884606cad67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the parsed data. <br /></td></tr>
@@ -1308,8 +1316,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a34e711976aeaf056dc8cde1f9099f109"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34e711976aeaf056dc8cde1f9099f109">&#9670;&nbsp;</a></span>exit()</h2>
+<a id="aac000657ef11647125ba91af38fd7d9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac000657ef11647125ba91af38fd7d9c">&#9670;&nbsp;</a></span>exit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1321,8 +1329,24 @@ template&lt;typename T &gt; </div>
           <td class="memname">int CLI::App::exit </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_c_l_i_1_1_error.html">Error</a> &amp;&#160;</td>
-          <td class="paramname"><em>e</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>out</em> = <code>std::cout</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>err</em> = <code>std::cerr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
