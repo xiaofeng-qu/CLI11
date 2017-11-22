@@ -83,74 +83,24 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a49ac0df03abe9a395b80cf4b11d58737">App</a> (std::string <a class="el" href="class_c_l_i_1_1_app.html#aa6a2e79e0a5990b44bc5d76504437fcd">description_</a>=&quot;&quot;)</td></tr>
 <tr class="memdesc:a49ac0df03abe9a395b80cf4b11d58737"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new program. Pass in the same arguments as main(), along with a help string. <br /></td></tr>
 <tr class="separator:a49ac0df03abe9a395b80cf4b11d58737"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a88611568c2fee5d983d2608e7547a9"><td class="memItemLeft" align="right" valign="top"><a id="a4a88611568c2fee5d983d2608e7547a9"></a>
-<a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a4a88611568c2fee5d983d2608e7547a9">set_footer</a> (std::string footer)</td></tr>
-<tr class="memdesc:a4a88611568c2fee5d983d2608e7547a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set footer. <br /></td></tr>
-<tr class="separator:a4a88611568c2fee5d983d2608e7547a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1a6871e4384311fae85e5e03fdcd3fa"><td class="memItemLeft" align="right" valign="top"><a id="ad1a6871e4384311fae85e5e03fdcd3fa"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ad1a6871e4384311fae85e5e03fdcd3fa">get_footer</a> () const</td></tr>
-<tr class="memdesc:ad1a6871e4384311fae85e5e03fdcd3fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get footer. <br /></td></tr>
-<tr class="separator:ad1a6871e4384311fae85e5e03fdcd3fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a415b64aed974a5d6f2bdbf332f7c192b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a415b64aed974a5d6f2bdbf332f7c192b">set_callback</a> (std::function&lt; void()&gt; callback)</td></tr>
 <tr class="separator:a415b64aed974a5d6f2bdbf332f7c192b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a9c762c56b6ff0f5b3505bcb75d0bbe"><td class="memItemLeft" align="right" valign="top"><a id="a4a9c762c56b6ff0f5b3505bcb75d0bbe"></a>
 <a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a4a9c762c56b6ff0f5b3505bcb75d0bbe">allow_extras</a> (bool allow=true)</td></tr>
 <tr class="memdesc:a4a9c762c56b6ff0f5b3505bcb75d0bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the error when extras are left over on the command line. <br /></td></tr>
 <tr class="separator:a4a9c762c56b6ff0f5b3505bcb75d0bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82efdb6d3d77d2faff51a4960034a133"><td class="memItemLeft" align="right" valign="top"><a id="a82efdb6d3d77d2faff51a4960034a133"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a82efdb6d3d77d2faff51a4960034a133">get_allow_extras</a> () const</td></tr>
-<tr class="memdesc:a82efdb6d3d77d2faff51a4960034a133"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the status of allow extras. <br /></td></tr>
-<tr class="separator:a82efdb6d3d77d2faff51a4960034a133"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8c668b5d28db6faed5716ab8feeb6ad"><td class="memItemLeft" align="right" valign="top"><a id="ab8c668b5d28db6faed5716ab8feeb6ad"></a>
 <a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ab8c668b5d28db6faed5716ab8feeb6ad">prefix_command</a> (bool allow=true)</td></tr>
 <tr class="memdesc:ab8c668b5d28db6faed5716ab8feeb6ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do not parse anything after the first unrecognised option and return. <br /></td></tr>
 <tr class="separator:ab8c668b5d28db6faed5716ab8feeb6ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60e3e9d4198e855cd721887502acca54"><td class="memItemLeft" align="right" valign="top"><a id="a60e3e9d4198e855cd721887502acca54"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>get_prefix_command</b> () const</td></tr>
-<tr class="separator:a60e3e9d4198e855cd721887502acca54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc06fa2dcf43b1eb2da3fc013c5336f4"><td class="memItemLeft" align="right" valign="top"><a id="abc06fa2dcf43b1eb2da3fc013c5336f4"></a>
 <a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#abc06fa2dcf43b1eb2da3fc013c5336f4">ignore_case</a> (bool value=true)</td></tr>
 <tr class="memdesc:abc06fa2dcf43b1eb2da3fc013c5336f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ignore case. Subcommand inherit value. <br /></td></tr>
 <tr class="separator:abc06fa2dcf43b1eb2da3fc013c5336f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a590129f76003fcf849eeb18d05e4571c"><td class="memItemLeft" align="right" valign="top"><a id="a590129f76003fcf849eeb18d05e4571c"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>get_ignore_case</b> () const</td></tr>
-<tr class="separator:a590129f76003fcf849eeb18d05e4571c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31f30e3313c5d0d2646556b0e232bbbc"><td class="memItemLeft" align="right" valign="top"><a id="a31f30e3313c5d0d2646556b0e232bbbc"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a31f30e3313c5d0d2646556b0e232bbbc">parsed</a> () const</td></tr>
 <tr class="memdesc:a31f30e3313c5d0d2646556b0e232bbbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check to see if this subcommand was parsed, true only if received on command line. <br /></td></tr>
 <tr class="separator:a31f30e3313c5d0d2646556b0e232bbbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91720aaf4c92c867dc042c723503b74e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a91720aaf4c92c867dc042c723503b74e">operator bool</a> () const</td></tr>
-<tr class="separator:a91720aaf4c92c867dc042c723503b74e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cb090791a2594ffca877fd6afbf858a"><td class="memItemLeft" align="right" valign="top"><a id="a9cb090791a2594ffca877fd6afbf858a"></a>
-<a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a9cb090791a2594ffca877fd6afbf858a">require_subcommand</a> ()</td></tr>
-<tr class="memdesc:a9cb090791a2594ffca877fd6afbf858a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The argumentless form of require subcommand requires 1 or more subcommands. <br /></td></tr>
-<tr class="separator:a9cb090791a2594ffca877fd6afbf858a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1bb42a7f768d636671552cb345f2d6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ae1bb42a7f768d636671552cb345f2d6c">require_subcommand</a> (int value)</td></tr>
-<tr class="separator:ae1bb42a7f768d636671552cb345f2d6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07b1b36c8362df966ba8f16428b1e7da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a07b1b36c8362df966ba8f16428b1e7da">require_subcommand</a> (size_t min, size_t max)</td></tr>
-<tr class="separator:a07b1b36c8362df966ba8f16428b1e7da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aede2748ac31c2c65f6c495085cec0ffb"><td class="memItemLeft" align="right" valign="top"><a id="aede2748ac31c2c65f6c495085cec0ffb"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#aede2748ac31c2c65f6c495085cec0ffb">get_require_subcommand_min</a> () const</td></tr>
-<tr class="memdesc:aede2748ac31c2c65f6c495085cec0ffb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the required min subcommand value. <br /></td></tr>
-<tr class="separator:aede2748ac31c2c65f6c495085cec0ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39733300bce0979edef87f39f421d6f2"><td class="memItemLeft" align="right" valign="top"><a id="a39733300bce0979edef87f39f421d6f2"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a39733300bce0979edef87f39f421d6f2">get_require_subcommand_max</a> () const</td></tr>
-<tr class="memdesc:a39733300bce0979edef87f39f421d6f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the required max subcommand value. <br /></td></tr>
-<tr class="separator:a39733300bce0979edef87f39f421d6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e32bb0c9270c996488cc8dfa28ec8b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a2e32bb0c9270c996488cc8dfa28ec8b1">fallthrough</a> (bool value=true)</td></tr>
-<tr class="separator:a2e32bb0c9270c996488cc8dfa28ec8b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab89a4979a6e0ea340188f28556136a6b"><td class="memItemLeft" align="right" valign="top"><a id="ab89a4979a6e0ea340188f28556136a6b"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ab89a4979a6e0ea340188f28556136a6b">get_fallthrough</a> () const</td></tr>
-<tr class="memdesc:ab89a4979a6e0ea340188f28556136a6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the status of fallthrough. <br /></td></tr>
-<tr class="separator:ab89a4979a6e0ea340188f28556136a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a185c69a0d9312624d485415c6a688ed6"><td class="memItemLeft" align="right" valign="top"><a id="a185c69a0d9312624d485415c6a688ed6"></a>
-<a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a185c69a0d9312624d485415c6a688ed6">group</a> (std::string name)</td></tr>
-<tr class="memdesc:a185c69a0d9312624d485415c6a688ed6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the group membership. <br /></td></tr>
-<tr class="separator:a185c69a0d9312624d485415c6a688ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa109e6eeffd6ac72c1ec7e5c9c234f21"><td class="memItemLeft" align="right" valign="top"><a id="aa109e6eeffd6ac72c1ec7e5c9c234f21"></a>
-const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#aa109e6eeffd6ac72c1ec7e5c9c234f21">get_group</a> () const</td></tr>
-<tr class="memdesc:aa109e6eeffd6ac72c1ec7e5c9c234f21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the group of this subcommand. <br /></td></tr>
-<tr class="separator:aa109e6eeffd6ac72c1ec7e5c9c234f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2aee3915a2e24fc7806e25b9bbc2b37c"><td class="memItemLeft" align="right" valign="top"><a id="a2aee3915a2e24fc7806e25b9bbc2b37c"></a>
 <a class="el" href="class_c_l_i_1_1_option_defaults.html">OptionDefaults</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a2aee3915a2e24fc7806e25b9bbc2b37c">option_defaults</a> ()</td></tr>
 <tr class="memdesc:a2aee3915a2e24fc7806e25b9bbc2b37c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the OptionDefault object, to set option defaults. <br /></td></tr>
@@ -233,6 +183,22 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a396b7972923f837f8fe2fd1257799078">get_subcommand</a> (std::string subcom) const</td></tr>
 <tr class="memdesc:a396b7972923f837f8fe2fd1257799078"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check to see if a subcommand is part of this command (text version) <br /></td></tr>
 <tr class="separator:a396b7972923f837f8fe2fd1257799078"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a185c69a0d9312624d485415c6a688ed6"><td class="memItemLeft" align="right" valign="top"><a id="a185c69a0d9312624d485415c6a688ed6"></a>
+<a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a185c69a0d9312624d485415c6a688ed6">group</a> (std::string name)</td></tr>
+<tr class="memdesc:a185c69a0d9312624d485415c6a688ed6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the group membership. <br /></td></tr>
+<tr class="separator:a185c69a0d9312624d485415c6a688ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cb090791a2594ffca877fd6afbf858a"><td class="memItemLeft" align="right" valign="top"><a id="a9cb090791a2594ffca877fd6afbf858a"></a>
+<a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a9cb090791a2594ffca877fd6afbf858a">require_subcommand</a> ()</td></tr>
+<tr class="memdesc:a9cb090791a2594ffca877fd6afbf858a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The argumentless form of require subcommand requires 1 or more subcommands. <br /></td></tr>
+<tr class="separator:a9cb090791a2594ffca877fd6afbf858a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1bb42a7f768d636671552cb345f2d6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ae1bb42a7f768d636671552cb345f2d6c">require_subcommand</a> (int value)</td></tr>
+<tr class="separator:ae1bb42a7f768d636671552cb345f2d6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07b1b36c8362df966ba8f16428b1e7da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a07b1b36c8362df966ba8f16428b1e7da">require_subcommand</a> (size_t min, size_t max)</td></tr>
+<tr class="separator:a07b1b36c8362df966ba8f16428b1e7da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e32bb0c9270c996488cc8dfa28ec8b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a2e32bb0c9270c996488cc8dfa28ec8b1">fallthrough</a> (bool value=true)</td></tr>
+<tr class="separator:a2e32bb0c9270c996488cc8dfa28ec8b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91720aaf4c92c867dc042c723503b74e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a91720aaf4c92c867dc042c723503b74e">operator bool</a> () const</td></tr>
+<tr class="separator:a91720aaf4c92c867dc042c723503b74e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Extras for subclassing</div></td></tr>
 <tr class="memitem:a5d74be8e210e779874584a3336aaf506"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a5d74be8e210e779874584a3336aaf506">pre_callback</a> ()</td></tr>
 <tr class="separator:a5d74be8e210e779874584a3336aaf506"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -251,14 +217,39 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a00217b703c43b02e8233a9b2e54765d5">got_subcommand</a> (std::string name) const</td></tr>
 <tr class="memdesc:a00217b703c43b02e8233a9b2e54765d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check with name instead of pointer to see if subcommand was selected. <br /></td></tr>
 <tr class="separator:a00217b703c43b02e8233a9b2e54765d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Help</div></td></tr>
-<tr class="memitem:a282b98fb4878410e502e6169392ace11"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a282b98fb4878410e502e6169392ace11">config_to_str</a> (bool default_also=false, std::string prefix=&quot;&quot;) const</td></tr>
-<tr class="separator:a282b98fb4878410e502e6169392ace11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab85cc077e2dfee3bd94eed8c61e1e2ea"><td class="memItemLeft" align="right" valign="top"><a id="ab85cc077e2dfee3bd94eed8c61e1e2ea"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ab85cc077e2dfee3bd94eed8c61e1e2ea">help</a> (size_t wid=30, std::string prev=&quot;&quot;) const</td></tr>
-<tr class="memdesc:ab85cc077e2dfee3bd94eed8c61e1e2ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a help message, with a column wid for column 1. <br /></td></tr>
-<tr class="separator:ab85cc077e2dfee3bd94eed8c61e1e2ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Getters</div></td></tr>
+<tr class="memitem:a590129f76003fcf849eeb18d05e4571c"><td class="memItemLeft" align="right" valign="top"><a id="a590129f76003fcf849eeb18d05e4571c"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a590129f76003fcf849eeb18d05e4571c">get_ignore_case</a> () const</td></tr>
+<tr class="memdesc:a590129f76003fcf849eeb18d05e4571c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the status of ignore_case. <br /></td></tr>
+<tr class="separator:a590129f76003fcf849eeb18d05e4571c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab89a4979a6e0ea340188f28556136a6b"><td class="memItemLeft" align="right" valign="top"><a id="ab89a4979a6e0ea340188f28556136a6b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ab89a4979a6e0ea340188f28556136a6b">get_fallthrough</a> () const</td></tr>
+<tr class="memdesc:ab89a4979a6e0ea340188f28556136a6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the status of fallthrough. <br /></td></tr>
+<tr class="separator:ab89a4979a6e0ea340188f28556136a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa109e6eeffd6ac72c1ec7e5c9c234f21"><td class="memItemLeft" align="right" valign="top"><a id="aa109e6eeffd6ac72c1ec7e5c9c234f21"></a>
+const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#aa109e6eeffd6ac72c1ec7e5c9c234f21">get_group</a> () const</td></tr>
+<tr class="memdesc:aa109e6eeffd6ac72c1ec7e5c9c234f21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the group of this subcommand. <br /></td></tr>
+<tr class="separator:aa109e6eeffd6ac72c1ec7e5c9c234f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1a6871e4384311fae85e5e03fdcd3fa"><td class="memItemLeft" align="right" valign="top"><a id="ad1a6871e4384311fae85e5e03fdcd3fa"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ad1a6871e4384311fae85e5e03fdcd3fa">get_footer</a> () const</td></tr>
+<tr class="memdesc:ad1a6871e4384311fae85e5e03fdcd3fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get footer. <br /></td></tr>
+<tr class="separator:ad1a6871e4384311fae85e5e03fdcd3fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aede2748ac31c2c65f6c495085cec0ffb"><td class="memItemLeft" align="right" valign="top"><a id="aede2748ac31c2c65f6c495085cec0ffb"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#aede2748ac31c2c65f6c495085cec0ffb">get_require_subcommand_min</a> () const</td></tr>
+<tr class="memdesc:aede2748ac31c2c65f6c495085cec0ffb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the required min subcommand value. <br /></td></tr>
+<tr class="separator:aede2748ac31c2c65f6c495085cec0ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39733300bce0979edef87f39f421d6f2"><td class="memItemLeft" align="right" valign="top"><a id="a39733300bce0979edef87f39f421d6f2"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a39733300bce0979edef87f39f421d6f2">get_require_subcommand_max</a> () const</td></tr>
+<tr class="memdesc:a39733300bce0979edef87f39f421d6f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the required max subcommand value. <br /></td></tr>
+<tr class="separator:a39733300bce0979edef87f39f421d6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60e3e9d4198e855cd721887502acca54"><td class="memItemLeft" align="right" valign="top"><a id="a60e3e9d4198e855cd721887502acca54"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a60e3e9d4198e855cd721887502acca54">get_prefix_command</a> () const</td></tr>
+<tr class="memdesc:a60e3e9d4198e855cd721887502acca54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the prefix command status. <br /></td></tr>
+<tr class="separator:a60e3e9d4198e855cd721887502acca54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82efdb6d3d77d2faff51a4960034a133"><td class="memItemLeft" align="right" valign="top"><a id="a82efdb6d3d77d2faff51a4960034a133"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a82efdb6d3d77d2faff51a4960034a133">get_allow_extras</a> () const</td></tr>
+<tr class="memdesc:a82efdb6d3d77d2faff51a4960034a133"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the status of allow extras. <br /></td></tr>
+<tr class="separator:a82efdb6d3d77d2faff51a4960034a133"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3ed738a07047fd1d76c228d41804a76"><td class="memItemLeft" align="right" valign="top"><a id="ae3ed738a07047fd1d76c228d41804a76"></a>
 <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ae3ed738a07047fd1d76c228d41804a76">get_help_ptr</a> ()</td></tr>
 <tr class="memdesc:ae3ed738a07047fd1d76c228d41804a76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a pointer to the help flag. <br /></td></tr>
@@ -353,10 +344,6 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#aa6a2e79e0a5990b44bc5d76504437fcd">description_</a></td></tr>
 <tr class="memdesc:aa6a2e79e0a5990b44bc5d76504437fcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Description of the current program/subcommand. <br /></td></tr>
 <tr class="separator:aa6a2e79e0a5990b44bc5d76504437fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fbf8b55a33e24d4c5a0532568dd7302"><td class="memItemLeft" align="right" valign="top"><a id="a4fbf8b55a33e24d4c5a0532568dd7302"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a4fbf8b55a33e24d4c5a0532568dd7302">footer_</a></td></tr>
-<tr class="memdesc:a4fbf8b55a33e24d4c5a0532568dd7302"><td class="mdescLeft">&#160;</td><td class="mdescRight">Footer to put after all options in the help output INHERITABLE. <br /></td></tr>
-<tr class="separator:a4fbf8b55a33e24d4c5a0532568dd7302"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae994679fee098b93cbc654a99b8019ee"><td class="memItemLeft" align="right" valign="top"><a id="ae994679fee098b93cbc654a99b8019ee"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ae994679fee098b93cbc654a99b8019ee">allow_extras_</a> {false}</td></tr>
 <tr class="memdesc:ae994679fee098b93cbc654a99b8019ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, allow extra arguments (ie, don't throw an error). INHERITABLE. <br /></td></tr>
@@ -378,14 +365,6 @@ std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom">
 std::vector&lt; Option_p &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a862e55a8c1fe3676452aadc6a222f865">options_</a></td></tr>
 <tr class="memdesc:a862e55a8c1fe3676452aadc6a222f865"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of options, stored locally. <br /></td></tr>
 <tr class="separator:a862e55a8c1fe3676452aadc6a222f865"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7ee114dd086a41f0f144416bcdba097"><td class="memItemLeft" align="right" valign="top"><a id="ac7ee114dd086a41f0f144416bcdba097"></a>
-<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ac7ee114dd086a41f0f144416bcdba097">help_ptr_</a> {nullptr}</td></tr>
-<tr class="memdesc:ac7ee114dd086a41f0f144416bcdba097"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pointer to the help flag if there is one INHERITABLE. <br /></td></tr>
-<tr class="separator:ac7ee114dd086a41f0f144416bcdba097"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a716e2e750769c9e39c96921caddb1689"><td class="memItemLeft" align="right" valign="top"><a id="a716e2e750769c9e39c96921caddb1689"></a>
-std::function&lt; std::string(const <a class="el" href="class_c_l_i_1_1_app.html">App</a> *, const <a class="el" href="struct_c_l_i_1_1_error.html">Error</a> &amp;e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a716e2e750769c9e39c96921caddb1689">failure_message_</a> = FailureMessage::simple</td></tr>
-<tr class="memdesc:a716e2e750769c9e39c96921caddb1689"><td class="mdescLeft">&#160;</td><td class="mdescRight">The error message printing function INHERITABLE. <br /></td></tr>
-<tr class="separator:a716e2e750769c9e39c96921caddb1689"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Subcommands</div></td></tr>
 <tr class="memitem:a2c912598c2a49e41536ca88f2786195b"><td class="memItemLeft" align="right" valign="top"><a id="a2c912598c2a49e41536ca88f2786195b"></a>
 std::vector&lt; App_p &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a2c912598c2a49e41536ca88f2786195b">subcommands_</a></td></tr>
@@ -432,6 +411,31 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a16180e7605e07c7a3f8e6b458569bc02">config_ptr_</a> {nullptr}</td></tr>
 <tr class="memdesc:a16180e7605e07c7a3f8e6b458569bc02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to the config option. <br /></td></tr>
 <tr class="separator:a16180e7605e07c7a3f8e6b458569bc02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Help</h2></td></tr>
+<tr class="memitem:a4fbf8b55a33e24d4c5a0532568dd7302"><td class="memItemLeft" align="right" valign="top"><a id="a4fbf8b55a33e24d4c5a0532568dd7302"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a4fbf8b55a33e24d4c5a0532568dd7302">footer_</a></td></tr>
+<tr class="memdesc:a4fbf8b55a33e24d4c5a0532568dd7302"><td class="mdescLeft">&#160;</td><td class="mdescRight">Footer to put after all options in the help output INHERITABLE. <br /></td></tr>
+<tr class="separator:a4fbf8b55a33e24d4c5a0532568dd7302"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7ee114dd086a41f0f144416bcdba097"><td class="memItemLeft" align="right" valign="top"><a id="ac7ee114dd086a41f0f144416bcdba097"></a>
+<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ac7ee114dd086a41f0f144416bcdba097">help_ptr_</a> {nullptr}</td></tr>
+<tr class="memdesc:ac7ee114dd086a41f0f144416bcdba097"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pointer to the help flag if there is one INHERITABLE. <br /></td></tr>
+<tr class="separator:ac7ee114dd086a41f0f144416bcdba097"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a716e2e750769c9e39c96921caddb1689"><td class="memItemLeft" align="right" valign="top"><a id="a716e2e750769c9e39c96921caddb1689"></a>
+std::function&lt; std::string(const <a class="el" href="class_c_l_i_1_1_app.html">App</a> *, const <a class="el" href="struct_c_l_i_1_1_error.html">Error</a> &amp;e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a716e2e750769c9e39c96921caddb1689">failure_message_</a> = FailureMessage::simple</td></tr>
+<tr class="memdesc:a716e2e750769c9e39c96921caddb1689"><td class="mdescLeft">&#160;</td><td class="mdescRight">The error message printing function INHERITABLE. <br /></td></tr>
+<tr class="separator:a716e2e750769c9e39c96921caddb1689"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a88611568c2fee5d983d2608e7547a9"><td class="memItemLeft" align="right" valign="top"><a id="a4a88611568c2fee5d983d2608e7547a9"></a>
+<a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a4a88611568c2fee5d983d2608e7547a9">set_footer</a> (std::string footer)</td></tr>
+<tr class="memdesc:a4a88611568c2fee5d983d2608e7547a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set footer. <br /></td></tr>
+<tr class="separator:a4a88611568c2fee5d983d2608e7547a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a282b98fb4878410e502e6169392ace11"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a282b98fb4878410e502e6169392ace11">config_to_str</a> (bool default_also=false, std::string prefix=&quot;&quot;) const</td></tr>
+<tr class="separator:a282b98fb4878410e502e6169392ace11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab85cc077e2dfee3bd94eed8c61e1e2ea"><td class="memItemLeft" align="right" valign="top"><a id="ab85cc077e2dfee3bd94eed8c61e1e2ea"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ab85cc077e2dfee3bd94eed8c61e1e2ea">help</a> (size_t wid=30, std::string prev=&quot;&quot;) const</td></tr>
+<tr class="memdesc:ab85cc077e2dfee3bd94eed8c61e1e2ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a help message, with a column wid for column 1. <br /></td></tr>
+<tr class="separator:ab85cc077e2dfee3bd94eed8c61e1e2ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Parsing</h2></td></tr>
