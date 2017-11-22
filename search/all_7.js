@@ -13,6 +13,8 @@ var searchData=
   ['get_5fignore_5fcase',['get_ignore_case',['../class_c_l_i_1_1_option_base.html#a12d180bda82c466cfbcd5fbeac27e956',1,'CLI::OptionBase']]],
   ['get_5fname',['get_name',['../class_c_l_i_1_1_app.html#a4b40e301840ec5d6f99129e6d0a0b2e9',1,'CLI::App::get_name()'],['../class_c_l_i_1_1_option.html#a21524238e17fd0367f4a3528665e7816',1,'CLI::Option::get_name()']]],
   ['get_5fpositional',['get_positional',['../class_c_l_i_1_1_option.html#acab7033604b49e314d290b01adea690d',1,'CLI::Option']]],
+  ['get_5frequire_5fsubcommand_5fmax',['get_require_subcommand_max',['../class_c_l_i_1_1_app.html#a39733300bce0979edef87f39f421d6f2',1,'CLI::App']]],
+  ['get_5frequire_5fsubcommand_5fmin',['get_require_subcommand_min',['../class_c_l_i_1_1_app.html#aede2748ac31c2c65f6c495085cec0ffb',1,'CLI::App']]],
   ['get_5frequired',['get_required',['../class_c_l_i_1_1_option_base.html#aa902dee6da6d7f5b083b1c7d5f9c1308',1,'CLI::OptionBase::get_required()'],['../class_c_l_i_1_1_option.html#a1b1aaa271902bca28a2c526d015a93c1',1,'CLI::Option::get_required()']]],
   ['get_5fsubcommand',['get_subcommand',['../class_c_l_i_1_1_app.html#a8ff9e3f4db10c8958c083167c6007f6e',1,'CLI::App::get_subcommand(App *subcom) const'],['../class_c_l_i_1_1_app.html#a396b7972923f837f8fe2fd1257799078',1,'CLI::App::get_subcommand(std::string subcom) const']]],
   ['get_5fsubcommands',['get_subcommands',['../class_c_l_i_1_1_app.html#af6c2bcab021ad8d5f8f2a5509d37d827',1,'CLI::App']]],
