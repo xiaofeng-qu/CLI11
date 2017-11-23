@@ -10,7 +10,7 @@ var searchData=
   ['parsed',['parsed',['../class_c_l_i_1_1_app.html#a31f30e3313c5d0d2646556b0e232bbbc',1,'CLI::App']]],
   ['parsed_5f',['parsed_',['../class_c_l_i_1_1_app.html#a8b467e1c0948add0e658d1df6a58d258',1,'CLI::App']]],
   ['parsed_5fsubcommands_5f',['parsed_subcommands_',['../class_c_l_i_1_1_app.html#a61eae39a2e5238322d21f6ff31aa6f4b',1,'CLI::App']]],
-  ['parseerror',['ParseError',['../struct_c_l_i_1_1_parse_error.html',1,'CLI']]],
+  ['parseerror',['ParseError',['../class_c_l_i_1_1_parse_error.html',1,'CLI']]],
   ['pname_5f',['pname_',['../class_c_l_i_1_1_option.html#a3599a92dde17b22551dcdfcb9798f0f3',1,'CLI::Option']]],
   ['pre_5fcallback',['pre_callback',['../class_c_l_i_1_1_app.html#a5d74be8e210e779874584a3336aaf506',1,'CLI::App']]],
   ['prefix_5fcommand',['prefix_command',['../class_c_l_i_1_1_app.html#ab8c668b5d28db6faed5716ab8feeb6ad',1,'CLI::App']]],
