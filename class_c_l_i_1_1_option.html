@@ -100,10 +100,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#af75c26433baa09c7c762bfb9eb466215">expected</a> (int value)</td></tr>
 <tr class="memdesc:af75c26433baa09c7c762bfb9eb466215"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the number of expected arguments (Flags bypass this) <br /></td></tr>
 <tr class="separator:af75c26433baa09c7c762bfb9eb466215"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4dbdf09db906dda9417c80ee1676e0af"><td class="memItemLeft" align="right" valign="top"><a id="a4dbdf09db906dda9417c80ee1676e0af"></a>
-<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a4dbdf09db906dda9417c80ee1676e0af">check</a> (std::function&lt; bool(std::string)&gt; validator)</td></tr>
-<tr class="memdesc:a4dbdf09db906dda9417c80ee1676e0af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a validator. <br /></td></tr>
-<tr class="separator:a4dbdf09db906dda9417c80ee1676e0af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7efde87e06843425c957e706223c5d5"><td class="memItemLeft" align="right" valign="top"><a id="ab7efde87e06843425c957e706223c5d5"></a>
+<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#ab7efde87e06843425c957e706223c5d5">check</a> (std::function&lt; std::string(const std::string &amp;)&gt; validator)</td></tr>
+<tr class="memdesc:ab7efde87e06843425c957e706223c5d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a validator. <br /></td></tr>
+<tr class="separator:ab7efde87e06843425c957e706223c5d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec424ae8d4baed3d0195bd9cbc521554"><td class="memItemLeft" align="right" valign="top"><a id="aec424ae8d4baed3d0195bd9cbc521554"></a>
+<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#aec424ae8d4baed3d0195bd9cbc521554">transform</a> (std::function&lt; std::string(std::string)&gt; func)</td></tr>
+<tr class="memdesc:aec424ae8d4baed3d0195bd9cbc521554"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a validator-like function that can change result. <br /></td></tr>
+<tr class="separator:aec424ae8d4baed3d0195bd9cbc521554"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abee0e47f0df529a1d0b2cc9ed2ca33d9"><td class="memItemLeft" align="right" valign="top"><a id="abee0e47f0df529a1d0b2cc9ed2ca33d9"></a>
 <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#abee0e47f0df529a1d0b2cc9ed2ca33d9">requires</a> (<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *opt)</td></tr>
 <tr class="memdesc:abee0e47f0df529a1d0b2cc9ed2ca33d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets required options. <br /></td></tr>
@@ -209,10 +213,10 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="memdesc:a30de73ea4e5f03297ff3e681d1438a2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the part after the name is printed but before the description. <br /></td></tr>
 <tr class="separator:a30de73ea4e5f03297ff3e681d1438a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Parser tools</div></td></tr>
-<tr class="memitem:adb852929843300c4b48de5556ceea1b1"><td class="memItemLeft" align="right" valign="top"><a id="adb852929843300c4b48de5556ceea1b1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#adb852929843300c4b48de5556ceea1b1">run_callback</a> () const</td></tr>
-<tr class="memdesc:adb852929843300c4b48de5556ceea1b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process the callback. <br /></td></tr>
-<tr class="separator:adb852929843300c4b48de5556ceea1b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab06eb6c31666a4a003aeb2cf3e5cdcd9"><td class="memItemLeft" align="right" valign="top"><a id="ab06eb6c31666a4a003aeb2cf3e5cdcd9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#ab06eb6c31666a4a003aeb2cf3e5cdcd9">run_callback</a> ()</td></tr>
+<tr class="memdesc:ab06eb6c31666a4a003aeb2cf3e5cdcd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process the callback. <br /></td></tr>
+<tr class="separator:ab06eb6c31666a4a003aeb2cf3e5cdcd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae72ff0b89bebb2987d548c186c577e50"><td class="memItemLeft" align="right" valign="top"><a id="ae72ff0b89bebb2987d548c186c577e50"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#ae72ff0b89bebb2987d548c186c577e50">operator==</a> (const <a class="el" href="class_c_l_i_1_1_option.html">Option</a> &amp;other) const</td></tr>
 <tr class="memdesc:ae72ff0b89bebb2987d548c186c577e50"><td class="mdescLeft">&#160;</td><td class="mdescRight">If options share any of the same names, they are equal (not counting positional) <br /></td></tr>
@@ -350,10 +354,10 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a9fa8824b3b915a1c397a597f3769b82e">changeable_</a> {false}</td></tr>
 <tr class="memdesc:a9fa8824b3b915a1c397a597f3769b82e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A private setting to allow args to not be able to accept incorrect expected values. <br /></td></tr>
 <tr class="separator:a9fa8824b3b915a1c397a597f3769b82e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa009885c776e38edc8e65381f92fd711"><td class="memItemLeft" align="right" valign="top"><a id="aa009885c776e38edc8e65381f92fd711"></a>
-std::vector&lt; std::function&lt; bool(std::string)&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#aa009885c776e38edc8e65381f92fd711">validators_</a></td></tr>
-<tr class="memdesc:aa009885c776e38edc8e65381f92fd711"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of validators to run on each value parsed. <br /></td></tr>
-<tr class="separator:aa009885c776e38edc8e65381f92fd711"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88236d1e0193c24b6af92d8916534946"><td class="memItemLeft" align="right" valign="top"><a id="a88236d1e0193c24b6af92d8916534946"></a>
+std::vector&lt; std::function&lt; std::string(std::string &amp;)&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a88236d1e0193c24b6af92d8916534946">validators_</a></td></tr>
+<tr class="memdesc:a88236d1e0193c24b6af92d8916534946"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of validators to run on each value parsed. <br /></td></tr>
+<tr class="separator:a88236d1e0193c24b6af92d8916534946"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a919e5f1e0af05e2fef0f299a43b08e78"><td class="memItemLeft" align="right" valign="top"><a id="a919e5f1e0af05e2fef0f299a43b08e78"></a>
 std::set&lt; <a class="el" href="class_c_l_i_1_1_option.html">Option</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a919e5f1e0af05e2fef0f299a43b08e78">requires_</a></td></tr>
 <tr class="memdesc:a919e5f1e0af05e2fef0f299a43b08e78"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of options that are required with this option. <br /></td></tr>

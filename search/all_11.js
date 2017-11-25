@@ -8,5 +8,6 @@ var searchData=
   ['timer',['Timer',['../class_c_l_i_1_1_timer.html',1,'CLI::Timer'],['../class_c_l_i_1_1_timer.html#a1cad535ef02042b51906cb464861c9be',1,'CLI::Timer::Timer()']]],
   ['title_5f',['title_',['../class_c_l_i_1_1_timer.html#a2e423868378db3b64f6d459a9c820899',1,'CLI::Timer']]],
   ['to_5fstring',['to_string',['../class_c_l_i_1_1_timer.html#a35a7a90b7f96da40dfe4cbfb2f0b4f9e',1,'CLI::Timer']]],
+  ['transform',['transform',['../class_c_l_i_1_1_option.html#aec424ae8d4baed3d0195bd9cbc521554',1,'CLI::Option']]],
   ['typeval_5f',['typeval_',['../class_c_l_i_1_1_option.html#a29f8dc4f186d107c7a0ca535fd421fbb',1,'CLI::Option']]]
 ];
