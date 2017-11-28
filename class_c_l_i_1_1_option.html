@@ -143,23 +143,15 @@ template&lt;typename A , typename B , typename... ARG&gt; </td></tr>
 <tr class="memitem:aa8a01bd3a71479b7b57fec05e60cb3dd"><td class="memTemplParams" colspan="2">template&lt;typename T  = App&gt; </td></tr>
 <tr class="memitem:aa8a01bd3a71479b7b57fec05e60cb3dd"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#aa8a01bd3a71479b7b57fec05e60cb3dd">ignore_case</a> (bool value=true)</td></tr>
 <tr class="separator:aa8a01bd3a71479b7b57fec05e60cb3dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d1d1cafde8c275b579ec982275a1487"><td class="memItemLeft" align="right" valign="top"><a id="a0d1d1cafde8c275b579ec982275a1487"></a>
-<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a0d1d1cafde8c275b579ec982275a1487">take_last</a> (bool value=true)</td></tr>
-<tr class="memdesc:a0d1d1cafde8c275b579ec982275a1487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Take the last argument if given multiple times. <br /></td></tr>
-<tr class="separator:a0d1d1cafde8c275b579ec982275a1487"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4f53c4f43bf3c10f5d160d4a57e757c"><td class="memItemLeft" align="right" valign="top"><a id="aa4f53c4f43bf3c10f5d160d4a57e757c"></a>
+<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#aa4f53c4f43bf3c10f5d160d4a57e757c">multi_option_policy</a> (MultiOptionPolicy value=MultiOptionPolicy::Throw)</td></tr>
+<tr class="memdesc:aa4f53c4f43bf3c10f5d160d4a57e757c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Take the last argument if given multiple times. <br /></td></tr>
+<tr class="separator:aa4f53c4f43bf3c10f5d160d4a57e757c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
-<tr class="memitem:a1b1aaa271902bca28a2c526d015a93c1"><td class="memItemLeft" align="right" valign="top"><a id="a1b1aaa271902bca28a2c526d015a93c1"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a1b1aaa271902bca28a2c526d015a93c1">get_required</a> () const</td></tr>
-<tr class="memdesc:a1b1aaa271902bca28a2c526d015a93c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if this is a required option. <br /></td></tr>
-<tr class="separator:a1b1aaa271902bca28a2c526d015a93c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a307543e6e4ddeb6e4ea00438b5b10be3"><td class="memItemLeft" align="right" valign="top"><a id="a307543e6e4ddeb6e4ea00438b5b10be3"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a307543e6e4ddeb6e4ea00438b5b10be3">get_expected</a> () const</td></tr>
 <tr class="memdesc:a307543e6e4ddeb6e4ea00438b5b10be3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of arguments the option expects. <br /></td></tr>
 <tr class="separator:a307543e6e4ddeb6e4ea00438b5b10be3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cd03c9c660921b1b5b19b29592fb30f"><td class="memItemLeft" align="right" valign="top"><a id="a9cd03c9c660921b1b5b19b29592fb30f"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a9cd03c9c660921b1b5b19b29592fb30f">get_take_last</a> () const</td></tr>
-<tr class="memdesc:a9cd03c9c660921b1b5b19b29592fb30f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The status of the take last flag. <br /></td></tr>
-<tr class="separator:a9cd03c9c660921b1b5b19b29592fb30f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26527442a386c8ccc369069c00062398"><td class="memItemLeft" align="right" valign="top"><a id="a26527442a386c8ccc369069c00062398"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a26527442a386c8ccc369069c00062398">get_default</a> () const</td></tr>
 <tr class="memdesc:a26527442a386c8ccc369069c00062398"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if this has a default value. <br /></td></tr>
@@ -176,10 +168,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a6770984498050b33659ce0c14b8f4696">has_description</a> () const</td></tr>
 <tr class="memdesc:a6770984498050b33659ce0c14b8f4696"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if option has description. <br /></td></tr>
 <tr class="separator:a6770984498050b33659ce0c14b8f4696"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f6adbac10f12a3865e94d6ad59f2a83"><td class="memItemLeft" align="right" valign="top"><a id="a5f6adbac10f12a3865e94d6ad59f2a83"></a>
-const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a5f6adbac10f12a3865e94d6ad59f2a83">get_group</a> () const</td></tr>
-<tr class="memdesc:a5f6adbac10f12a3865e94d6ad59f2a83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the group of this option. <br /></td></tr>
-<tr class="separator:a5f6adbac10f12a3865e94d6ad59f2a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad79474a3c1cc8a73b12f80c6e31ee3af"><td class="memItemLeft" align="right" valign="top"><a id="ad79474a3c1cc8a73b12f80c6e31ee3af"></a>
 const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#ad79474a3c1cc8a73b12f80c6e31ee3af">get_description</a> () const</td></tr>
 <tr class="memdesc:ad79474a3c1cc8a73b12f80c6e31ee3af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the description. <br /></td></tr>
@@ -291,10 +279,22 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#a12d180bda82c466cfbcd5fbeac27e956">get_ignore_case</a> () const</td></tr>
 <tr class="memdesc:a12d180bda82c466cfbcd5fbeac27e956 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">The status of ignore case. <br /></td></tr>
 <tr class="separator:a12d180bda82c466cfbcd5fbeac27e956 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf73a00906cd8fa13ae25ba5389a84cd inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="acf73a00906cd8fa13ae25ba5389a84cd"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#acf73a00906cd8fa13ae25ba5389a84cd">get_take_last</a> () const</td></tr>
-<tr class="memdesc:acf73a00906cd8fa13ae25ba5389a84cd inherit pub_methods_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">The status of the take last flag. <br /></td></tr>
-<tr class="separator:acf73a00906cd8fa13ae25ba5389a84cd inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67ade2fd6f98b5a77c45b18c3d8ae639 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="a67ade2fd6f98b5a77c45b18c3d8ae639"></a>
+MultiOptionPolicy&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#a67ade2fd6f98b5a77c45b18c3d8ae639">get_multi_option_policy</a> () const</td></tr>
+<tr class="memdesc:a67ade2fd6f98b5a77c45b18c3d8ae639 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">The status of the multi option policy. <br /></td></tr>
+<tr class="separator:a67ade2fd6f98b5a77c45b18c3d8ae639 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a930f24441fb52b8d21f6ad05edc6ee94 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="a930f24441fb52b8d21f6ad05edc6ee94"></a>
+<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#a930f24441fb52b8d21f6ad05edc6ee94">take_last</a> ()</td></tr>
+<tr class="memdesc:a930f24441fb52b8d21f6ad05edc6ee94 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the multi option policy to take last. <br /></td></tr>
+<tr class="separator:a930f24441fb52b8d21f6ad05edc6ee94 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd8b4ebfbff744992a543641cad2b278 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="abd8b4ebfbff744992a543641cad2b278"></a>
+<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#abd8b4ebfbff744992a543641cad2b278">take_first</a> ()</td></tr>
+<tr class="memdesc:abd8b4ebfbff744992a543641cad2b278 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the multi option policy to take last. <br /></td></tr>
+<tr class="separator:abd8b4ebfbff744992a543641cad2b278 inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bcae56121e74e92ad2de422500c7a6d inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="a3bcae56121e74e92ad2de422500c7a6d"></a>
+<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#a3bcae56121e74e92ad2de422500c7a6d">join</a> ()</td></tr>
+<tr class="memdesc:a3bcae56121e74e92ad2de422500c7a6d inherit pub_methods_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the multi option policy to take last. <br /></td></tr>
+<tr class="separator:a3bcae56121e74e92ad2de422500c7a6d inherit pub_methods_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -401,10 +401,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#a616d0aa1bd4e540733e24f88bc17cd3a">ignore_case_</a></td></tr>
 <tr class="memdesc:a616d0aa1bd4e540733e24f88bc17cd3a inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ignore the case when matching (option, not value) <br /></td></tr>
 <tr class="separator:a616d0aa1bd4e540733e24f88bc17cd3a inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d28ae50d8743e5e70eee8628db96a88 inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="a0d28ae50d8743e5e70eee8628db96a88"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#a0d28ae50d8743e5e70eee8628db96a88">last_</a></td></tr>
-<tr class="memdesc:a0d28ae50d8743e5e70eee8628db96a88 inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only take the last argument (requires <code>expected_ == 1</code>) <br /></td></tr>
-<tr class="separator:a0d28ae50d8743e5e70eee8628db96a88 inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c5483d3c992baad97beed3de2b82b05 inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="a2c5483d3c992baad97beed3de2b82b05"></a>
+MultiOptionPolicy&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#a2c5483d3c992baad97beed3de2b82b05">multi_option_policy_</a></td></tr>
+<tr class="memdesc:a2c5483d3c992baad97beed3de2b82b05 inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Policy for multiple arguments when <code>expected_ == 1</code> (can be set on bool flags, too) <br /></td></tr>
+<tr class="separator:a2c5483d3c992baad97beed3de2b82b05 inherit pro_attribs_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa8a01bd3a71479b7b57fec05e60cb3dd"></a>

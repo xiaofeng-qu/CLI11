@@ -1,8 +1,13 @@
 var searchData=
 [
-  ['take_5flast',['take_last',['../class_c_l_i_1_1_option_defaults.html#acd5930b3f1b1d2aca65cd2208c14e253',1,'CLI::OptionDefaults::take_last()'],['../class_c_l_i_1_1_option.html#a0d1d1cafde8c275b579ec982275a1487',1,'CLI::Option::take_last()']]],
-  ['time_5fit',['time_it',['../class_c_l_i_1_1_timer.html#a7e078926ba12b6529177be001357f2e7',1,'CLI::Timer']]],
-  ['timer',['Timer',['../class_c_l_i_1_1_timer.html#a1cad535ef02042b51906cb464861c9be',1,'CLI::Timer']]],
-  ['to_5fstring',['to_string',['../class_c_l_i_1_1_timer.html#a35a7a90b7f96da40dfe4cbfb2f0b4f9e',1,'CLI::Timer']]],
-  ['transform',['transform',['../class_c_l_i_1_1_option.html#aec424ae8d4baed3d0195bd9cbc521554',1,'CLI::Option']]]
+  ['set_5fcallback',['set_callback',['../class_c_l_i_1_1_app.html#a415b64aed974a5d6f2bdbf332f7c192b',1,'CLI::App']]],
+  ['set_5fcustom_5foption',['set_custom_option',['../class_c_l_i_1_1_option.html#a2daaa68ba5d4acae30530b0dc6f9ca49',1,'CLI::Option']]],
+  ['set_5fdefault_5fstr',['set_default_str',['../class_c_l_i_1_1_option.html#ae8f22e01572bae319194a4d3ddfbbacd',1,'CLI::Option']]],
+  ['set_5fdefault_5fval',['set_default_val',['../class_c_l_i_1_1_option.html#a0f112360356209e5228e35bc52f1012f',1,'CLI::Option']]],
+  ['set_5ffailure_5fmessage',['set_failure_message',['../class_c_l_i_1_1_app.html#a1096cf2d8ba400a716488792e6163398',1,'CLI::App']]],
+  ['set_5ffooter',['set_footer',['../class_c_l_i_1_1_app.html#a4a88611568c2fee5d983d2608e7547a9',1,'CLI::App']]],
+  ['set_5fhelp_5fflag',['set_help_flag',['../class_c_l_i_1_1_app.html#a7f32db73d430b9930d61cc88c5a54615',1,'CLI::App']]],
+  ['set_5ftype_5fname',['set_type_name',['../class_c_l_i_1_1_option.html#af844e09c72687df7c4796321925a2aef',1,'CLI::Option']]],
+  ['simple',['Simple',['../class_c_l_i_1_1_timer.html#ada74be7f819d3eaa65e3e829a582be32',1,'CLI::Timer']]],
+  ['single_5fname',['single_name',['../class_c_l_i_1_1_option.html#a9a3f11d8fa8b2dc6009f4b999f147b6d',1,'CLI::Option']]]
 ];

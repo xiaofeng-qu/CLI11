@@ -138,7 +138,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:ad3608e288902be51227ce8549bac6743"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3608e288902be51227ce8549bac6743"><td class="memTemplParams" colspan="2">template&lt;typename T , enable_if_t&lt; is_bool&lt; T &gt;::value, detail::enabler &gt;  = detail::dummy&gt; </td></tr>
 <tr class="memitem:ad3608e288902be51227ce8549bac6743"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ad3608e288902be51227ce8549bac6743">add_flag</a> (std::string name, T &amp;<a class="el" href="class_c_l_i_1_1_app.html#a960a6b1b69c482539db189f1070dd074">count</a>, std::string description=&quot;&quot;)</td></tr>
-<tr class="memdesc:ad3608e288902be51227ce8549bac6743"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bool version - defaults to allowing multiple passings, but can be forced to one if <code>take_last(false)</code> is used.  <a href="#ad3608e288902be51227ce8549bac6743">More...</a><br /></td></tr>
 <tr class="separator:ad3608e288902be51227ce8549bac6743"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afefcdc7d77d1db227fda549e531631f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#afefcdc7d77d1db227fda549e531631f2">add_flag_function</a> (std::string name, std::function&lt; void(size_t)&gt; function, std::string description=&quot;&quot;)</td></tr>
 <tr class="memdesc:afefcdc7d77d1db227fda549e531631f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add option for callback.  <a href="#afefcdc7d77d1db227fda549e531631f2">More...</a><br /></td></tr>
@@ -721,8 +720,7 @@ template&lt;typename T , enable_if_t&lt; is_bool&lt; T &gt;::value, detail::enab
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Bool version - defaults to allowing multiple passings, but can be forced to one if <code>take_last(false)</code> is used. </p>
+<p>Bool version - defaults to allowing multiple passings, but can be forced to one if <code>multi_option_policy(CLI::MultiOptionPolicy::Throw)</code> is used. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">count</td><td>A variable holding true if passed </td></tr>
