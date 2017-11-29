@@ -12,6 +12,5 @@ var searchData=
   ['exit',['exit',['../class_c_l_i_1_1_app.html#aac000657ef11647125ba91af38fd7d9c',1,'CLI::App']]],
   ['expected',['expected',['../class_c_l_i_1_1_option.html#af75c26433baa09c7c762bfb9eb466215',1,'CLI::Option']]],
   ['expected_5f',['expected_',['../class_c_l_i_1_1_option.html#a1422a9d1fa172577230954077ae4a3f0',1,'CLI::Option']]],
-  ['extraserror',['ExtrasError',['../class_c_l_i_1_1_extras_error.html',1,'CLI']]],
-  ['extrasinierror',['ExtrasINIError',['../class_c_l_i_1_1_extras_i_n_i_error.html',1,'CLI']]]
+  ['extraserror',['ExtrasError',['../class_c_l_i_1_1_extras_error.html',1,'CLI']]]
 ];

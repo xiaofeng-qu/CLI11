@@ -3,6 +3,7 @@ var searchData=
   ['get_5fallow_5fextras',['get_allow_extras',['../class_c_l_i_1_1_app.html#a82efdb6d3d77d2faff51a4960034a133',1,'CLI::App']]],
   ['get_5fcallback_5frun',['get_callback_run',['../class_c_l_i_1_1_option.html#aae19e4231b0c1ef14cf2f3c7189e453c',1,'CLI::Option']]],
   ['get_5fconfig_5fptr',['get_config_ptr',['../class_c_l_i_1_1_app.html#aa516fbfd33a220af66deccd8e6a465a0',1,'CLI::App::get_config_ptr()'],['../class_c_l_i_1_1_app.html#aa3108b9777788e910610454f06ecfaf6',1,'CLI::App::get_config_ptr() const']]],
+  ['get_5fconfigurable',['get_configurable',['../class_c_l_i_1_1_option_base.html#a148499af929ff2498d1ef3567fc18dfc',1,'CLI::OptionBase']]],
   ['get_5fdefault',['get_default',['../class_c_l_i_1_1_option.html#a26527442a386c8ccc369069c00062398',1,'CLI::Option']]],
   ['get_5fdescription',['get_description',['../class_c_l_i_1_1_option.html#ad79474a3c1cc8a73b12f80c6e31ee3af',1,'CLI::Option']]],
   ['get_5fexpected',['get_expected',['../class_c_l_i_1_1_option.html#a307543e6e4ddeb6e4ea00438b5b10be3',1,'CLI::Option']]],

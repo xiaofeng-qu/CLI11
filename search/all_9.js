@@ -4,6 +4,7 @@ var searchData=
   ['ignore_5fcase_5f',['ignore_case_',['../class_c_l_i_1_1_app.html#ac0ded9f408801bccc14d6390b99c11b5',1,'CLI::App::ignore_case_()'],['../class_c_l_i_1_1_option_base.html#a616d0aa1bd4e540733e24f88bc17cd3a',1,'CLI::OptionBase::ignore_case_()']]],
   ['incorrectconstruction',['IncorrectConstruction',['../class_c_l_i_1_1_incorrect_construction.html',1,'CLI']]],
   ['introduction',['Introduction',['../index.html',1,'']]],
+  ['inierror',['INIError',['../class_c_l_i_1_1_i_n_i_error.html',1,'CLI']]],
   ['invaliderror',['InvalidError',['../class_c_l_i_1_1_invalid_error.html',1,'CLI']]],
   ['is_5fbool',['is_bool',['../struct_c_l_i_1_1is__bool.html',1,'CLI']]],
   ['is_5fbool_3c_20bool_20_3e',['is_bool&lt; bool &gt;',['../struct_c_l_i_1_1is__bool_3_01bool_01_4.html',1,'CLI']]],
