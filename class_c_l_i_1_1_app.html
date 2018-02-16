@@ -89,6 +89,8 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a4a9c762c56b6ff0f5b3505bcb75d0bbe">allow_extras</a> (bool allow=true)</td></tr>
 <tr class="memdesc:a4a9c762c56b6ff0f5b3505bcb75d0bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the error when extras are left over on the command line. <br /></td></tr>
 <tr class="separator:a4a9c762c56b6ff0f5b3505bcb75d0bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dc89a7418862cc3193125c02ce353fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a0dc89a7418862cc3193125c02ce353fb">allow_ini_extras</a> (bool allow=true)</td></tr>
+<tr class="separator:a0dc89a7418862cc3193125c02ce353fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8c668b5d28db6faed5716ab8feeb6ad"><td class="memItemLeft" align="right" valign="top"><a id="ab8c668b5d28db6faed5716ab8feeb6ad"></a>
 <a class="el" href="class_c_l_i_1_1_app.html">App</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ab8c668b5d28db6faed5716ab8feeb6ad">prefix_command</a> (bool allow=true)</td></tr>
 <tr class="memdesc:ab8c668b5d28db6faed5716ab8feeb6ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do not parse anything after the first unrecognised option and return. <br /></td></tr>
@@ -249,6 +251,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a82efdb6d3d77d2faff51a4960034a133">get_allow_extras</a> () const</td></tr>
 <tr class="memdesc:a82efdb6d3d77d2faff51a4960034a133"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the status of allow extras. <br /></td></tr>
 <tr class="separator:a82efdb6d3d77d2faff51a4960034a133"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade05393178fdd10b1d97c5d8cf34ba46"><td class="memItemLeft" align="right" valign="top"><a id="ade05393178fdd10b1d97c5d8cf34ba46"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ade05393178fdd10b1d97c5d8cf34ba46">get_allow_ini_extras</a> () const</td></tr>
+<tr class="memdesc:ade05393178fdd10b1d97c5d8cf34ba46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the status of allow extras. <br /></td></tr>
+<tr class="separator:ade05393178fdd10b1d97c5d8cf34ba46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3ed738a07047fd1d76c228d41804a76"><td class="memItemLeft" align="right" valign="top"><a id="ae3ed738a07047fd1d76c228d41804a76"></a>
 <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ae3ed738a07047fd1d76c228d41804a76">get_help_ptr</a> ()</td></tr>
 <tr class="memdesc:ae3ed738a07047fd1d76c228d41804a76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a pointer to the help flag. <br /></td></tr>
@@ -347,6 +353,10 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ae994679fee098b93cbc654a99b8019ee">allow_extras_</a> {false}</td></tr>
 <tr class="memdesc:ae994679fee098b93cbc654a99b8019ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, allow extra arguments (ie, don't throw an error). INHERITABLE. <br /></td></tr>
 <tr class="separator:ae994679fee098b93cbc654a99b8019ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a20406433336bab8dfb5d980b5ab24a"><td class="memItemLeft" align="right" valign="top"><a id="a2a20406433336bab8dfb5d980b5ab24a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a2a20406433336bab8dfb5d980b5ab24a">allow_ini_extras_</a> {false}</td></tr>
+<tr class="memdesc:a2a20406433336bab8dfb5d980b5ab24a"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, allow extra arguments in the ini file (ie, don't throw an error). INHERITABLE. <br /></td></tr>
+<tr class="separator:a2a20406433336bab8dfb5d980b5ab24a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9ad6cc617a88525ee966a7d49c6331e"><td class="memItemLeft" align="right" valign="top"><a id="ad9ad6cc617a88525ee966a7d49c6331e"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ad9ad6cc617a88525ee966a7d49c6331e">prefix_command_</a> {false}</td></tr>
 <tr class="memdesc:ad9ad6cc617a88525ee966a7d49c6331e"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, return immediately on an unrecognised option (implies allow_extras) INHERITABLE. <br /></td></tr>
@@ -1297,6 +1307,33 @@ template&lt;typename T &gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a0dc89a7418862cc3193125c02ce353fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dc89a7418862cc3193125c02ce353fb">&#9670;&nbsp;</a></span>allow_ini_extras()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_c_l_i_1_1_app.html">App</a>* CLI::App::allow_ini_extras </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>allow</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Remove the error when extras are left over on the command line. Will also call <a class="el" href="class_c_l_i_1_1_app.html#a4a9c762c56b6ff0f5b3505bcb75d0bbe" title="Remove the error when extras are left over on the command line. ">App::allow_extras()</a>. </p>
 
 </div>
 </div>

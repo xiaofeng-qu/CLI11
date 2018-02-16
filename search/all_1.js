@@ -10,6 +10,8 @@ var searchData=
   ['add_5fsubcommand',['add_subcommand',['../class_c_l_i_1_1_app.html#a57637ff18e847a9e5eaff23e6253506a',1,'CLI::App']]],
   ['allow_5fextras',['allow_extras',['../class_c_l_i_1_1_app.html#a4a9c762c56b6ff0f5b3505bcb75d0bbe',1,'CLI::App']]],
   ['allow_5fextras_5f',['allow_extras_',['../class_c_l_i_1_1_app.html#ae994679fee098b93cbc654a99b8019ee',1,'CLI::App']]],
+  ['allow_5fini_5fextras',['allow_ini_extras',['../class_c_l_i_1_1_app.html#a0dc89a7418862cc3193125c02ce353fb',1,'CLI::App']]],
+  ['allow_5fini_5fextras_5f',['allow_ini_extras_',['../class_c_l_i_1_1_app.html#a2a20406433336bab8dfb5d980b5ab24a',1,'CLI::App']]],
   ['app',['App',['../class_c_l_i_1_1_app.html',1,'CLI::App'],['../class_c_l_i_1_1_app.html#a38af79b4eff95fcd99b3b915459b5e31',1,'CLI::App::App(std::string description_, App *parent)'],['../class_c_l_i_1_1_app.html#a49ac0df03abe9a395b80cf4b11d58737',1,'CLI::App::App(std::string description_=&quot;&quot;)']]],
   ['appfriend',['AppFriend',['../struct_c_l_i_1_1detail_1_1_app_friend.html',1,'CLI::detail']]],
   ['argumentmismatch',['ArgumentMismatch',['../class_c_l_i_1_1_argument_mismatch.html',1,'CLI']]],

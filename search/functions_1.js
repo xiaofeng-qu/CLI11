@@ -9,6 +9,7 @@ var searchData=
   ['add_5fset_5fignore_5fcase',['add_set_ignore_case',['../class_c_l_i_1_1_app.html#abb801d938271db58c1ef4ccacd07bf42',1,'CLI::App::add_set_ignore_case(std::string name, std::string &amp;member, std::set&lt; std::string &gt; options, std::string description=&quot;&quot;)'],['../class_c_l_i_1_1_app.html#af72eebccf115ba591c2c37882b2a7d1e',1,'CLI::App::add_set_ignore_case(std::string name, std::string &amp;member, std::set&lt; std::string &gt; options, std::string description, bool defaulted)']]],
   ['add_5fsubcommand',['add_subcommand',['../class_c_l_i_1_1_app.html#a57637ff18e847a9e5eaff23e6253506a',1,'CLI::App']]],
   ['allow_5fextras',['allow_extras',['../class_c_l_i_1_1_app.html#a4a9c762c56b6ff0f5b3505bcb75d0bbe',1,'CLI::App']]],
+  ['allow_5fini_5fextras',['allow_ini_extras',['../class_c_l_i_1_1_app.html#a0dc89a7418862cc3193125c02ce353fb',1,'CLI::App']]],
   ['app',['App',['../class_c_l_i_1_1_app.html#a38af79b4eff95fcd99b3b915459b5e31',1,'CLI::App::App(std::string description_, App *parent)'],['../class_c_l_i_1_1_app.html#a49ac0df03abe9a395b80cf4b11d58737',1,'CLI::App::App(std::string description_=&quot;&quot;)']]],
   ['autotimer',['AutoTimer',['../class_c_l_i_1_1_auto_timer.html#a0ebfc16241474929ea99e201df9855f7',1,'CLI::AutoTimer']]]
 ];
