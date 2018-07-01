@@ -1,14 +1,10 @@
 var searchData=
 [
-  ['set_5fcallback',['set_callback',['../class_c_l_i_1_1_app.html#a415b64aed974a5d6f2bdbf332f7c192b',1,'CLI::App']]],
-  ['set_5fconfig',['set_config',['../class_c_l_i_1_1_app.html#a98131805cad08b7e4d84519937bd0702',1,'CLI::App']]],
-  ['set_5fcustom_5foption',['set_custom_option',['../class_c_l_i_1_1_option.html#a2daaa68ba5d4acae30530b0dc6f9ca49',1,'CLI::Option']]],
-  ['set_5fdefault_5fstr',['set_default_str',['../class_c_l_i_1_1_option.html#ae8f22e01572bae319194a4d3ddfbbacd',1,'CLI::Option']]],
-  ['set_5fdefault_5fval',['set_default_val',['../class_c_l_i_1_1_option.html#a0f112360356209e5228e35bc52f1012f',1,'CLI::Option']]],
-  ['set_5ffailure_5fmessage',['set_failure_message',['../class_c_l_i_1_1_app.html#a1096cf2d8ba400a716488792e6163398',1,'CLI::App']]],
-  ['set_5ffooter',['set_footer',['../class_c_l_i_1_1_app.html#a4a88611568c2fee5d983d2608e7547a9',1,'CLI::App']]],
-  ['set_5fhelp_5fflag',['set_help_flag',['../class_c_l_i_1_1_app.html#a7f32db73d430b9930d61cc88c5a54615',1,'CLI::App']]],
-  ['set_5ftype_5fname',['set_type_name',['../class_c_l_i_1_1_option.html#af844e09c72687df7c4796321925a2aef',1,'CLI::Option']]],
-  ['simple',['Simple',['../class_c_l_i_1_1_timer.html#ada74be7f819d3eaa65e3e829a582be32',1,'CLI::Timer']]],
-  ['single_5fname',['single_name',['../class_c_l_i_1_1_option.html#a9a3f11d8fa8b2dc6009f4b999f147b6d',1,'CLI::Option']]]
+  ['parse',['parse',['../class_c_l_i_1_1_app.html#a5ddf139d5fe065289aca7b83d5d045d9',1,'CLI::App::parse(int argc, const char *const *argv)'],['../class_c_l_i_1_1_app.html#a878c1067ade7145aa11478d64f5173ed',1,'CLI::App::parse(std::vector&lt; std::string &gt; &amp;args)']]],
+  ['parse_5farg',['parse_arg',['../struct_c_l_i_1_1detail_1_1_app_friend.html#ab82dffa5cf9266f27dffd5ca5b1f2af3',1,'CLI::detail::AppFriend']]],
+  ['parse_5forder',['parse_order',['../class_c_l_i_1_1_app.html#a6a350a9b89b87e35e83b390bc34f71d4',1,'CLI::App']]],
+  ['parse_5fsubcommand',['parse_subcommand',['../struct_c_l_i_1_1detail_1_1_app_friend.html#a45f3935dccd56b5fe50917d47c77c7b2',1,'CLI::detail::AppFriend']]],
+  ['parsed',['parsed',['../class_c_l_i_1_1_app.html#a31f30e3313c5d0d2646556b0e232bbbc',1,'CLI::App']]],
+  ['pre_5fcallback',['pre_callback',['../class_c_l_i_1_1_app.html#a5d74be8e210e779874584a3336aaf506',1,'CLI::App']]],
+  ['prefix_5fcommand',['prefix_command',['../class_c_l_i_1_1_app.html#ab8c668b5d28db6faed5716ab8feeb6ad',1,'CLI::App']]]
 ];

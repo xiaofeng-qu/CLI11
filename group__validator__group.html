@@ -59,48 +59,10 @@ $(function() {
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Validators</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Some validators that are provided.  
-<a href="#details">More...</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:gaa8f083f8e0832c90e78208abaad19dee"><td class="memItemLeft" align="right" valign="top"><a id="gaa8f083f8e0832c90e78208abaad19dee"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__validator__group.html#gaa8f083f8e0832c90e78208abaad19dee">CLI::ExistingFile</a> (const std::string &amp;filename)</td></tr>
-<tr class="memdesc:gaa8f083f8e0832c90e78208abaad19dee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check for an existing file. <br /></td></tr>
-<tr class="separator:gaa8f083f8e0832c90e78208abaad19dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad30d89bf5cda6303fe00573b46ccf955"><td class="memItemLeft" align="right" valign="top"><a id="gad30d89bf5cda6303fe00573b46ccf955"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__validator__group.html#gad30d89bf5cda6303fe00573b46ccf955">CLI::ExistingDirectory</a> (const std::string &amp;filename)</td></tr>
-<tr class="memdesc:gad30d89bf5cda6303fe00573b46ccf955"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check for an existing directory. <br /></td></tr>
-<tr class="separator:gad30d89bf5cda6303fe00573b46ccf955"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaac3ee129b34b72b4798c87d74a74d690"><td class="memItemLeft" align="right" valign="top"><a id="gaac3ee129b34b72b4798c87d74a74d690"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__validator__group.html#gaac3ee129b34b72b4798c87d74a74d690">CLI::ExistingPath</a> (const std::string &amp;filename)</td></tr>
-<tr class="memdesc:gaac3ee129b34b72b4798c87d74a74d690"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check for an existing path. <br /></td></tr>
-<tr class="separator:gaac3ee129b34b72b4798c87d74a74d690"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf864c1c52a8db17f8b81765809d3fd60"><td class="memItemLeft" align="right" valign="top"><a id="gaf864c1c52a8db17f8b81765809d3fd60"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__validator__group.html#gaf864c1c52a8db17f8b81765809d3fd60">CLI::NonexistentPath</a> (const std::string &amp;filename)</td></tr>
-<tr class="memdesc:gaf864c1c52a8db17f8b81765809d3fd60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check for a non-existing path. <br /></td></tr>
-<tr class="separator:gaf864c1c52a8db17f8b81765809d3fd60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga377b555723d0eff63319ddbac6dac6db"><td class="memTemplParams" colspan="2"><a id="ga377b555723d0eff63319ddbac6dac6db"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga377b555723d0eff63319ddbac6dac6db"><td class="memTemplItemLeft" align="right" valign="top">std::function&lt; std::string(const std::string &amp;)&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__validator__group.html#ga377b555723d0eff63319ddbac6dac6db">CLI::Range</a> (T min, T max)</td></tr>
-<tr class="memdesc:ga377b555723d0eff63319ddbac6dac6db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Produce a range validator function. <br /></td></tr>
-<tr class="separator:ga377b555723d0eff63319ddbac6dac6db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae0d5a90de0080b4a76a2d79fda57d6bb"><td class="memTemplParams" colspan="2"><a id="gae0d5a90de0080b4a76a2d79fda57d6bb"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gae0d5a90de0080b4a76a2d79fda57d6bb"><td class="memTemplItemLeft" align="right" valign="top">std::function&lt; std::string(const std::string &amp;)&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__validator__group.html#gae0d5a90de0080b4a76a2d79fda57d6bb">CLI::Range</a> (T max)</td></tr>
-<tr class="memdesc:gae0d5a90de0080b4a76a2d79fda57d6bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Range of one value is 0 to value. <br /></td></tr>
-<tr class="separator:gae0d5a90de0080b4a76a2d79fda57d6bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>Some validators that are provided. </p>
-<p>These are simple <code>void(std::string&amp;)</code> validators that are useful. They throw a <a class="el" href="class_c_l_i_1_1_validation_error.html" title="Thrown when validation of results fails. ">ValidationError</a> if they fail (or the normally expected error if the cast fails) </p>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

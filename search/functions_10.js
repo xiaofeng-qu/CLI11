@@ -1,9 +1,11 @@
 var searchData=
 [
-  ['take_5ffirst',['take_first',['../class_c_l_i_1_1_option_base.html#abd8b4ebfbff744992a543641cad2b278',1,'CLI::OptionBase']]],
-  ['take_5flast',['take_last',['../class_c_l_i_1_1_option_base.html#a930f24441fb52b8d21f6ad05edc6ee94',1,'CLI::OptionBase']]],
-  ['time_5fit',['time_it',['../class_c_l_i_1_1_timer.html#a7e078926ba12b6529177be001357f2e7',1,'CLI::Timer']]],
-  ['timer',['Timer',['../class_c_l_i_1_1_timer.html#a1cad535ef02042b51906cb464861c9be',1,'CLI::Timer']]],
-  ['to_5fstring',['to_string',['../class_c_l_i_1_1_timer.html#a35a7a90b7f96da40dfe4cbfb2f0b4f9e',1,'CLI::Timer']]],
-  ['transform',['transform',['../class_c_l_i_1_1_option.html#aec424ae8d4baed3d0195bd9cbc521554',1,'CLI::Option']]]
+  ['range',['Range',['../struct_c_l_i_1_1_range.html#a83d910e7a9faf8e73af6f8a8fd70bf69',1,'CLI::Range']]],
+  ['remaining',['remaining',['../class_c_l_i_1_1_app.html#a0474d71afa5672f645d2b645723c9818',1,'CLI::App']]],
+  ['remaining_5fsize',['remaining_size',['../class_c_l_i_1_1_app.html#a32adb7bd2643ff7e293802210516ca95',1,'CLI::App']]],
+  ['remove_5foption',['remove_option',['../class_c_l_i_1_1_app.html#a3058b128735eec0813589b56c5453115',1,'CLI::App']]],
+  ['require_5fsubcommand',['require_subcommand',['../class_c_l_i_1_1_app.html#a9cb090791a2594ffca877fd6afbf858a',1,'CLI::App::require_subcommand()'],['../class_c_l_i_1_1_app.html#ae1bb42a7f768d636671552cb345f2d6c',1,'CLI::App::require_subcommand(int value)'],['../class_c_l_i_1_1_app.html#a07b1b36c8362df966ba8f16428b1e7da',1,'CLI::App::require_subcommand(size_t min, size_t max)']]],
+  ['required',['required',['../class_c_l_i_1_1_option_base.html#a38c0ea47532de712dd8d9803633383b2',1,'CLI::OptionBase']]],
+  ['results',['results',['../class_c_l_i_1_1_option.html#a2cfcf3a7cb89d595518a2af020ac9107',1,'CLI::Option']]],
+  ['run_5fcallback',['run_callback',['../class_c_l_i_1_1_app.html#a7669340db7d8cbb2eed9ceeb884dd61a',1,'CLI::App::run_callback()'],['../class_c_l_i_1_1_option.html#ab06eb6c31666a4a003aeb2cf3e5cdcd9',1,'CLI::Option::run_callback()']]]
 ];

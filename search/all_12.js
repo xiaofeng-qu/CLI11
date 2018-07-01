@@ -8,7 +8,12 @@ var searchData=
   ['time_5fprint_5ft',['time_print_t',['../class_c_l_i_1_1_timer.html#a565ef6a0006434ac8f4e161e71b1042e',1,'CLI::Timer']]],
   ['timer',['Timer',['../class_c_l_i_1_1_timer.html',1,'CLI::Timer'],['../class_c_l_i_1_1_timer.html#a1cad535ef02042b51906cb464861c9be',1,'CLI::Timer::Timer()']]],
   ['title_5f',['title_',['../class_c_l_i_1_1_timer.html#a2e423868378db3b64f6d459a9c820899',1,'CLI::Timer']]],
+  ['tname',['tname',['../struct_c_l_i_1_1_validator.html#a2396b2b4e4af76793f5cc6d684166680',1,'CLI::Validator']]],
   ['to_5fstring',['to_string',['../class_c_l_i_1_1_timer.html#a35a7a90b7f96da40dfe4cbfb2f0b4f9e',1,'CLI::Timer']]],
   ['transform',['transform',['../class_c_l_i_1_1_option.html#aec424ae8d4baed3d0195bd9cbc521554',1,'CLI::Option']]],
-  ['typeval_5f',['typeval_',['../class_c_l_i_1_1_option.html#a29f8dc4f186d107c7a0ca535fd421fbb',1,'CLI::Option']]]
+  ['type_5fname',['type_name',['../class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902',1,'CLI::Option']]],
+  ['type_5fname_5f',['type_name_',['../class_c_l_i_1_1_option.html#a2080c70a11f8935118dffc924824aa87',1,'CLI::Option']]],
+  ['type_5fname_5ffn',['type_name_fn',['../class_c_l_i_1_1_option.html#a08c4fc3c4d254ac57a48d5756626a03c',1,'CLI::Option']]],
+  ['type_5fsize',['type_size',['../class_c_l_i_1_1_option.html#a27294bdd209e3d0c574c0eb34305e9f1',1,'CLI::Option']]],
+  ['type_5fsize_5f',['type_size_',['../class_c_l_i_1_1_option.html#af44dc98f95faf60a04ce44f286b07810',1,'CLI::Option']]]
 ];
