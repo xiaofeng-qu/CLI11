@@ -203,6 +203,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memdesc:a307543e6e4ddeb6e4ea00438b5b10be3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of times the option expects to be included. <br /></td></tr>
 <tr class="separator:a307543e6e4ddeb6e4ea00438b5b10be3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe31a608506cbe75d40d6cced342be11"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#afe31a608506cbe75d40d6cced342be11">get_items_expected</a> () const</td></tr>
+<tr class="memdesc:afe31a608506cbe75d40d6cced342be11"><td class="mdescLeft">&#160;</td><td class="mdescRight">The total number of expected values (including the type) This is positive if exactly this number is expected, and negitive for at least N values.  <a href="#afe31a608506cbe75d40d6cced342be11">More...</a><br /></td></tr>
 <tr class="separator:afe31a608506cbe75d40d6cced342be11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26527442a386c8ccc369069c00062398"><td class="memItemLeft" align="right" valign="top"><a id="a26527442a386c8ccc369069c00062398"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a26527442a386c8ccc369069c00062398">get_default</a> () const</td></tr>
@@ -351,7 +352,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:aefc0351fb18fce947774aace2d387508"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_c_l_i_1_1_option_base"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_c_l_i_1_1_option_base')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_c_l_i_1_1_option_base.html">CLI::OptionBase&lt; Option &gt;</a></td></tr>
 <tr class="memitem:aeccfd835475420d963f2fff446c32003 inherit pro_methods_class_c_l_i_1_1_option_base"><td class="memItemLeft" align="right" valign="top"><a id="aeccfd835475420d963f2fff446c32003"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>copy_to</b> (T *other) const</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option_base.html#aeccfd835475420d963f2fff446c32003">copy_to</a> (T *other) const</td></tr>
+<tr class="memdesc:aeccfd835475420d963f2fff446c32003 inherit pro_methods_class_c_l_i_1_1_option_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the contents to another similar class (one based on OptionBase) <br /></td></tr>
 <tr class="separator:aeccfd835475420d963f2fff446c32003 inherit pro_methods_class_c_l_i_1_1_option_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -474,7 +476,8 @@ MultiOptionPolicy&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   </tr>
 </table>
 </div><div class="memdoc">
-<p>The total number of expected values (including the type) This is positive if exactly this number is expected, and negitive for at least N values</p>
+
+<p>The total number of expected values (including the type) This is positive if exactly this number is expected, and negitive for at least N values. </p>
 <p>v = fabs(size_type*expected) !MultiOptionPolicyThrow | Expected &lt; 0 | Expected == 0 | Expected &gt; 0 Size &lt; 0 | -v | 0 | -v Size == 0 | 0 | 0 | 0 Size &gt; 0 | -v | 0 | -v // Expected must be 1</p>
 <p>MultiOptionPolicy::Throw | Expected &lt; 0 | Expected == 0 | Expected &gt; 0 Size &lt; 0 | -v | 0 | v Size == 0 | 0 | 0 | 0 Size &gt; 0 | v | 0 | v // Expected must be 1 </p>
 

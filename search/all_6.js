@@ -11,5 +11,6 @@ var searchData=
   ['formatter_5f',['formatter_',['../class_c_l_i_1_1_app.html#af55e852ed6e916b2b0182f46d6daabfc',1,'CLI::App']]],
   ['formatter_5ffn',['formatter_fn',['../class_c_l_i_1_1_app.html#aa38148af0f7a368e03610a0590fbb406',1,'CLI::App']]],
   ['formatterbase',['FormatterBase',['../class_c_l_i_1_1_formatter_base.html',1,'CLI']]],
-  ['formatterlambda',['FormatterLambda',['../class_c_l_i_1_1_formatter_lambda.html',1,'CLI']]]
+  ['formatterlambda',['FormatterLambda',['../class_c_l_i_1_1_formatter_lambda.html',1,'CLI::FormatterLambda'],['../class_c_l_i_1_1_formatter_lambda.html#aca398f0ed80cb70f742ffaf48355e42c',1,'CLI::FormatterLambda::FormatterLambda()']]],
+  ['func',['func',['../struct_c_l_i_1_1_validator.html#a1ba06930fa3560e8da7607ff7aed3cef',1,'CLI::Validator']]]
 ];

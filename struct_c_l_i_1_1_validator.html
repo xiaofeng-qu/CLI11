@@ -92,8 +92,8 @@ Inheritance diagram for CLI::Validator:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a813de1308f736d24ab56e6a1d449e82b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_l_i_1_1_validator.html#a813de1308f736d24ab56e6a1d449e82b">operator()</a> (const std::string &amp;filename) const</td></tr>
-<tr class="separator:a813de1308f736d24ab56e6a1d449e82b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e4e7670d82455a43c0d3f8c9cc1db4f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_l_i_1_1_validator.html#a3e4e7670d82455a43c0d3f8c9cc1db4f">operator()</a> (const std::string &amp;str) const</td></tr>
+<tr class="separator:a3e4e7670d82455a43c0d3f8c9cc1db4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34de8a4c4e94c9df0947b1cba38b8906"><td class="memItemLeft" align="right" valign="top"><a id="a34de8a4c4e94c9df0947b1cba38b8906"></a>
 <a class="el" href="struct_c_l_i_1_1_validator.html">Validator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_l_i_1_1_validator.html#a34de8a4c4e94c9df0947b1cba38b8906">operator &amp;</a> (const <a class="el" href="struct_c_l_i_1_1_validator.html">Validator</a> &amp;other) const</td></tr>
 <tr class="memdesc:a34de8a4c4e94c9df0947b1cba38b8906"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combining validators is a new validator. <br /></td></tr>
@@ -109,16 +109,15 @@ Public Attributes</h2></td></tr>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_l_i_1_1_validator.html#a2396b2b4e4af76793f5cc6d684166680">tname</a></td></tr>
 <tr class="memdesc:a2396b2b4e4af76793f5cc6d684166680"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the type name, if empty the type name will not be changed. <br /></td></tr>
 <tr class="separator:a2396b2b4e4af76793f5cc6d684166680"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17bfcdc631286df4a8ff6af677cb8193"><td class="memItemLeft" align="right" valign="top"><a id="a17bfcdc631286df4a8ff6af677cb8193"></a>
-std::function&lt; std::string(const std::string &amp;filename)&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>func</b></td></tr>
-<tr class="separator:a17bfcdc631286df4a8ff6af677cb8193"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ba06930fa3560e8da7607ff7aed3cef"><td class="memItemLeft" align="right" valign="top">std::function&lt; std::string(const std::string &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_l_i_1_1_validator.html#a1ba06930fa3560e8da7607ff7aed3cef">func</a></td></tr>
+<tr class="separator:a1ba06930fa3560e8da7607ff7aed3cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Some validators that are provided. </p>
 <p>These are simple <code>std::string(const std::string&amp;)</code> validators that are useful. They return a string if the validation fails. A custom struct is provided, as well, with the same user semantics, but with the ability to provide a new type name. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a813de1308f736d24ab56e6a1d449e82b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a813de1308f736d24ab56e6a1d449e82b">&#9670;&nbsp;</a></span>operator()()</h2>
+<a id="a3e4e7670d82455a43c0d3f8c9cc1db4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e4e7670d82455a43c0d3f8c9cc1db4f">&#9670;&nbsp;</a></span>operator()()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -130,7 +129,7 @@ std::function&lt; std::string(const std::string &amp;filename)&gt;&#160;</td><td
           <td class="memname">std::string CLI::Validator::operator() </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -140,7 +139,23 @@ std::function&lt; std::string(const std::string &amp;filename)&gt;&#160;</td><td
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This is the required operator for a validator - provided to help users (CLI11 uses the func directly) </p>
+<p>This is the required operator for a validator - provided to help users (CLI11 uses the member <code>func</code> directly) </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1ba06930fa3560e8da7607ff7aed3cef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ba06930fa3560e8da7607ff7aed3cef">&#9670;&nbsp;</a></span>func</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;std::string(const std::string &amp;)&gt; CLI::Validator::func</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This it the base function that is to be called. Returns a string error message if validation fails. </p>
 
 </div>
 </div>

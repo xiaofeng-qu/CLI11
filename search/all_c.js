@@ -14,7 +14,7 @@ var searchData=
   ['make_5fpositionals',['make_positionals',['../class_c_l_i_1_1_formatter.html#aab5f07a6d3154ace0be4d9dbf85f795b',1,'CLI::Formatter']]],
   ['make_5fsubcommand',['make_subcommand',['../class_c_l_i_1_1_formatter.html#a82a62cd4b9833cab20e82c4d099c0c7f',1,'CLI::Formatter']]],
   ['make_5fsubcommands',['make_subcommands',['../class_c_l_i_1_1_formatter.html#a9e6b7c4c6eee50b11fe1ca785002db04',1,'CLI::Formatter']]],
-  ['make_5ftime_5fstr',['make_time_str',['../class_c_l_i_1_1_timer.html#a330db0abf025cb5c3e70a4efcad080b2',1,'CLI::Timer']]],
+  ['make_5ftime_5fstr',['make_time_str',['../class_c_l_i_1_1_timer.html#a330db0abf025cb5c3e70a4efcad080b2',1,'CLI::Timer::make_time_str() const'],['../class_c_l_i_1_1_timer.html#a6aaeef9c03d6c0d44c7914d66d9221e5',1,'CLI::Timer::make_time_str(double time) const']]],
   ['make_5fusage',['make_usage',['../class_c_l_i_1_1_formatter.html#a3aac4a7ce4ca139704e632915892024c',1,'CLI::Formatter']]],
   ['mandatory',['mandatory',['../class_c_l_i_1_1_option_base.html#a81e5fe4b564f2e576ee9e4966194a682',1,'CLI::OptionBase']]],
   ['missing_5f',['missing_',['../class_c_l_i_1_1_app.html#a664a3162461b3121caf5cae7f65a95e6',1,'CLI::App']]],
