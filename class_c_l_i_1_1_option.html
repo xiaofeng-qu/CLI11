@@ -134,6 +134,10 @@ template&lt;typename A , typename B , typename... ARG&gt; </td></tr>
 <tr class="memitem:ac2e1015a0d5d0b9719c164fdd9ef3664"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#ac2e1015a0d5d0b9719c164fdd9ef3664">needs</a> (A opt, B opt1, ARG... args)</td></tr>
 <tr class="memdesc:ac2e1015a0d5d0b9719c164fdd9ef3664"><td class="mdescLeft">&#160;</td><td class="mdescRight">Any number supported, any mix of string and Opt. <br /></td></tr>
 <tr class="separator:ac2e1015a0d5d0b9719c164fdd9ef3664"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab72f7fef9aca5eefb25b09c1abffb3c"><td class="memItemLeft" align="right" valign="top"><a id="aab72f7fef9aca5eefb25b09c1abffb3c"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#aab72f7fef9aca5eefb25b09c1abffb3c">remove_needs</a> (<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *opt)</td></tr>
+<tr class="memdesc:aab72f7fef9aca5eefb25b09c1abffb3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove needs link from an option. Returns true if the option really was in the needs list. <br /></td></tr>
+<tr class="separator:aab72f7fef9aca5eefb25b09c1abffb3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9597b8271ebc4ad41c2e86f31834a1a3"><td class="memItemLeft" align="right" valign="top"><a id="a9597b8271ebc4ad41c2e86f31834a1a3"></a>
 <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a9597b8271ebc4ad41c2e86f31834a1a3">excludes</a> (<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *opt)</td></tr>
 <tr class="memdesc:a9597b8271ebc4ad41c2e86f31834a1a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets excluded options. <br /></td></tr>
@@ -148,6 +152,10 @@ template&lt;typename A , typename B , typename... ARG&gt; </td></tr>
 <tr class="memitem:a758ca7c5f8bf8a9fc2ccd4c347f871fb"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a758ca7c5f8bf8a9fc2ccd4c347f871fb">excludes</a> (A opt, B opt1, ARG... args)</td></tr>
 <tr class="memdesc:a758ca7c5f8bf8a9fc2ccd4c347f871fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Any number supported, any mix of string and Opt. <br /></td></tr>
 <tr class="separator:a758ca7c5f8bf8a9fc2ccd4c347f871fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a414e6a8f76443036a9fb096f49165660"><td class="memItemLeft" align="right" valign="top"><a id="a414e6a8f76443036a9fb096f49165660"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a414e6a8f76443036a9fb096f49165660">remove_excludes</a> (<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *opt)</td></tr>
+<tr class="memdesc:a414e6a8f76443036a9fb096f49165660"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove needs link from an option. Returns true if the option really was in the needs list. <br /></td></tr>
+<tr class="separator:a414e6a8f76443036a9fb096f49165660"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1969c5f5a525910d761756a6d8e63a8"><td class="memItemLeft" align="right" valign="top"><a id="aa1969c5f5a525910d761756a6d8e63a8"></a>
 <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#aa1969c5f5a525910d761756a6d8e63a8">envname</a> (std::string name)</td></tr>
 <tr class="memdesc:aa1969c5f5a525910d761756a6d8e63a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets environment variable to read if no option given. <br /></td></tr>
@@ -401,10 +409,10 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 std::vector&lt; std::function&lt; std::string(std::string &amp;)&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a88236d1e0193c24b6af92d8916534946">validators_</a></td></tr>
 <tr class="memdesc:a88236d1e0193c24b6af92d8916534946"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of validators to run on each value parsed. <br /></td></tr>
 <tr class="separator:a88236d1e0193c24b6af92d8916534946"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a919e5f1e0af05e2fef0f299a43b08e78"><td class="memItemLeft" align="right" valign="top"><a id="a919e5f1e0af05e2fef0f299a43b08e78"></a>
-std::set&lt; <a class="el" href="class_c_l_i_1_1_option.html">Option</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a919e5f1e0af05e2fef0f299a43b08e78">requires_</a></td></tr>
-<tr class="memdesc:a919e5f1e0af05e2fef0f299a43b08e78"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of options that are required with this option. <br /></td></tr>
-<tr class="separator:a919e5f1e0af05e2fef0f299a43b08e78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bd8d2ff461e8046b284cdbfcd741dce"><td class="memItemLeft" align="right" valign="top"><a id="a3bd8d2ff461e8046b284cdbfcd741dce"></a>
+std::set&lt; <a class="el" href="class_c_l_i_1_1_option.html">Option</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a3bd8d2ff461e8046b284cdbfcd741dce">needs_</a></td></tr>
+<tr class="memdesc:a3bd8d2ff461e8046b284cdbfcd741dce"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of options that are required with this option. <br /></td></tr>
+<tr class="separator:a3bd8d2ff461e8046b284cdbfcd741dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49c5490dd092599c067833fd0f5c79d3"><td class="memItemLeft" align="right" valign="top"><a id="a49c5490dd092599c067833fd0f5c79d3"></a>
 std::set&lt; <a class="el" href="class_c_l_i_1_1_option.html">Option</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a49c5490dd092599c067833fd0f5c79d3">excludes_</a></td></tr>
 <tr class="memdesc:a49c5490dd092599c067833fd0f5c79d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of options that are excluded with this option. <br /></td></tr>
