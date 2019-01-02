@@ -36,7 +36,6 @@ var searchData=
   ['get_5frequire_5fsubcommand_5fmax',['get_require_subcommand_max',['../class_c_l_i_1_1_app.html#a39733300bce0979edef87f39f421d6f2',1,'CLI::App']]],
   ['get_5frequire_5fsubcommand_5fmin',['get_require_subcommand_min',['../class_c_l_i_1_1_app.html#aede2748ac31c2c65f6c495085cec0ffb',1,'CLI::App']]],
   ['get_5frequired',['get_required',['../class_c_l_i_1_1_option_base.html#aa902dee6da6d7f5b083b1c7d5f9c1308',1,'CLI::OptionBase']]],
-  ['get_5fshort_5fcircuit',['get_short_circuit',['../class_c_l_i_1_1_option.html#a2158739ee310bc858480130587e77bdc',1,'CLI::Option']]],
   ['get_5fsnames',['get_snames',['../class_c_l_i_1_1_option.html#a9835e8f531d8a0a53d50380731123f15',1,'CLI::Option']]],
   ['get_5fsubcommand',['get_subcommand',['../class_c_l_i_1_1_app.html#a8ff9e3f4db10c8958c083167c6007f6e',1,'CLI::App::get_subcommand(App *subcom) const'],['../class_c_l_i_1_1_app.html#a396b7972923f837f8fe2fd1257799078',1,'CLI::App::get_subcommand(std::string subcom) const']]],
   ['get_5fsubcommands',['get_subcommands',['../class_c_l_i_1_1_app.html#adf5b6792ad7849c6966825320fc9b85d',1,'CLI::App::get_subcommands() const'],['../class_c_l_i_1_1_app.html#ac03e5e9ca00d2d0b5d20c362e6dcbe9f',1,'CLI::App::get_subcommands(const std::function&lt; bool(const App *)&gt; &amp;filter) const'],['../class_c_l_i_1_1_app.html#a9dca85c30eb14dd7e3f02f07e4f68c5c',1,'CLI::App::get_subcommands(const std::function&lt; bool(App *)&gt; &amp;filter)']]],

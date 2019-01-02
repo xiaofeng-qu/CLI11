@@ -170,8 +170,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#aa4f53c4f43bf3c10f5d160d4a57e757c">multi_option_policy</a> (MultiOptionPolicy value=MultiOptionPolicy::Throw)</td></tr>
 <tr class="memdesc:aa4f53c4f43bf3c10f5d160d4a57e757c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Take the last argument if given multiple times (or another policy) <br /></td></tr>
 <tr class="separator:aa4f53c4f43bf3c10f5d160d4a57e757c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79f8e50dcedae28d5337385e5350f519"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a79f8e50dcedae28d5337385e5350f519">short_circuit</a> (bool value=true)</td></tr>
-<tr class="separator:a79f8e50dcedae28d5337385e5350f519"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Accessors</div></td></tr>
 <tr class="memitem:a88f36e42c1afcf1d4887230cc133f1fa"><td class="memItemLeft" align="right" valign="top"><a id="a88f36e42c1afcf1d4887230cc133f1fa"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a88f36e42c1afcf1d4887230cc133f1fa">get_type_size</a> () const</td></tr>
@@ -193,10 +191,6 @@ std::set&lt; <a class="el" href="class_c_l_i_1_1_option.html">Option</a> * &gt;&
 std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#acdc83d34e33159c47533168dfb51d9f2">get_defaultval</a> () const</td></tr>
 <tr class="memdesc:acdc83d34e33159c47533168dfb51d9f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default value (for help printing) <br /></td></tr>
 <tr class="separator:acdc83d34e33159c47533168dfb51d9f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2158739ee310bc858480130587e77bdc"><td class="memItemLeft" align="right" valign="top"><a id="a2158739ee310bc858480130587e77bdc"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a2158739ee310bc858480130587e77bdc">get_short_circuit</a> () const</td></tr>
-<tr class="memdesc:a2158739ee310bc858480130587e77bdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">See if this is supposed to short circuit (skip validation, INI, etc) (Used for help flags) <br /></td></tr>
-<tr class="separator:a2158739ee310bc858480130587e77bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ab1e8c10d6d6c3b49b71cb0d8e5d3fb"><td class="memItemLeft" align="right" valign="top"><a id="a8ab1e8c10d6d6c3b49b71cb0d8e5d3fb"></a>
 callback_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a8ab1e8c10d6d6c3b49b71cb0d8e5d3fb">get_callback</a> () const</td></tr>
 <tr class="memdesc:a8ab1e8c10d6d6c3b49b71cb0d8e5d3fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the callback function. <br /></td></tr>
@@ -429,10 +423,6 @@ std::set&lt; <a class="el" href="class_c_l_i_1_1_option.html">Option</a> * &gt;&
 callback_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#ab79262b952902ff5e1cba6e3788aca54">callback_</a></td></tr>
 <tr class="memdesc:ab79262b952902ff5e1cba6e3788aca54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Options store a callback to do all the work. <br /></td></tr>
 <tr class="separator:ab79262b952902ff5e1cba6e3788aca54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60b330f485b63ac7cc42fbf0c5dc8830"><td class="memItemLeft" align="right" valign="top"><a id="a60b330f485b63ac7cc42fbf0c5dc8830"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a60b330f485b63ac7cc42fbf0c5dc8830">short_circuit_</a> {false}</td></tr>
-<tr class="memdesc:a60b330f485b63ac7cc42fbf0c5dc8830"><td class="mdescLeft">&#160;</td><td class="mdescRight">Options can short-circuit for help options or similar (called before parsing is validated) <br /></td></tr>
-<tr class="separator:a60b330f485b63ac7cc42fbf0c5dc8830"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Parsing results</div></td></tr>
 <tr class="memitem:af45b214347a715edf92b1e3de5c4b938"><td class="memItemLeft" align="right" valign="top"><a id="af45b214347a715edf92b1e3de5c4b938"></a>
 results_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#af45b214347a715edf92b1e3de5c4b938">results_</a></td></tr>
@@ -589,34 +579,6 @@ template&lt;typename T  = App&gt; </div>
 
 <p>Provided for backward compatibility. </p>
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000004">Deprecated:</a></b></dt><dd></dd></dl>
-
-</div>
-</div>
-<a id="a79f8e50dcedae28d5337385e5350f519"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79f8e50dcedae28d5337385e5350f519">&#9670;&nbsp;</a></span>short_circuit()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_c_l_i_1_1_option.html">Option</a>* CLI::Option::short_circuit </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>value</em> = <code>true</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Options with a short circuit set will run this function before parsing is finished.</p>
-<p>This is set on help functions, for example, to escape the normal validation. </p>
 
 </div>
 </div>
