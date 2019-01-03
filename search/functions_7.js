@@ -22,6 +22,7 @@ var searchData=
   ['get_5fhelp_5fall_5fptr',['get_help_all_ptr',['../class_c_l_i_1_1_app.html#a9afd276477475cfddc1f1d8f3af6e095',1,'CLI::App']]],
   ['get_5fhelp_5fptr',['get_help_ptr',['../class_c_l_i_1_1_app.html#ae3ed738a07047fd1d76c228d41804a76',1,'CLI::App::get_help_ptr()'],['../class_c_l_i_1_1_app.html#ad3b89865119fcdaf213880e25f7cff87',1,'CLI::App::get_help_ptr() const']]],
   ['get_5fignore_5fcase',['get_ignore_case',['../class_c_l_i_1_1_app.html#a590129f76003fcf849eeb18d05e4571c',1,'CLI::App::get_ignore_case()'],['../class_c_l_i_1_1_option_base.html#a12d180bda82c466cfbcd5fbeac27e956',1,'CLI::OptionBase::get_ignore_case()']]],
+  ['get_5fignore_5funderscore',['get_ignore_underscore',['../class_c_l_i_1_1_app.html#ad6af9821d55785a8d56744db78057cdd',1,'CLI::App::get_ignore_underscore()'],['../class_c_l_i_1_1_option_base.html#a321ce55e69252d0b01426480a8c6c894',1,'CLI::OptionBase::get_ignore_underscore()']]],
   ['get_5fitems_5fexpected',['get_items_expected',['../class_c_l_i_1_1_option.html#afe31a608506cbe75d40d6cced342be11',1,'CLI::Option']]],
   ['get_5flabel',['get_label',['../class_c_l_i_1_1_formatter_base.html#a7e8f9d7896c599f7befd84a9947d4cab',1,'CLI::FormatterBase']]],
   ['get_5flnames',['get_lnames',['../class_c_l_i_1_1_option.html#aa0d9acb900f807ea57fc4a6388765b20',1,'CLI::Option']]],
