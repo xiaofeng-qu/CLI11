@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['parse',['parse',['../class_c_l_i_1_1_app.html#a5ddf139d5fe065289aca7b83d5d045d9',1,'CLI::App::parse(int argc, const char *const *argv)'],['../class_c_l_i_1_1_app.html#a878c1067ade7145aa11478d64f5173ed',1,'CLI::App::parse(std::vector&lt; std::string &gt; &amp;args)']]],
+  ['parse',['parse',['../class_c_l_i_1_1_app.html#a5ddf139d5fe065289aca7b83d5d045d9',1,'CLI::App::parse(int argc, const char *const *argv)'],['../class_c_l_i_1_1_app.html#aeddbcc46ce27e3d5919d5191e33366d7',1,'CLI::App::parse(std::string commandline, bool ProgramNameIncluded=false)'],['../class_c_l_i_1_1_app.html#a878c1067ade7145aa11478d64f5173ed',1,'CLI::App::parse(std::vector&lt; std::string &gt; &amp;args)']]],
   ['parse_5farg',['parse_arg',['../struct_c_l_i_1_1detail_1_1_app_friend.html#ab82dffa5cf9266f27dffd5ca5b1f2af3',1,'CLI::detail::AppFriend']]],
   ['parse_5forder',['parse_order',['../class_c_l_i_1_1_app.html#a6a350a9b89b87e35e83b390bc34f71d4',1,'CLI::App']]],
   ['parse_5fsubcommand',['parse_subcommand',['../struct_c_l_i_1_1detail_1_1_app_friend.html#a45f3935dccd56b5fe50917d47c77c7b2',1,'CLI::detail::AppFriend']]],
