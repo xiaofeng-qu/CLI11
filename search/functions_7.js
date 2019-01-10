@@ -2,6 +2,7 @@ var searchData=
 [
   ['get_5fallow_5fconfig_5fextras',['get_allow_config_extras',['../class_c_l_i_1_1_app.html#a5d65ae4bfe40b6592b5c408f26b90acb',1,'CLI::App']]],
   ['get_5fallow_5fextras',['get_allow_extras',['../class_c_l_i_1_1_app.html#a82efdb6d3d77d2faff51a4960034a133',1,'CLI::App']]],
+  ['get_5fallow_5fwindows_5fstyle_5foptions',['get_allow_windows_style_options',['../class_c_l_i_1_1_app.html#a3620a019821239f7d8be472cead88cd2',1,'CLI::App']]],
   ['get_5fcallback',['get_callback',['../class_c_l_i_1_1_option.html#a8ab1e8c10d6d6c3b49b71cb0d8e5d3fb',1,'CLI::Option']]],
   ['get_5fcallback_5frun',['get_callback_run',['../class_c_l_i_1_1_option.html#aae19e4231b0c1ef14cf2f3c7189e453c',1,'CLI::Option']]],
   ['get_5fcolumn_5fwidth',['get_column_width',['../class_c_l_i_1_1_formatter_base.html#a9c24979d169c90e09589779f37e8a396',1,'CLI::FormatterBase']]],

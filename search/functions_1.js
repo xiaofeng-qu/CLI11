@@ -12,6 +12,7 @@ var searchData=
   ['add_5fsubcommand',['add_subcommand',['../class_c_l_i_1_1_app.html#a57637ff18e847a9e5eaff23e6253506a',1,'CLI::App']]],
   ['allow_5fconfig_5fextras',['allow_config_extras',['../class_c_l_i_1_1_app.html#ab79c8db4726b90b6fef32998b56931df',1,'CLI::App']]],
   ['allow_5fextras',['allow_extras',['../class_c_l_i_1_1_app.html#a4a9c762c56b6ff0f5b3505bcb75d0bbe',1,'CLI::App']]],
+  ['allow_5fwindows_5fstyle_5foptions',['allow_windows_style_options',['../class_c_l_i_1_1_app.html#a7d8c3ab60b46e4ac79fbdba0d473e97b',1,'CLI::App']]],
   ['app',['App',['../class_c_l_i_1_1_app.html#a6a6fe499cb90954c4291023adf8ae1a5',1,'CLI::App::App(std::string description_, std::string name, App *parent)'],['../class_c_l_i_1_1_app.html#a2daba76cec24a73a084e0ad23df13b58',1,'CLI::App::App(std::string description_=&quot;&quot;, std::string name=&quot;&quot;)']]],
   ['autotimer',['AutoTimer',['../class_c_l_i_1_1_auto_timer.html#a0ebfc16241474929ea99e201df9855f7',1,'CLI::AutoTimer']]]
 ];

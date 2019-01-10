@@ -14,6 +14,8 @@ var searchData=
   ['allow_5fconfig_5fextras_5f',['allow_config_extras_',['../class_c_l_i_1_1_app.html#a546a66cc2e7d99a9eb594d45d2d08d7b',1,'CLI::App']]],
   ['allow_5fextras',['allow_extras',['../class_c_l_i_1_1_app.html#a4a9c762c56b6ff0f5b3505bcb75d0bbe',1,'CLI::App']]],
   ['allow_5fextras_5f',['allow_extras_',['../class_c_l_i_1_1_app.html#ae994679fee098b93cbc654a99b8019ee',1,'CLI::App']]],
+  ['allow_5fwindows_5fstyle_5foptions',['allow_windows_style_options',['../class_c_l_i_1_1_app.html#a7d8c3ab60b46e4ac79fbdba0d473e97b',1,'CLI::App']]],
+  ['allow_5fwindows_5fstyle_5foptions_5f',['allow_windows_style_options_',['../class_c_l_i_1_1_app.html#afdcf791220d111363ac12526a693227b',1,'CLI::App']]],
   ['app',['App',['../class_c_l_i_1_1_app.html',1,'CLI::App'],['../class_c_l_i_1_1_app.html#a6a6fe499cb90954c4291023adf8ae1a5',1,'CLI::App::App(std::string description_, std::string name, App *parent)'],['../class_c_l_i_1_1_app.html#a2daba76cec24a73a084e0ad23df13b58',1,'CLI::App::App(std::string description_=&quot;&quot;, std::string name=&quot;&quot;)']]],
   ['appfriend',['AppFriend',['../struct_c_l_i_1_1detail_1_1_app_friend.html',1,'CLI::detail']]],
   ['argumentmismatch',['ArgumentMismatch',['../class_c_l_i_1_1_argument_mismatch.html',1,'CLI']]],
