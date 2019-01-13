@@ -30,7 +30,7 @@ var searchData=
   ['get_5fmulti_5foption_5fpolicy',['get_multi_option_policy',['../class_c_l_i_1_1_option_base.html#a67ade2fd6f98b5a77c45b18c3d8ae639',1,'CLI::OptionBase']]],
   ['get_5fname',['get_name',['../class_c_l_i_1_1_app.html#a4b40e301840ec5d6f99129e6d0a0b2e9',1,'CLI::App::get_name()'],['../class_c_l_i_1_1_option.html#ab84751fbf9037efaed5b64fed17fe57f',1,'CLI::Option::get_name()']]],
   ['get_5fneeds',['get_needs',['../class_c_l_i_1_1_option.html#a4b1679e5e219ba5fc1849b69531d5c05',1,'CLI::Option']]],
-  ['get_5foption',['get_option',['../class_c_l_i_1_1_app.html#a4daadc94819c01b15efcdd535dc478d1',1,'CLI::App::get_option(std::string name) const'],['../class_c_l_i_1_1_app.html#a50429d05f7811ed564c920728004455a',1,'CLI::App::get_option(std::string name)']]],
+  ['get_5foption',['get_option',['../class_c_l_i_1_1_app.html#a947c36b1f8acad786a30d8b26edf4116',1,'CLI::App::get_option(std::string option_name) const'],['../class_c_l_i_1_1_app.html#aa781566f8028b97d0c26fd973d880864',1,'CLI::App::get_option(std::string option_name)']]],
   ['get_5foptions',['get_options',['../class_c_l_i_1_1_app.html#a75712a759ad90c77df128c01844b75fb',1,'CLI::App']]],
   ['get_5fparent',['get_parent',['../class_c_l_i_1_1_app.html#a31c5906bfb17ef02514367d09c83aa0d',1,'CLI::App::get_parent()'],['../class_c_l_i_1_1_app.html#a661f95dc902304bbabe8d6e31eb7d9fc',1,'CLI::App::get_parent() const']]],
   ['get_5fpositional',['get_positional',['../class_c_l_i_1_1_option.html#acab7033604b49e314d290b01adea690d',1,'CLI::Option']]],
@@ -43,6 +43,6 @@ var searchData=
   ['get_5fsubcommands',['get_subcommands',['../class_c_l_i_1_1_app.html#adf5b6792ad7849c6966825320fc9b85d',1,'CLI::App::get_subcommands() const'],['../class_c_l_i_1_1_app.html#ac03e5e9ca00d2d0b5d20c362e6dcbe9f',1,'CLI::App::get_subcommands(const std::function&lt; bool(const App *)&gt; &amp;filter) const'],['../class_c_l_i_1_1_app.html#a9dca85c30eb14dd7e3f02f07e4f68c5c',1,'CLI::App::get_subcommands(const std::function&lt; bool(App *)&gt; &amp;filter)']]],
   ['get_5ftype_5fname',['get_type_name',['../class_c_l_i_1_1_option.html#a8b8425827ceb852c3cc3f44b9b1c26a4',1,'CLI::Option']]],
   ['get_5ftype_5fsize',['get_type_size',['../class_c_l_i_1_1_option.html#a88f36e42c1afcf1d4887230cc133f1fa',1,'CLI::Option']]],
-  ['got_5fsubcommand',['got_subcommand',['../class_c_l_i_1_1_app.html#aa9c0f770ed4268730e2404b9bb348b4f',1,'CLI::App::got_subcommand(App *subcom) const'],['../class_c_l_i_1_1_app.html#a00217b703c43b02e8233a9b2e54765d5',1,'CLI::App::got_subcommand(std::string name) const']]],
-  ['group',['group',['../class_c_l_i_1_1_app.html#a185c69a0d9312624d485415c6a688ed6',1,'CLI::App::group()'],['../class_c_l_i_1_1_option_base.html#a02b335b9ae22c4253b9850da04f02054',1,'CLI::OptionBase::group()']]]
+  ['got_5fsubcommand',['got_subcommand',['../class_c_l_i_1_1_app.html#aa9c0f770ed4268730e2404b9bb348b4f',1,'CLI::App::got_subcommand(App *subcom) const'],['../class_c_l_i_1_1_app.html#a5afd7a600223bae58b46aaff670e2d25',1,'CLI::App::got_subcommand(std::string subcommand_name) const']]],
+  ['group',['group',['../class_c_l_i_1_1_app.html#a190faa07c199753e02dec21652cfc611',1,'CLI::App::group()'],['../class_c_l_i_1_1_option_base.html#a02b335b9ae22c4253b9850da04f02054',1,'CLI::OptionBase::group()']]]
 ];

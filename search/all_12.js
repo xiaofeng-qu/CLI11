@@ -14,6 +14,6 @@ var searchData=
   ['type_5fname',['type_name',['../class_c_l_i_1_1_option.html#addaddebd60f66aaedc13e5fb473db902',1,'CLI::Option']]],
   ['type_5fname_5f',['type_name_',['../class_c_l_i_1_1_option.html#a2080c70a11f8935118dffc924824aa87',1,'CLI::Option']]],
   ['type_5fname_5ffn',['type_name_fn',['../class_c_l_i_1_1_option.html#a08c4fc3c4d254ac57a48d5756626a03c',1,'CLI::Option']]],
-  ['type_5fsize',['type_size',['../class_c_l_i_1_1_option.html#a27294bdd209e3d0c574c0eb34305e9f1',1,'CLI::Option']]],
+  ['type_5fsize',['type_size',['../class_c_l_i_1_1_option.html#a490eba9b24865845a0715e4566dcb6cc',1,'CLI::Option']]],
   ['type_5fsize_5f',['type_size_',['../class_c_l_i_1_1_option.html#af44dc98f95faf60a04ce44f286b07810',1,'CLI::Option']]]
 ];

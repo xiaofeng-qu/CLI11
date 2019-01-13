@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['callback',['callback',['../class_c_l_i_1_1_app.html#ad6ce429aa55a2d1a78958e636bc30362',1,'CLI::App']]],
+  ['callback',['callback',['../class_c_l_i_1_1_app.html#ab77e4c2f88388a9cc715c3e9d8ad37bc',1,'CLI::App']]],
   ['callback_5f',['callback_',['../class_c_l_i_1_1_app.html#a6eee1d50b3b940e01398e6d542ed8a8e',1,'CLI::App::callback_()'],['../class_c_l_i_1_1_option.html#ab79262b952902ff5e1cba6e3788aca54',1,'CLI::Option::callback_()']]],
   ['callback_5frun_5f',['callback_run_',['../class_c_l_i_1_1_option.html#adecdfddc42028a410b8ea468e5d442bf',1,'CLI::Option']]],
   ['callforallhelp',['CallForAllHelp',['../class_c_l_i_1_1_call_for_all_help.html',1,'CLI']]],
@@ -25,6 +25,6 @@ var searchData=
   ['constructionerror',['ConstructionError',['../class_c_l_i_1_1_construction_error.html',1,'CLI']]],
   ['conversionerror',['ConversionError',['../class_c_l_i_1_1_conversion_error.html',1,'CLI']]],
   ['copy_5fto',['copy_to',['../class_c_l_i_1_1_option_base.html#aeccfd835475420d963f2fff446c32003',1,'CLI::OptionBase']]],
-  ['count',['count',['../class_c_l_i_1_1_app.html#a2feb3edca5976f946c2366c1f0a2444c',1,'CLI::App::count() const'],['../class_c_l_i_1_1_app.html#a960a6b1b69c482539db189f1070dd074',1,'CLI::App::count(std::string name) const'],['../class_c_l_i_1_1_option.html#a993aed7587141cfb742ec5fafd2855fc',1,'CLI::Option::count()']]],
+  ['count',['count',['../class_c_l_i_1_1_app.html#a2feb3edca5976f946c2366c1f0a2444c',1,'CLI::App::count() const'],['../class_c_l_i_1_1_app.html#a10179e5015cfd9a821bcdbf2dbbf4f5c',1,'CLI::App::count(std::string option_name) const'],['../class_c_l_i_1_1_option.html#a993aed7587141cfb742ec5fafd2855fc',1,'CLI::Option::count()']]],
   ['cycles',['cycles',['../class_c_l_i_1_1_timer.html#ac638b2bebe4ea9f2f1d7e1a8e9d6a78c',1,'CLI::Timer']]]
 ];
