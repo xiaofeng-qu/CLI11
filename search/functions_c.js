@@ -3,7 +3,7 @@ var searchData=
   ['make_5fdescription',['make_description',['../class_c_l_i_1_1_formatter.html#a0f45c98dab9502d8241c24f9ea250ede',1,'CLI::Formatter']]],
   ['make_5fexpanded',['make_expanded',['../class_c_l_i_1_1_formatter.html#ade54fd392e2c9f5364744dca82408e60',1,'CLI::Formatter']]],
   ['make_5ffooter',['make_footer',['../class_c_l_i_1_1_formatter.html#ad2c14eb79877613d7049434c10507489',1,'CLI::Formatter']]],
-  ['make_5fgroup',['make_group',['../class_c_l_i_1_1_formatter.html#acd83022972e9ae98190113113f971c69',1,'CLI::Formatter']]],
+  ['make_5fgroup',['make_group',['../class_c_l_i_1_1_formatter.html#aebbdf79e2615ea7d16fe8f30fb6551fc',1,'CLI::Formatter']]],
   ['make_5fgroups',['make_groups',['../class_c_l_i_1_1_formatter.html#ad48dd6b9432babc0037d6726230221f0',1,'CLI::Formatter']]],
   ['make_5fhelp',['make_help',['../class_c_l_i_1_1_formatter_base.html#ac8ab93655a645352634709e15087080b',1,'CLI::FormatterBase::make_help()'],['../class_c_l_i_1_1_formatter_lambda.html#a5eca71447c56251c67b97187e4a888e6',1,'CLI::FormatterLambda::make_help()'],['../class_c_l_i_1_1_formatter.html#a838e0f47efa4fbd1b738eedb156887b9',1,'CLI::Formatter::make_help()']]],
   ['make_5foption',['make_option',['../class_c_l_i_1_1_formatter.html#a1503e498cef1cab66a01d84bac59b5d8',1,'CLI::Formatter']]],
