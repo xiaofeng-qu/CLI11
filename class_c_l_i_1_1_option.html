@@ -233,6 +233,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#ad79474a3c1cc8a73b12f80c6e31ee3af">get_description</a> () const</td></tr>
 <tr class="memdesc:ad79474a3c1cc8a73b12f80c6e31ee3af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the description. <br /></td></tr>
 <tr class="separator:ad79474a3c1cc8a73b12f80c6e31ee3af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a646cab3be78b2821f0f545fc53d4c2c1"><td class="memItemLeft" align="right" valign="top"><a id="a646cab3be78b2821f0f545fc53d4c2c1"></a>
+<a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a646cab3be78b2821f0f545fc53d4c2c1">description</a> (const std::string &amp;description)</td></tr>
+<tr class="memdesc:a646cab3be78b2821f0f545fc53d4c2c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the description. <br /></td></tr>
+<tr class="separator:a646cab3be78b2821f0f545fc53d4c2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Help tools</div></td></tr>
 <tr class="memitem:ab84751fbf9037efaed5b64fed17fe57f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#ab84751fbf9037efaed5b64fed17fe57f">get_name</a> (bool positional=false, bool all_options=false) const</td></tr>
 <tr class="memdesc:ab84751fbf9037efaed5b64fed17fe57f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a comma separated list of names. Will include / prefer the positional name if positional is true. If all_options is false, pick just the most descriptive name to show. Use <code>get_name(true)</code> to get the positional name (replaces <code>get_pname</code>)  <a href="#ab84751fbf9037efaed5b64fed17fe57f">More...</a><br /></td></tr>
@@ -356,7 +360,7 @@ MultiOptionPolicy&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a6814b4d247269c2dc2daa4a1deecaa20"><td class="memItemLeft" align="right" valign="top"><a id="a6814b4d247269c2dc2daa4a1deecaa20"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a6814b4d247269c2dc2daa4a1deecaa20">Option</a> (std::string option_name, std::string description, std::function&lt; bool(results_t)&gt; callback, bool defaulted, <a class="el" href="class_c_l_i_1_1_app.html">App</a> *parent)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_option.html#a6814b4d247269c2dc2daa4a1deecaa20">Option</a> (std::string option_name, std::string <a class="el" href="class_c_l_i_1_1_option.html#a646cab3be78b2821f0f545fc53d4c2c1">description</a>, std::function&lt; bool(results_t)&gt; callback, bool defaulted, <a class="el" href="class_c_l_i_1_1_app.html">App</a> *parent)</td></tr>
 <tr class="memdesc:a6814b4d247269c2dc2daa4a1deecaa20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Making an option by hand is not defined, it must be made by the <a class="el" href="class_c_l_i_1_1_app.html" title="Creates a command line program, with very few defaults.">App</a> class. <br /></td></tr>
 <tr class="separator:a6814b4d247269c2dc2daa4a1deecaa20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_c_l_i_1_1_option_base"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_c_l_i_1_1_option_base')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_c_l_i_1_1_option_base.html">CLI::OptionBase&lt; Option &gt;</a></td></tr>
