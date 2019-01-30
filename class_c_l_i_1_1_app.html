@@ -145,6 +145,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a974865166eb0a8516f7384848f40f488"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a974865166eb0a8516f7384848f40f488">add_option</a> (std::string option_name, T &amp;variable, std::string <a class="el" href="class_c_l_i_1_1_app.html#a33abaeded5281c702ee6e4382539bfd8">description</a>=&quot;&quot;)</td></tr>
 <tr class="memdesc:a974865166eb0a8516f7384848f40f488"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add option for non-vectors (duplicate copy needed without defaulted to avoid <code>iostream &lt;&lt; value</code>)  <a href="#a974865166eb0a8516f7384848f40f488">More...</a><br /></td></tr>
 <tr class="separator:a974865166eb0a8516f7384848f40f488"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b0cdb6fa0ac78281df4bcdadafbb752"><td class="memTemplParams" colspan="2">template&lt;typename T , enable_if_t&lt;!is_vector&lt; T &gt;::value, detail::enabler &gt;  = detail::dummy&gt; </td></tr>
+<tr class="memitem:a5b0cdb6fa0ac78281df4bcdadafbb752"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a5b0cdb6fa0ac78281df4bcdadafbb752">add_option_function</a> (std::string option_name, const std::function&lt; bool(const T &amp;)&gt; &amp;func, std::string <a class="el" href="class_c_l_i_1_1_app.html#a33abaeded5281c702ee6e4382539bfd8">description</a>=&quot;&quot;)</td></tr>
+<tr class="memdesc:a5b0cdb6fa0ac78281df4bcdadafbb752"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add option for a callback of a specific type.  <a href="#a5b0cdb6fa0ac78281df4bcdadafbb752">More...</a><br /></td></tr>
+<tr class="separator:a5b0cdb6fa0ac78281df4bcdadafbb752"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad81e2b274dd3a1e8aff3037ff8e899f1"><td class="memTemplParams" colspan="2">template&lt;typename T , enable_if_t&lt;!is_vector&lt; T &gt;::value, detail::enabler &gt;  = detail::dummy&gt; </td></tr>
 <tr class="memitem:ad81e2b274dd3a1e8aff3037ff8e899f1"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ad81e2b274dd3a1e8aff3037ff8e899f1">add_option</a> (std::string option_name, T &amp;variable, std::string <a class="el" href="class_c_l_i_1_1_app.html#a33abaeded5281c702ee6e4382539bfd8">description</a>, bool defaulted)</td></tr>
 <tr class="memdesc:ad81e2b274dd3a1e8aff3037ff8e899f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add option for non-vectors with a default print.  <a href="#ad81e2b274dd3a1e8aff3037ff8e899f1">More...</a><br /></td></tr>
@@ -157,6 +161,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:ac5e2f7d491befe937d113ac523537a75"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#ac5e2f7d491befe937d113ac523537a75">add_option</a> (std::string option_name, std::vector&lt; T &gt; &amp;variable, std::string <a class="el" href="class_c_l_i_1_1_app.html#a33abaeded5281c702ee6e4382539bfd8">description</a>, bool defaulted)</td></tr>
 <tr class="memdesc:ac5e2f7d491befe937d113ac523537a75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add option for vectors.  <a href="#ac5e2f7d491befe937d113ac523537a75">More...</a><br /></td></tr>
 <tr class="separator:ac5e2f7d491befe937d113ac523537a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b0cdb6fa0ac78281df4bcdadafbb752"><td class="memTemplParams" colspan="2">template&lt;typename T , enable_if_t&lt; is_vector&lt; T &gt;::value, detail::enabler &gt;  = detail::dummy&gt; </td></tr>
+<tr class="memitem:a5b0cdb6fa0ac78281df4bcdadafbb752"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#a5b0cdb6fa0ac78281df4bcdadafbb752">add_option_function</a> (std::string option_name, const std::function&lt; bool(const T &amp;)&gt; &amp;func, std::string <a class="el" href="class_c_l_i_1_1_app.html#a33abaeded5281c702ee6e4382539bfd8">description</a>=&quot;&quot;)</td></tr>
+<tr class="memdesc:a5b0cdb6fa0ac78281df4bcdadafbb752"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add option for a vector callback of a specific type.  <a href="#a5b0cdb6fa0ac78281df4bcdadafbb752">More...</a><br /></td></tr>
+<tr class="separator:a5b0cdb6fa0ac78281df4bcdadafbb752"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abce4dc6bc059207ed44b551e3de3fe93"><td class="memItemLeft" align="right" valign="top"><a id="abce4dc6bc059207ed44b551e3de3fe93"></a>
 <a class="el" href="class_c_l_i_1_1_option.html">Option</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_l_i_1_1_app.html#abce4dc6bc059207ed44b551e3de3fe93">set_help_flag</a> (std::string flag_name=&quot;&quot;, std::string <a class="el" href="class_c_l_i_1_1_app.html#a33abaeded5281c702ee6e4382539bfd8">description</a>=&quot;&quot;)</td></tr>
 <tr class="memdesc:abce4dc6bc059207ed44b551e3de3fe93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a help flag, replace the existing one if present. <br /></td></tr>
@@ -1780,6 +1788,110 @@ template&lt;typename T &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">variable</td><td>The variable vector to set </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5b0cdb6fa0ac78281df4bcdadafbb752"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b0cdb6fa0ac78281df4bcdadafbb752">&#9670;&nbsp;</a></span>add_option_function() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , enable_if_t&lt;!is_vector&lt; T &gt;::value, detail::enabler &gt;  = detail::dummy&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_c_l_i_1_1_option.html">Option</a>* CLI::App::add_option_function </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>option_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; bool(const T &amp;)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>description</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add option for a callback of a specific type. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">func</td><td>the callback to execute </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5b0cdb6fa0ac78281df4bcdadafbb752"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b0cdb6fa0ac78281df4bcdadafbb752">&#9670;&nbsp;</a></span>add_option_function() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , enable_if_t&lt; is_vector&lt; T &gt;::value, detail::enabler &gt;  = detail::dummy&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_c_l_i_1_1_option.html">Option</a>* CLI::App::add_option_function </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>option_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; bool(const T &amp;)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>description</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add option for a vector callback of a specific type. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">func</td><td>the callback to execute </td></tr>
   </table>
   </dd>
 </dl>
