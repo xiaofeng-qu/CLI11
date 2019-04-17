@@ -6,17 +6,17 @@ jobs:
 
     steps:
       - checkout
+      - run: 
+          name: Install updates and dependencies
+          command: |
+              apt-get update -y
+              apt-get install make cmake g++ git
+
       - run:
           name: Pull submodules
           command: |
               git submodule init
               git submodule update --remote
-
-      - run: 
-          name: Install updates and dependencies
-          command: |
-              apt-get update -y
-              apt-get install make cmake g++
 
       - run: 
           name: Create the build folder and entern it
