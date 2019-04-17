@@ -18,17 +18,19 @@ jobs:
               GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" git submodule update --force --init 
 
       - run: 
-          name: Create the build folder and entern it
-          command: |
-              mkdir build
-              cd build
+          name: Create the build folder
+          command: mkdir build
 
       - run:
           name: Compile the codes
           command: |
+              cd build
               cmake ..
               make
 
       - run:
           name: Run the test
-          command: GTEST_COLOR=1 CTEST_OUTPUT_ON_FAILURE=1 make test
+          command: |
+              cd build
+              GTEST_COLOR=1 CTEST_OUTPUT_ON_FAILURE=1 make test
+
