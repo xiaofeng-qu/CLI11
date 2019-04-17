@@ -10,7 +10,7 @@ jobs:
           name: Install updates and dependencies
           command: |
               apt-get update -y
-              apt-get install make cmake g++ git
+              apt-get install -y make cmake g++ git 
 
       - run:
           name: Pull submodules
