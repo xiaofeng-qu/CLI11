@@ -26,7 +26,7 @@ jobs:
       - run:
           name: Compile the codes
           command: |
-              camke ..
+              cmake ..
               make
 
       - run:
