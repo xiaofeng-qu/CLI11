@@ -15,7 +15,7 @@ jobs:
       - run:
           name: Pull submodules
           command: |
-              git submodule update --init
+              git submodule update --force --init 
 
       - run: 
           name: Create the build folder and entern it
