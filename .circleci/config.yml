@@ -15,7 +15,7 @@ jobs:
       - run:
           name: Pull submodules
           command: |
-              git submodule update --force --init 
+              GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" git submodule update --force --init 
 
       - run: 
           name: Create the build folder and entern it
