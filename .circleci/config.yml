@@ -7,10 +7,10 @@ jobs:
     steps:
       - checkout
       - run: 
-          name: Install updates and dependencies
+          name: Install updates and git
           command: |
               apt-get update -y
-              apt-get install -y make cmake g++ git 
+              apt-get install -y git 
 
       - run:
           name: Pull submodules
