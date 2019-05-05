@@ -127,4 +127,4 @@ if(CMAKE_BUILD_TYPE STREQUAL Coverage)
           ${CLI11_TESTS}
           ${CLI11_MULTIONLY_TESTS})
 endif()
-
+include (CTest)
