@@ -16,3 +16,8 @@ steps:
 - script: ctest --output-on-failure -C Debug
   displayName: 'Test'
   workingDirectory: build
+
+- task: PublishTestResults@2
+  inputs:
+      testResultsFormat: 'cTest'
+      testResultsFiles: '**/TEST-*.xml'
