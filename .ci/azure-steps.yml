@@ -13,11 +13,11 @@ steps:
   displayName: 'Build'
   workingDirectory: build
 
-- script: ctest --output-on-failure -C Debug
+- script: ctest --output-on-failure --no-compress-output -T test
   displayName: 'Test'
   workingDirectory: build
 
 - task: PublishTestResults@2
   inputs:
       testResultsFormat: 'cTest'
-      testResultsFiles: '**/TEST-*.xml'
+      testResultsFiles: '**/TEST.xml'
