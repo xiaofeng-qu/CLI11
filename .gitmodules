@@ -1,9 +1,9 @@
 [submodule "extern/googletest"]
 	path = extern/googletest
-	url = ../../google/googletest.git
+	url = https://github.com/google/googletest.git
 [submodule "extern/sanitizers"]
 	path = extern/sanitizers
-	url = ../../arsenm/sanitizers-cmake
+	url = https://github.com/arsenm/sanitizers-cmake
 [submodule "extern/json"]
 	path = extern/json
-	url = ../../nlohmann/json.git
+	url = https://github.com/nlohmann/json.git
