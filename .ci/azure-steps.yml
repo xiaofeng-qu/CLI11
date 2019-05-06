@@ -13,7 +13,7 @@ steps:
   displayName: 'Build'
   workingDirectory: build
 
-- script: ctest --output-on-failure --no-compress-output -T test
+- script: ctest --output-on-failure --no-compress-output -T test -C Debug
   displayName: 'Test'
   workingDirectory: build
 
